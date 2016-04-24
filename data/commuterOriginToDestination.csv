@@ -1,0 +1,1118 @@
+userid,start_busStop,start_roadDes,start_y,start_x,end_busStop,end_roadDes,end_y,end_x
+18,Bt Panjang Rd,Opp Lompang Rd,1.381174,103.7659,Bt Timah Rd,Bef Lewis Rd,1.321018,103.8235
+18,Bt Panjang Rd,Opp Lompang Rd,1.381174,103.7659,Victoria St,Bugis Stn,1.30111,103.8564
+18,Bt Panjang Rd,Opp Lompang Rd,1.381174,103.7659,Woodlands Ave 6,Opp Blk 639,1.437905,103.8035
+26,Lor 2 Toa Payoh,Toa Payoh Stn,1.333185,103.8468,Jln Bt Merah,Opp Blk 2,1.286191,103.8069
+45,Tampines Ave 1,Temasek Poly,1.346753,103.9326,Tampines Ave 4,Opp East View Pr Sch,1.347387,103.9381
+45,Tampines Ave 1,Temasek Poly,1.346753,103.9326,Temasek Blvd,Suntec Convention Ctr,1.293178,103.8578
+64,Upp Aljunied Rd,Aft Blk 4,1.332907,103.8787,Keppel Rd,Customs Port Br HQ,1.272735,103.8414
+64,Upp Aljunied Rd,Aft Blk 4,1.332907,103.8787,Anson Rd,Hub Synergy Pt,1.273978,103.8449
+65,Toh Tuck Ave,SMRT Ulu Pandan Depot,1.333534,103.7593,Alexandra Rd,NOL Bldg,1.274525,103.8018
+68,Lor 6 Toa Payoh,Opp Toa Payoh Stadium,1.331468,103.8527,Jln Toa Payoh,Aft Blk 195,1.330814,103.8608
+70,C'wealth Ave West,Opp Blk 19A CP,1.308073,103.7848,Jln Bt Merah,SPRING S'pore Bldg,1.285026,103.8137
+79,Tampines Ave 2,The Holy Trinity Ch,1.349168,103.9492,Simei St 3,Opp Simei Stn,1.342118,103.9535
+79,Tampines Ave 2,The Holy Trinity Ch,1.349168,103.9492,New Upp Changi Rd,Bedok Stn,1.323536,103.9289
+94,Bt Batok West Ave 4,Blk 331,1.363897,103.7472,Woodlands Sq,Woodlands Reg Int,1.436621,103.7859
+98,Napier Rd,S'pore Botanic Gdns,1.306773,103.8195,Pasir Ris Dr 8,Aft Pasir Ris St 53,1.373238,103.9483
+99,Bedok Nth Ave 3,Bet Blks 139/140,1.329409,103.9348,Paya Lebar Rd,Opp Trinity @ Paya Lebar,1.331558,103.8895
+99,Bedok Nth Ave 3,Blk 403,1.330047,103.9344,Paya Lebar Rd,Opp Trinity @ Paya Lebar,1.331558,103.8895
+100,Pioneer Rd Nth,Blk 840,1.344043,103.6919,Pioneer Rd Nth,Blk 705,1.341016,103.6943
+100,S'goon Rd,Broadway Hotel,1.308794,103.8532,S'goon Ave 2,Blk 238,1.353553,103.8682
+101,Ang Mo Kio Ave 3,Blk 554,1.371732,103.8702,Upp S'goon Rd,Bef Nativity Ch Ctr,1.366238,103.8913
+101,Hougang Ave 8,Opp Punggol Pk,1.375141,103.8972,Sengkang Sq,Sengkang Int,1.391781,103.8959
+104,Cecil St,Prudential Twr,1.282555,103.85,Beach Rd,The Gateway,1.299072,103.8589
+105,S'goon Rd,Kwong Wai Shiu Hosp,1.317834,103.86,MacPherson Rd,Gulab Bldg,1.329462,103.874
+110,Gombak Dr,MINDEF CP,1.36904,103.7612,Choa Chu Kang Cres,Opp Blk 666,1.402749,103.7505
+110,Choa Chu Kang Cres,Opp Blk 666,1.402749,103.7505,Bt Batok Ctrl,Bt Batok CC,1.349994,103.7477
+111,Tampines Ave 2,Tampines East CC,1.353033,103.9548,PTB2 Basement,Changi Airport PTB2,1.355093,103.9892
+122,Cantonment Link,Blk 16,1.273461,103.8403,Tg Pagar Rd,Tg Pagar Plaza,1.275192,103.8431
+127,S'goon Rd,St. Michael's Pl,1.324773,103.8656,Orchard Rd,Midpoint Orchard,1.301543,103.8385
+134,Bedok Sth Rd,Blk 71,1.320671,103.9426,Eunos Link,Blk 637,1.33074,103.9037
+146,Jelapang Rd,Blk 516,1.387125,103.7676,Orchard Rd,Dhoby Ghaut Stn,1.299333,103.8453
+146,Jelapang Rd,Blk 516,1.387125,103.7676,Orchard Rd,Dhoby Ghaut Stn,1.299333,103.8453
+152,Tg Katong Rd,Aft Dunman Rd,1.310373,103.8941,Old Airport Rd,Blk 39,1.307517,103.885
+152,C'wealth Ave West,Clementi Stn,1.314975,103.765,Tg Katong Rd,Tg Katong Cplx,1.316192,103.8941
+160,Punggol Rd,BLK 604A,1.404468,103.9071,Ang Mo Kio Ave 5,Bef Seagate,1.37889,103.8713
+164,Jln Jurong Kechil,Goh & Goh Bldg,1.341062,103.7771,C'wealth Ave West,Clementi Stn,1.314975,103.765
+164,Yung Ho Rd,CISCO Recall,1.326627,103.7206,Balestier Rd,Balestier Ctr,1.326662,103.8437
+173,Bt Panjang Rd,Blk 604,1.380334,103.7623,Kim Keat Rd,Opp NKF,1.326523,103.8549
+179,Upp East Coast Rd,Fairview Ct,1.316164,103.9448,Bedok Reservoir Rd,Opp Kaki Bt Ctr,1.337532,103.9153
+180,Kg Bahru Rd,Opp St. Teresa's Ch,1.273593,103.8289,Lower Delta Rd,Opp St. Theresa's Convent,1.276636,103.8235
+204,Pasir Panjang Rd,Opp Currency Hse,1.276042,103.7932,Bt Panjang Rd,Blk 270,1.376082,103.7743
+204,Woodlands Ave 3,Blk 347,1.433198,103.7813,Alexandra Rd,NOL Bldg,1.274525,103.8018
+207,Braddell Rd,Aft Muhajirin Mque,1.343348,103.8513,Bishan Rd,Bishan Stn,1.3509,103.848
+210,Buangkok Green,Opp Blk 565,1.38154,103.8881,Telok Blangah Rd,VivoCity,1.265514,103.8221
+210,Pandan Gdns,Opp Ayer Rajah CC,1.320305,103.7473,Buangkok Green,Opp Blk 565,1.38154,103.8881
+219,Tampines Ave 2,Blk 285,1.350264,103.9525,Tampines Ctrl 1,Tampines Int,1.354076,103.9434
+226,Shenton Way,Opp Temasek Twr,1.275433,103.8479,C'wealth Ave West,Clementi Stn,1.315286,103.7654
+231,Victoria St,Opp Bugis Junction,1.300155,103.8552,New Upp Changi Rd,Tanah Merah Stn,1.327333,103.9463
+231,Marine Parade Rd,Tao Nan Sch,1.305663,103.911,New Upp Changi Rd,Tanah Merah Stn,1.327333,103.9463
+233,New Upp Changi Rd,Blk 27,1.324327,103.9347,Jln Tenaga,Blk 658,1.333443,103.9062
+236,Ang Mo Kio Ave 3,Blk 324,1.368755,103.8466,Ang Mo Kio Ave 1,Teck Ghee Ct,1.36359,103.8479
+237,Boundary Rd,Serangoon Stadium,1.3549,103.8745,Pasir Ris Dr 1,Bef Pasir Ris Ctrl,1.371591,103.9483
+238,Upp Pickering St,Hong Lim Pk,1.286012,103.8463,Palmer Rd,Bef Shenton Way,1.273275,103.8466
+238,Sth Bridge Rd,Opp Hong Lim Cplx,1.284471,103.8467,Palmer Rd,Bef Shenton Way,1.273275,103.8466
+258,Kg Bahru Rd,St. Teresa's Ch,1.273707,103.8286,Tiong Bahru Rd,Opp Tiong Bahru Plaza,1.285931,103.8267
+258,Temasek Blvd,Suntec Twr Three,1.295605,103.8596,Kg Bahru Rd,Aft Jln Bt Merah,1.276233,103.8348
+273,Bedok Nth Rd,Fengshan Pr Sch,1.330917,103.9323,Eunos Link,Opp Comfort Driving Ctr,1.336396,103.8979
+284,River Valley Rd,Aft AA Ctr,1.295931,103.8394,Tampines Ave 5,Opp Darul Ghufran Mque,1.355934,103.939
+284,Tampines Ave 2,Tampines East CC,1.353033,103.9548,Airport Blvd,Bef Changi Airport PTB3,1.347195,103.9841
+285,Punggol Rd,Opp Blk 110,1.384031,103.8996,Sengkang East Ave,Blk 208 CP,1.383938,103.8977
+290,Kg Bahru Rd,Aft Blair Rd,1.276058,103.8352,Telok Blangah Rd,VivoCity,1.265514,103.8221
+317,Bedok Nth St 3,Opp Blk 550,1.333165,103.927,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+318,Compassvale Rd,Blk 223D,1.389083,103.8971,Tuas Ave 1,Asiatic Engrg,1.3213,103.6597
+318,Compassvale Rd,Blk 223D,1.389083,103.8971,Eunos Link,Comfort Driving Ctr,1.335541,103.8983
+323,Tiong Bahru Rd,Delta Swim Cplx,1.288757,103.8194,Middle Rd,Opp Prime Ctr,1.300634,103.8511
+324,Hougang Ave 8,Opp Punggol Pk,1.375141,103.8972,Upp Paya Lebar Rd,Aft Paya Lebar St,1.339658,103.8858
+338,Bedok Nth Rd,Bet Blks 705/706,1.336425,103.9183,Scotts Rd,Royal Plaza On Scotts,1.307022,103.8327
+349,S'goon Rd,Opp Bendemeer Pr Sch,1.322588,103.8639,Tampines Ave 10,Aft TPE,1.374387,103.9315
+370,Pasir Ris Dr 10,Meridian JC,1.376943,103.9363,Pasir Ris Dr 1,Opp Blk 571,1.372663,103.9456
+372,Tampines Ave 3,Blk 831,1.349869,103.9343,Tampines Ctrl 1,Tampines Int,1.354076,103.9434
+372,Sth Buona Vista Rd,Opp Kent Ridge Stn,1.29241,103.7846,Rochor Canal Rd,Aft Sim Lim Sq,1.30385,103.8521
+375,C'wealth Ave West,Clementi Stn,1.314975,103.765,Airport Blvd,Aft Changi Airport PTB2,1.346872,103.9843
+377,Joo Chiat Pl,Opp East Shore Hosp,1.314804,103.9095,Paya Lebar Rd,Paya Lebar Stn,1.318602,103.8921
+378,Pasir Ris Dr 12,Blk 747A,1.378297,103.9334,Ubi Ave 3,Opp HDB CP,1.332276,103.895
+383,Hougang Ctrl,Opp Hougang Ctrl Int,1.3714,103.8917,Tampines Rd,Bef Lor Tongkol,1.367511,103.91
+388,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Pasir Ris St 11,Bef Blk 187,1.364761,103.9591
+391,Buangkok Link,Blk 980C,1.379775,103.8814,Hougang Ave 9,Blk 917,1.374548,103.884
+395,S'goon Ave 2,Blk 238,1.353553,103.8682,S'goon Ave 2,Opp Blk 334,1.350922,103.8711
+395,Bt Timah Rd,Little India Stn,1.306644,103.8492,S'goon Ave 2,Opp Blk 334,1.350922,103.8711
+397,Pasir Ris St 71,Opp Blks 771/772,1.375547,103.9375,Pasir Ris Dr 8,Aft Pasir Ris St 53,1.373238,103.9483
+397,Nth Bridge Rd,St. Andrew's Cath,1.2925,103.8515,Pasir Ris Dr 8,Aft Pasir Ris St 53,1.373238,103.9483
+400,Jln Bt Merah,Opp Blk 28,1.285928,103.8094,Lor 6 Toa Payoh,Blk 1,1.33976,103.853
+402,Clementi Rd,Ngee Ann Poly,1.332439,103.7777,Jln Toa Payoh,Trellis Twrs,1.329914,103.8438
+412,Eu Tong Sen St,People's Pk Ctr,1.285711,103.8444,Tampines Ave 7,Opp Tampines JC,1.356467,103.9575
+416,Amber Rd,Amber Gdn,1.301784,103.901,Temasek Blvd,Suntec Convention Ctr,1.293178,103.8578
+416,Amber Rd,Amber Gdn,1.301784,103.901,Temasek Blvd,Suntec Convention Ctr,1.293178,103.8578
+418,Eu Tong Sen St,Pearl's Ctr,1.281546,103.8409,Bt Timah Rd,Little India Stn,1.306064,103.8491
+450,Punggol Ctrl,Blk 649,1.396952,103.9148,Sembawang Rd,Forest Hills Condo,1.404141,103.8183
+462,Hougang St 51,Blk 537,1.37798,103.8895,Airport Rd,Opp Gordon Warehse Bldg,1.339139,103.8968
+477,Ang Mo Kio Ave 8,Jubilee,1.37162,103.8483,Hougang Ave 3,Blk 21,1.364098,103.8921
+478,Jurong West Ave 1,Blk 422,1.350035,103.7265,Buona Vista Flyover,Ayer Rajah Ind Est,1.297762,103.7857
+480,Dover Rd,Opp United World College,1.305155,103.7811,Nth Buona Vista Rd,Opp Buona Vista Stn,1.306324,103.7908
+499,Marsiling Rise,Opp Blk 120,1.439783,103.7805,Pending Rd,Bef Pending Stn,1.376561,103.7715
+502,Towner Rd,Blk 107,1.319305,103.8596,Jln Eunos,Blk 17,1.323478,103.9053
+505,New Upp Changi Rd,Opp Chai Chee Ind Pk,1.32222,103.9226,Hill St,Armenian Ch,1.293089,103.8497
+505,Upp Changi Rd East,Changi Ct,1.343513,103.9622,New Upp Changi Rd,Opp Chai Chee Ind Pk,1.32222,103.9226
+509,Tampines Ave 7,Blk 497D,1.358458,103.9592,Buangkok Green,Opp Blk 565,1.38154,103.8881
+511,Ang Mo Kio Ave 8,Opp Christ The King Ch,1.36206,103.8531,Upp Paya Lebar Rd,Aft Paya Lebar St,1.339658,103.8858
+515,Chin Swee Rd,Opp Blk 13,1.286071,103.8388,Outram Rd,Opp Outram Pk Stn,1.28166,103.838
+515,Chin Swee Rd,Opp Blk 13,1.286071,103.8388,Outram Rd,Opp Outram Pk Stn,1.28166,103.838
+530,Pasir Panjang Rd,Opp Pasir Panjang PO,1.291284,103.7711,C'wealth Ave West,Blk 365,1.311999,103.7697
+542,Tampines Ave 6,Bet Blks 710/713,1.35802,103.938,Tampines Ave 5,Opp Tampines Stadium,1.352962,103.9417
+549,Braddell Rd,Aft Muhajirin Mque,1.343348,103.8513,Ang Mo Kio Ave 6,Opp Al-Muttaqin Mque,1.370086,103.8453
+554,Petir Rd,Aft Petir Stn,1.377323,103.7673,Yishun Ave 5,Blk 741,1.430344,103.8328
+560,Eunos Link,Blk 637,1.33074,103.9037,Tiong Bahru Rd,Tiong Bahru Plaza,1.286,103.8275
+560,Eunos Link,Blk 637,1.33074,103.9037,Tiong Bahru Rd,Tiong Bahru Plaza,1.286,103.8275
+562,Potong Pasir Ave 1,Blk 148,1.332682,103.8682,Lavender St,Aft Kallang Rd,1.309508,103.8635
+563,Hillview Rd,Opp Glendale Pk Condo,1.362039,103.7659,Jurong East Ctrl,Blk 241,1.341543,103.7436
+588,Balestier Rd,Opp Public Man,1.326062,103.8485,Tampines Rd,Aft Hougang Ave 3,1.361728,103.8942
+599,Marine Parade Rd,Bet Blks 72/74,1.304251,103.9077,Fullerton Rd,Fullerton Sq,1.285598,103.8533
+599,Marine Parade Rd,Bet Blks 72/74,1.304251,103.9077,Fullerton Rd,Fullerton Sq,1.285598,103.8533
+616,Bedok Nth Rd,Blk 81,1.328614,103.94,Paya Lebar Rd,Opp MacPherson Stn,1.324987,103.8908
+617,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456,Woodlands Rd,Kranji Stn,1.42526,103.7618
+620,Marine Parade Rd,Neptune Ct,1.307876,103.9211,Upp Thomson Rd,Opp Thomson Plaza,1.3554,103.8315
+620,Marine Parade Rd,Neptune Ct,1.307876,103.9211,Bt Timah Rd,Little India Stn,1.306064,103.8491
+624,Geylang East Ctrl,Opp Geylang Polyclinic,1.318771,103.8867,Mountbatten Rd,Opp Mountbatten Voc Sch,1.307118,103.8799
+633,Tampines Ave 1,Temasek Poly East G,1.344986,103.9368,Ubi Ave 2,Blk 3019,1.327335,103.8921
+641,Yishun Ring Rd,Evangel Family Ch,1.426639,103.8464,Yishun Ring Rd,Opp Blk 798,1.418493,103.8329
+644,Bt Panjang Rd,Blk 604,1.380334,103.7623,Tiong Bahru Rd,Redhill Stn,1.289546,103.8167
+652,Upp Changi Rd East,Changi Ct,1.343513,103.9622,Simei St 3,Aft Changi General Hosp,1.340426,103.9512
+655,Lor 6 Toa Payoh,Blk 27,1.332464,103.8558,Bedok Nth Rd,Fengshan Pr Sch,1.330917,103.9323
+658,Petir Rd,Aft Petir Stn,1.377323,103.7673,Victoria St,Cath Of The Good Shepherd,1.295338,103.8511
+663,Jurong West St 64,Blk 685B,1.342762,103.7038,Science Pk Rd,Galen,1.286511,103.7834
+665,Punggol Ctrl,Blk 298,1.403202,103.9056,Punggol Pl,Punggol Temp Int,1.403706,103.9022
+670,Upp Aljunied Rd,Aft Upp Serangoon Rd,1.339583,103.8721,Circuit Rd,Blk 79 FC,1.326208,103.8851
+670,Bartley Rd,Bef Upp Paya Lebar Rd,1.342099,103.8816,Simei Ave,Opp Changi General Hosp,1.339417,103.9485
+672,Hougang Ave 4,Blk 508,1.371436,103.8881,Telok Blangah Rd,VivoCity,1.265514,103.8221
+676,Pasir Panjang Rd,PSA Bldg,1.273419,103.8006,Mountbatten Rd,One Amber,1.302378,103.899
+678,Whitley Rd,Aft Tanglin CC,1.322554,103.8262,Queensway,Blk 97,1.306213,103.8017
+690,Woodlands Ave 3,Blk 320,1.4321,103.7782,Woodlands Ctr Rd,Marsiling Pr Sch,1.434382,103.7726
+692,Jln Damai,Opp Blk 668,1.333319,103.9095,Lor 1 Toa Payoh,Opp Philips S'pore,1.336405,103.8436
+702,Bt Batok St 33,Blk 324,1.361954,103.7475,Woodlands Rd,Chartered Semi-C Bldg,1.438754,103.7666
+720,Tampines Ave 2,Blk 101,1.347944,103.9456,New Upp Changi Rd,Blk 221A,1.324691,103.9347
+725,Ang Mo Kio Ave 4,Blk 641,1.3789,103.84,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456
+735,Hougang Ave 10,Blk 831,1.371454,103.8898,Hougang Ave 4,Blk 508,1.371436,103.8881
+735,Hougang Ave 10,Blk 831,1.371454,103.8898,Upp Paya Lebar Rd,Asiawide Ind Bldg,1.337435,103.8871
+738,Depot Rd,Aft Hewlett Packard,1.281761,103.8096,Nth Bridge Rd,Opp Peninsula Plaza,1.292082,103.8513
+744,Upp Paya Lebar Rd,Asiawide Ind Bldg,1.337435,103.8871,Marymount Rd,Marymount Stn,1.350167,103.8395
+756,Tampines Rd,Aft Defu Ave 1,1.36147,103.8945,Ang Mo Kio Ave 5,ITE College Ctrl,1.375995,103.8558
+768,Clementi Rd,Opp SIM HQ,1.32803,103.7768,Kaki Bt Ave 1,Blk 151,1.336013,103.9121
+768,Hougang Ave 8,Montfort Sch,1.375287,103.8892,C'wealth Ave West,Dover Stn,1.311234,103.7784
+788,Simei St 4,Simei Green,1.341261,103.9572,Simei St 3,Simei Stn,1.342262,103.9535
+791,Buona Vista Flyover,NUH,1.295408,103.7845,Wan Lee Rd,Chun Chun Mfg,1.331981,103.7055
+808,Henderson Rd,Blk 54,1.273273,103.8125,Tiong Bahru Rd,Opp Redhill Stn,1.289281,103.8166
+808,Jurong West Ctrl 3,Boon Lay Int,1.339323,103.7055,Tiong Bahru Rd,Opp Redhill Stn,1.289281,103.8166
+816,Airport Rd,Opp Blk 1022,1.334677,103.8924,Old Airport Rd,Blk 22,1.307261,103.8849
+819,Jln Bahar,Opp Westville,1.353095,103.7008,Jurong West Ctrl 1,Blk 683A,1.342585,103.7054
+820,Hougang St 92,Blk 941A,1.37424,103.8788,Yio Chu Kang Rd,Blk 953,1.376792,103.8771
+837,Upp Thomson Rd,Opp Windsor Pk,1.357772,103.8289,Thomson Rd,SLF Cplx,1.333821,103.838
+839,Changi Rd,Aft GE Life Ctr,1.317095,103.903,Chai Chee St,Opp Blks 50/51,1.328333,103.9229
+839,Jln Eunos,Eunos Stn,1.320656,103.9049,Palmer Rd,Aft Shenton Way,1.273235,103.8473
+857,Yio Chu Kang Rd,Bef Blk 965,1.37996,103.8769,Tampines Rd,Aft Defu Ave 1,1.36147,103.8945
+857,Buangkok Link,Blk 980C,1.379775,103.8814,Yio Chu Kang Rd,Bef Blk 965,1.37996,103.8769
+883,Pasir Panjang Rd,Pasir View Pk,1.278181,103.787,Pasir Panjang Rd,Haw Par Villa Stn,1.282781,103.7822
+883,Pasir Panjang Rd,Pasir Panjang Ctr,1.274438,103.7967,Telok Blangah Rd,VivoCity,1.265514,103.8221
+909,Temasek Ave,Opp Millenia Twr,1.292526,103.8609,River Valley Rd,Opp Mohd Sultan Rd,1.294142,103.8423
+912,Ang Mo Kio Ave 10,Blk 540,1.374878,103.8548,Upp S'goon Rd,Serangoon Stn,1.349046,103.8734
+912,Ang Mo Kio Ave 10,Blk 540,1.374878,103.8548,Upp S'goon Rd,Serangoon Stn,1.349046,103.8734
+921,Upp Thomson Rd,Opp Flame Tree Pk,1.360633,103.8283,Bishan St 22,Bishan Nth Shop Mall,1.358304,103.845
+943,Yio Chu Kang Rd,NCS Hub,1.389157,103.8438,Toa Payoh Ctrl,Opp Blk 177,1.334305,103.8488
+943,Hougang Ave 3,Blk 21,1.364098,103.8921,Yio Chu Kang Rd,NCS Hub,1.389157,103.8438
+951,Ganges Ave,Opp Blk 79,1.290416,103.8279,Tiong Bahru Rd,Blk 55,1.28476,103.8341
+951,Ganges Ave,Opp Blk 79,1.290416,103.8279,Alexandra Rd,Alexandra Hosp,1.285947,103.8025
+956,Airline Rd,Opp SIA Hangar,1.377898,103.9964,Punggol Ctrl,Blk 649,1.396952,103.9148
+958,Bendemeer Rd,Blk 44,1.322049,103.8663,Orchard Rd,Midpoint Orchard,1.301543,103.8385
+962,Sin Ming Ave,Ai Tong Sch,1.36081,103.8321,Holland Rd,Holland Village,1.312232,103.7944
+982,Ang Mo Kio Ave 6,Aft Blk 304,1.366187,103.8442,Thomson Rd,Macritchie Reservoir,1.342193,103.836
+1006,Yio Chu Kang Link,Serangoon Sports Cplx,1.356632,103.8741,S'goon Ctrl,Serangoon Stn,1.350498,103.8732
+1008,C'wealth Dr,Blk 72,1.30035,103.7971,Clementi Rd,Opp SIM HQ,1.32803,103.7768
+1008,C'wealth Dr,Blk 72,1.30035,103.7971,Jurong West St 91,Blk 920,1.339704,103.6877
+1009,Cross St,Opp PWC Bldg,1.281795,103.8489,Tiong Bahru Rd,Blk 55,1.28476,103.8341
+1009,Jln Bt Merah,Opp Pacific Tech Ctr,1.28598,103.8112,Middle Rd,Opp Prime Ctr,1.300634,103.8511
+1017,Pasir Ris Dr 1,Blk 425,1.369361,103.9551,Loyang Ave,Loyang Valley,1.369551,103.9706
+1021,Lavender St,Aft Kallang Rd,1.309508,103.8635,Victoria St,St. Joseph's Ch,1.29771,103.8532
+1021,Victoria St,Hotel Grand Pacific,1.296848,103.8525,Lavender St,Bef Kallang Rd,1.310173,103.8634
+1030,Pending Rd,Bef Pending Stn,1.376561,103.7715,Whitley Rd,Raffles Town Club,1.322148,103.8257
+1030,Pending Rd,Bef Pending Stn,1.376561,103.7715,Thomson Rd,Macritchie Reservoir,1.342193,103.836
+1038,Braddell Rd,Aft Muhajirin Mque,1.343348,103.8513,Braddell Rd,Opp Blk 1004,1.344313,103.8477
+1039,Choa Chu Kang Way,Blk 239,1.379243,103.7475,Clementi Rd,Opp Blk 109A,1.321305,103.771
+1041,Yio Chu Kang Rd,Aft Serangoon Nth Ave 1,1.36328,103.8738,Selegie Rd,Peace Ctr,1.300999,103.8498
+1042,Nicoll Highway,Suntec City,1.295962,103.8579,Temasek Blvd,Suntec Convention Ctr,1.293178,103.8578
+1042,Bt Timah Rd,Little India Stn,1.306644,103.8492,Nth Bridge Rd,St. Andrew's Cath,1.2925,103.8515
+1045,Teck Whye Lane,Blk 108,1.378526,103.7532,Choa Chu Kang Way,Blk 352,1.382571,103.743
+1046,Bishan St 11,Blk 115,1.348168,103.8485,Kaki Bt Ave 1,Kaki Bt Ind Est,1.33344,103.9041
+1050,Fernvale Lane,Opp Blk 405C,1.389664,103.8733,Sengkang Sq,Sengkang Int,1.391781,103.8959
+1056,Upp Paya Lebar Rd,Opp Bethany Presby Ch,1.348383,103.8802,Victoria St,Opp Bugis Junction,1.300155,103.8552
+1059,Tampines Ave 1,SAFRA Tampines,1.344712,103.9402,Marine Parade Rd,Opp Parkway Parade,1.302692,103.905
+1062,Ubi Ave 2,Blk 3019,1.327335,103.8921,Jln Toa Payoh,St. Andrew's Jnr Sch,1.329312,103.8663
+1065,Bedok Sth Rd,Blk 40,1.320681,103.94,New Upp Changi Rd,Tanah Merah Stn,1.327006,103.9464
+1082,Yio Chu Kang Rd,Bef Tai Seng Chr Ch,1.359993,103.8739,Paya Lebar Rd,Paya Lebar Stn,1.318602,103.8921
+1088,C'wealth Ave,C'wealth Stn,1.302133,103.7984,Boon Lay Way,Lakeside Stn,1.344258,103.7201
+1088,Boon Lay Pl,Boon Lay CC,1.348423,103.7117,Jln Boon Lay,Bef Tractor Rd,1.323205,103.7096
+1094,Punggol Rd,The Rivervale,1.381512,103.8975,Sengkang East Ave,Opp Blk 101,1.382125,103.8993
+1098,Woodlands Ave 9,Blk 774,1.447969,103.7984,Woodlands Ave 7,Opp Admiralty Stn,1.440888,103.8002
+1120,Beach Rd,Opp The Gateway,1.299198,103.8586,Upp Thomson Rd,Bef Thomson Ridge,1.353078,103.8344
+1126,Ang Mo Kio Ave 5,Blk 538,1.375793,103.8532,Ang Mo Kio Ave 6,Bef Al-Muttaqin Mque,1.370918,103.8456
+1142,Ang Mo Kio Ave 3,Opp Ang Mo Kio Pr Sch,1.369956,103.8396,Marymount Rd,Marymount Stn,1.350167,103.8395
+1149,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Airline Rd,3rd Cargo Agents,1.375283,103.9962
+1163,Jurong West St 51,Blk 458,1.349749,103.7197,Jurong Town Hall Rd,S'pore Science Ctr,1.333828,103.737
+1169,Pioneer Rd Nth,Blk 653B,1.336491,103.6963,Toh Tuck Ave,Opp SMRT Ulu Pandan Depot,1.333124,103.7591
+1187,Yishun Ring Rd,Blk 774,1.423715,103.8317,Yishun Ave 4,Blk 654,1.422806,103.8407
+1190,Jurong West Ave 1,Blk 463,1.350636,103.7237,AYE,Opp ITE Dover,1.299397,103.7792
+1208,Holland Rd,Bef Moonbeam Walk,1.319076,103.7824,Jln Anak Bt,Opp Beauty World Ctr,1.343269,103.7769
+1213,Guillemard Rd,Bef S'pore Badminton Assn,1.310546,103.8832,Upp East Coast Rd,Calvary Ably Of God Ch,1.315363,103.9429
+1215,Ubi Ave 2,Blk 3019,1.327335,103.8921,Tampines Ave 2,Tampines East CC,1.353033,103.9548
+1217,C'wealth Ave West,Clementi Stn,1.315286,103.7654,Woodlands Ave 7,Opp Admiralty Stn,1.440888,103.8002
+1217,Woodlands Circle,Blk 747A CP,1.443645,103.7956,Pasir Panjang Rd,Opp Heng Mui Keng Terr,1.290463,103.7736
+1222,Yishun Ring Rd,Blk 456,1.420264,103.8439,Jln Kayu,Jln Kayu Shophouse,1.39705,103.8731
+1226,S'goon Rd,Kwong Wai Shiu Hosp,1.317834,103.86,Bendemeer Rd,Opp Blk 28,1.318897,103.8642
+1230,Pasir Ris Dr 3,Opp Loyang Pt,1.367268,103.9656,Hougang Ave 10,Opp Blk 521,1.372872,103.8917
+1242,Pandan Gdns,Blk 410,1.319081,103.7482,Buona Vista Flyover,NUH,1.295408,103.7845
+1243,Bt Panjang Rd,Blk 270,1.376082,103.7743,Rochor Rd,Fu Lu Shou Cplx,1.30172,103.8546
+1243,Bt Panjang Rd,Opp Lompang Rd,1.381174,103.7659,Orchard Turn,Orchard Stn,1.303237,103.8325
+1254,Pasir Ris Dr 3,Blk 479,1.375458,103.958,Pasir Ris Dr 3,Opp Downtown East,1.375066,103.954
+1257,Hougang Ave 9,Blk 917,1.374548,103.884,Sengkang East Rd,Opp Blk 323B,1.39231,103.8935
+1258,Tampines Ave 9,Opp Tampines JC,1.357915,103.9554,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456
+1263,Hougang Ave 8,Opp Xinmin Pr Sch,1.370638,103.8824,S'goon Rd,Boon Keng Stn,1.320088,103.8618
+1264,Jln Bt Merah,Opp Bt Merah Town Ctr,1.284209,103.8177,Shenton Way,UIC Bldg,1.27807,103.8496
+1280,Woodlands Rd,Opp Digiland,1.403407,103.7562,Choa Chu Kang Ave 4,Lot 1 Shoppers' Mall,1.384631,103.745
+1281,Hougang Ave 4,Blk 681,1.373392,103.8852,Tampines Link,Golden Pagoda Tp,1.368511,103.9301
+1282,Bedok Reservoir Rd,Blk 609,1.332003,103.912,East Coast Rd,Christ Meth Ch,1.309803,103.916
+1282,Bedok Reservoir Rd,Blk 609,1.332003,103.912,Thomson Rd,Opp Tan Tong Meng Twr,1.327704,103.841
+1285,Telok Blangah Rd,VivoCity,1.265514,103.8221,Jurong West Ctrl 3,Boon Lay Int,1.339323,103.7055
+1288,Victoria St,Opp Bugis Junction,1.300155,103.8552,New Upp Changi Rd,Bedok Stn,1.324283,103.93
+1291,Jln Toa Payoh,Opp Trellis Twrs,1.329315,103.8438,Bt Batok East Ave 3,Blk 283,1.34695,103.7568
+1291,Bt Batok East Ave 3,Blk 289E,1.34399,103.7587,Bt Timah Rd,The Nexus,1.334425,103.7869
+1305,Marine Parade Rd,Neptune Ct,1.307876,103.9211,Ophir Rd,Opp Rochor Ctr,1.303194,103.8555
+1305,Marine Parade Rd,Neptune Ct,1.307876,103.9211,Paya Lebar Rd,Paya Lebar Stn,1.318602,103.8921
+1306,Bishan St 13,Blk 169,1.346656,103.8543,Lor 8 Toa Payoh,Blk 227,1.339726,103.8581
+1306,Bishan St 13,Zion Bible Presby Ch,1.347233,103.8546,Jln Bt Merah,Opp Blk 28,1.285928,103.8094
+1315,S'goon Rd,Boon Keng Stn,1.320088,103.8618,Bt Batok West Ave 5,Opp Bt Batok Driving Ctr,1.367696,103.7502
+1317,Changi Rd,Mjd Kassim,1.318889,103.9122,Yio Chu Kang Rd,Opp NCS Hub,1.389448,103.8436
+1317,Changi Rd,Mjd Kassim,1.318889,103.9122,Yio Chu Kang Rd,Opp NCS Hub,1.389448,103.8436
+1319,Teban Gdns Rd,Aft Hasanah Mque,1.322469,103.7395,Old Airport Rd,Blk 22,1.307261,103.8849
+1327,Mt Sinai Rise,Opp Village Twr,1.31548,103.7782,Sth Buona Vista Rd,Kent Ridge Stn,1.292543,103.7845
+1329,Eunos Link,Opp Comfort Driving Ctr,1.336396,103.8979,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+1338,Lor 6 Toa Payoh,Opp Toa Payoh Stadium,1.331468,103.8527,Bishan St 13,Bishan Int,1.350455,103.8499
+1341,Jln Jurong Kechil,Grand Chateau,1.343628,103.7694,C'wealth Ave,Opp Blk 7B,1.305357,103.7948
+1341,Jln Jurong Kechil,Opp Grand Chateau,1.343789,103.7696,C'wealth Ave,Opp Blk 7B,1.305357,103.7948
+1343,Redhill Cl,Opp Blk 73,1.287842,103.818,Tiong Bahru Rd,Redhill Stn,1.289546,103.8167
+1343,Keppel Rd,Keppel Workshop,1.272246,103.8338,Tiong Bahru Rd,Redhill Stn,1.289546,103.8167
+1349,Old Airport Rd,Blk 22,1.307261,103.8849,Bendemeer Rd,Opp Blk 28,1.318897,103.8642
+1369,Changi Sth Ave 1,Yusen Logistics,1.332919,103.9607,Tampines Ave 5,Blk 938,1.348202,103.9419
+1372,Upp S'goon Rd,Opp Serangoon JC,1.364377,103.8898,Hougang Ave 2,Blk 708,1.366872,103.8892
+1375,Farrer Rd,Farrer Rd Stn,1.317802,103.8077,Nth Buona Vista Rd,Buona Vista Stn,1.306498,103.7906
+1386,Bedok Reservoir Rd,Aft Waterfront Waves,1.338571,103.9294,Newton Rd,Opp Hotel Royal,1.317435,103.8414
+1391,Upp S'goon Rd,Blk 302,1.368308,103.8939,Moulmein Rd,Natl Skin Ctr,1.319303,103.8493
+1392,S'goon Rd,St. Michael's Pl,1.324773,103.8656,Bendemeer Rd,Blk 44,1.322049,103.8663
+1406,Zion Rd,Opp Great World City,1.294092,103.8308,Tampines St 21,Blk 259,1.354847,103.9508
+1411,Hougang Ave 4,Blk 919,1.375486,103.8846,AYE,Blk 426,1.311637,103.7635
+1420,Saujana Rd,Blk 413,1.382133,103.7684,Bangkit Rd,Opp Blk 253,1.379304,103.7743
+1422,AYE,Clementi Stadium,1.310995,103.7635,Toh Tuck Link,Aft Old Toh Tuck Rd,1.331498,103.7577
+1425,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Changi Nth Cres,VICOM Veh Insp Ctr,1.35029,103.9677
+1432,S'goon Gdn Way,Aft Yio Chu Kang Rd,1.362918,103.8724,S'goon Nth Ave 1,Blk 128,1.365146,103.8725
+1435,Tampines Ave 7,Blk 370,1.358366,103.9595,Buona Vista Flyover,Opp Ayer Rajah Ind Est,1.297512,103.7854
+1443,Whampoa Rd,Blk 114,1.32532,103.8573,Selegie Rd,Selegie Ctr,1.303245,103.85
+1446,Pasir Ris Dr 1,Blk 541,1.369449,103.9513,Yishun Ave 2,Opp Blk 757,1.426573,103.8354
+1450,Marine Parade Rd,Bet Blks 72/74,1.304251,103.9077,Boon Keng Rd,Bef Kallang Pl,1.314346,103.8659
+1452,Marymount Rd,Blk 260,1.359687,103.8417,Thomson Rd,Macritchie Reservoir,1.342193,103.836
+1452,Bishan Rd,Opp Blk 217,1.356156,103.85,Clementi Rd,Ngee Ann Poly,1.332439,103.7777
+1507,Yishun Ave 2,Blk 608,1.420546,103.835,Yishun Ave 2,Opp Blk 757,1.426573,103.835373
+1513,Farrer Rd,Opp Farrer Rd Stn,1.317478,103.8079,Hougang Ctrl,Hougang Ctrl Int,1.371227,103.8926
+1516,Bt Batok Ctrl,Blk 628,1.351555,103.75,Bt Batok West Ave 6,Blk 185,1.347166,103.7452
+1520,Sengkang East Rd,Blk 301D,1.388093,103.8917,Sengkang East Rd,Opp Blk 323B,1.39231,103.8935
+1527,Thomson Rd,Opp Novena Ch,1.321273,103.8418,Jln Toa Payoh,Trellis Twrs,1.329914,103.8438
+1527,Jln Eunos,Eunos Stn,1.320656,103.9049,Kaki Bt Ave 1,Opp Kaki Bt Ind Est,1.333758,103.9043
+1543,New Bridge Rd,New Bridge Ctr,1.282938,103.8425,Jln Bt Merah,Blk 201,1.280395,103.8271
+1548,Jln Bt Merah,Blk 111,1.280453,103.8264,Depot Rd,Aft Hewlett Packard,1.281761,103.8096
+1558,West Coast Rd,Opp West Bay Resort Condo,1.299081,103.767,Mountbatten Rd,Bef Kg Kayu Rd,1.30315,103.8844
+1558,West Coast Rd,Opp West Bay Resort Condo,1.299081,103.767,Old Airport Rd,Blk 22,1.307261,103.8849
+1559,Jln Jurong Kechil,Bef Upp Bt Timah Rd,1.340368,103.7753,Thomson Rd,Opp Macritchie Reservoir,1.341783,103.8362
+1564,Marine Parade Rd,Parkway Parade,1.303004,103.906,Sengkang Sq,Sengkang Int,1.391781,103.8959
+1569,Potong Pasir Ave 1,Blk 120,1.335601,103.8637,Penang Rd,Dhoby Ghaut Stn,1.298312,103.8453
+1592,Bt Batok East Ave 3,Blk 229,1.348555,103.7546,Bt Batok Ctrl,Opp Blk 628,1.351765,103.7502
+1603,Jln Eunos,Eunos Mans,1.328851,103.9055,Bedok Nth Rd,Opp Blk 416,1.328988,103.931
+1614,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456,Ang Mo Kio Ave 6,Opp Castle Green,1.385732,103.8426
+1614,Ang Mo Kio Ave 6,Opp Castle Green,1.385732,103.8426,Sengkang West Rd,Before Fernvale Lane,1.390294,103.8692
+1622,Bedok Nth Ave 3,Blk 403,1.330047,103.9344,Bedok Nth Rd,Blk 109,1.331858,103.9351
+1622,Bedok Nth Ave 3,Blk 506,1.332305,103.9339,Tampines Ave 1,Opp Temasek Poly,1.347078,103.9327
+1638,Bedok Sth Rd,Opp Temasek JC,1.319691,103.9351,Loyang Ave,Opp Blk 149A,1.362261,103.9634
+1639,Punggol Rd,The Rivervale,1.381512,103.8975,Buangkok Green,Opp Blk 968,1.379187,103.8783
+1642,Braddell Rd,Aft Braddell Flyover,1.344051,103.8635,Upp S'goon Rd,Serangoon Stn,1.349046,103.8734
+1648,Toh Guan Rd,Opp Blk 288D,1.340532,103.7442,Jurong Gateway Rd,Jurong East Temp Int,1.333408,103.7415
+1651,Choa Chu Kang Ave 4,Opp Choa Chu Kang Stn,1.384254,103.7445,Old Choa Chu Kang Rd,Tengah Air Base,1.373678,103.7142
+1651,Pending Rd,Opp Pending Stn,1.3763,103.771,Victoria St,Cath Of The Good Shepherd,1.295338,103.8511
+1658,Eunos Link,Blk 311,1.330226,103.9038,Bedok Reservoir Rd,Blk 629,1.334568,103.9142
+1659,Senja Rd,Blk 628,1.385001,103.7598,Bt Panjang Rd,Opp Blk 183,1.380496,103.7628
+1662,Moonbeam Walk,Evian Condo,1.318651,103.7813,Nth Buona Vista Rd,Buona Vista Stn,1.306498,103.7906
+1665,Jln Besar,Bef Sim Lim Twr,1.304319,103.855,C'wealth Ave West,Clementi Stn,1.314975,103.765
+1671,Boon Lay Ave,Blk 185,1.347402,103.7106,Quality Rd,Bef Smithkline,1.333935,103.7103
+1672,Jurong East Ctrl,Blk 134,1.334496,103.7388,Dover Rd,Opp Transview Golf Club,1.308964,103.7739
+1672,Jurong East Ctrl,Blk 134,1.334496,103.7388,Dover Rd,Opp Transview Golf Club,1.308964,103.7739
+1679,Rochor Rd,Aft Beach Rd,1.298865,103.8573,Beach Rd,The Gateway,1.299072,103.8589
+1689,Punggol Field,Blk 101C,1.398569,103.9067,Clementi Rd,Ngee Ann Poly,1.332439,103.7777
+1690,Yio Chu Kang Rd,Motorola,1.391107,103.8466,Yio Chu Kang Rd,Opp Motorola,1.391224,103.846
+1696,Alexandra Rd,Opp SM Motors Ctr,1.292335,103.8115,C'wealth Ave,Queenstown Stn,1.295064,103.806
+1696,Alexandra Rd,Opp SM Motors Ctr,1.292335,103.8115,Tiong Bahru Rd,Opp Redhill Stn,1.289281,103.8166
+1697,Hillview Ave,Opp Hillbrooks,1.357573,103.7627,Bt Batok East Ave 4,Blk 254,1.349311,103.7579
+1715,Upp Changi Rd Nth,The Japanese Sch,1.353323,103.966,Tampines Ave 5,Opp Tampines Stadium,1.352962,103.9417
+1718,Punggol Rd,Opp Blk 110,1.384031,103.8996,Paya Lebar Rd,Le Crescendo,1.330782,103.8893
+1723,Woodlands Ave 1,Blk 335,1.429555,103.7806,Woodlands Sq,Woodlands Reg Int,1.436493,103.7852
+1723,Nth Bridge Rd,Cosmic Insurance Bldg,1.296673,103.8544,Woodlands Ave 5,Woodlands Civic Ctr,1.434578,103.7866
+1726,Scotts Rd,Far East Plaza,1.30732,103.8332,Boon Lay Way,Opp The Synergy,1.330699,103.7481
+1728,Hougang Ave 1,Blk 105 Mkt/FC,1.35413,103.8899,Aljunied Rd,Opp Blk 125,1.32317,103.8812
+1735,Punggol Rd,St. Anne's Ch,1.393084,103.9013,Ang Mo Kio Ave 5,Opp Techplace 2,1.378543,103.8655
+1738,Tiong Bahru Rd,Tiong Bahru Plaza,1.286,103.8275,Alexandra Rd,SIS Bldg,1.291538,103.8145
+1738,Tiong Bahru Rd,Blk 55,1.28476,103.8341,Clemenceau Ave,Aft Haw Par Glass Twr,1.296246,103.8441
+1740,Tiong Bahru Rd,Opp Tiong Bahru Plaza,1.285931,103.8267,Jln Bt Merah,Opp Blk 120,1.282278,103.8224
+1742,Eunos Link,Opp Eunos Technolink,1.332915,103.901,Sengkang West Ave,Bef Fernvale Lane,1.39068,103.8747
+1755,Bt Batok St 52,Blk 514,1.354852,103.7519,Toh Guan Rd,IMM Bldg,1.334462,103.7477
+1757,Loyang Ave,Loyang Valley,1.369551,103.9706,Bedok Reservoir Rd,Opp Blk 716,1.338315,103.9249
+1769,New Upp Changi Rd,Blk 32,1.323383,103.9251,Tampines Ave 7,Blk 370,1.358366,103.9595
+1770,Bedok Reservoir Rd,Blk 629,1.334568,103.9142,Tampines Ave 5,Blk 147,1.348753,103.9421
+1776,Bt Batok West Ave 4,Blk 331,1.363897,103.7472,Boon Keng Rd,Blk 12,1.317183,103.862
+1779,Ayer Rajah Cres,Ayer Rajah Bus Pk,1.293932,103.7895,Nth Buona Vista Rd,Opp Buona Vista Stn,1.306324,103.7908
+1782,Whitley Rd,Raffles Town Club,1.322148,103.8257,Balestier Rd,Aft Irrawaddy Rd,1.326465,103.8442
+1782,Whitley Rd,Raffles Town Club,1.322148,103.8257,Balestier Rd,Aft Irrawaddy Rd,1.326465,103.8442
+1785,Anchorvale Rd,Anchor Green Pr Sch,1.39121,103.8863,Sengkang East Ave,Opp Blk 203A,1.386054,103.8951
+1785,Anchorvale Rd,Anchor Green Pr Sch,1.39121,103.8863,Lor 4 Toa Payoh,Jackson Sq,1.336831,103.8497
+1789,Tampines Ave 7,Blk 449,1.356747,103.951,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401
+1803,Upp Thomson Rd,Thomson View Condo,1.357158,103.8288,Yio Chu Kang Rd,Motorola,1.391107,103.8466
+1818,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Tampines Ave 4,Tampines Stn/Int,1.353667,103.9461
+1833,Dover Rd,United World College,1.303703,103.7818,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401
+1844,Bedok Nth Ave 3,Blk 506,1.332305,103.9339,Tampines Ave 1,Opp Temasek Poly,1.347078,103.9327
+1869,Tiong Bahru Rd,Blk 1,1.286084,103.8329,Cecil St,Opp GB Bldg,1.278921,103.8478
+1869,Tiong Bahru Rd,Blk 1,1.286084,103.8329,Marina Blvd,The Sail,1.281619,103.8531
+1876,Marine Cres,Blk 45,1.30438,103.9127,East Coast Rd,Opp Springvale,1.312505,103.925
+1893,Hougang Ave 2,Opp Blk 709,1.367514,103.8888,Upp S'goon Rd,Kovan Stn,1.360504,103.8854
+1893,Hougang Ave 2,Opp Blk 709,1.367514,103.8888,Upp S'goon Rd,Kovan Stn,1.360504,103.8854
+1898,Lor Ah Soo,Opp Blk 146,1.350901,103.8826,Clementi Rd,Ngee Ann Poly,1.332439,103.7777
+1942,Circuit Rd,Blk 36,1.328862,103.8869,Tampines Ave 1,Temasek Poly,1.346753,103.9326
+1942,Circuit Rd,Blk 36,1.328862,103.8869,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+1945,Lor Chuan,New Tech Pk,1.350967,103.8618,Sengkang Sq,Sengkang Int,1.391781,103.8959
+1964,Ang Mo Kio Ave 10,Blk 465,1.36639,103.8566,Guillemard Rd,Bef S'pore Badminton Assn,1.310546,103.8832
+1964,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486,Mandai Lake Rd,Aft Mandai Rd,1.409356,103.7798
+1970,Tampines Ave 2,Tampines East CC,1.353033,103.9548,Paya Lebar Rd,Bef Geylang Fire Stn,1.316311,103.8922
+1986,Pasir Ris St 41,Bet Blks 453/454,1.37211,103.9576,Pasir Ris Dr 6,Blk 429,1.36995,103.9569
+1991,Ang Mo Kio Ave 4,Blk 110,1.37047,103.8368,Ang Mo Kio Ave 3,Opp Ang Mo Kio Stn,1.36921,103.8511
+2030,Lor 4 Toa Payoh,Blk 56,1.337024,103.8499,Whitley Rd,Catholic JC,1.325882,103.8345
+2055,Bt Batok East Ave 3,Blk 229,1.348555,103.7546,Bt Batok East Ave 3,Keming Pr Sch,1.346489,103.7568
+2057,Sengkang West Ave,Pei Hwa Sec Sch,1.391002,103.8771,Ang Mo Kio Ave 5,Nanyang Poly,1.376478,103.85
+2057,Sengkang West Ave,Pei Hwa Sec Sch,1.391002,103.8771,Ang Mo Kio Ave 5,Nanyang Poly,1.376478,103.85
+2073,Jurong West Ave 1,Blk 490,1.349803,103.7274,Boon Lay Ave,Opp River Valley High Sch,1.344814,103.7081
+2078,Upp S'goon Rd,Blk 403,1.34699,103.8721,Lavender St,Aft Kallang Rd,1.309508,103.8635
+2083,Yishun Ave 5,Blk 145,1.430619,103.8322,Yishun Ctrl 2,Aft Yishun Ctrl,1.423626,103.8367
+2083,Yishun Ave 5,Blk 145,1.430619,103.8322,Yishun Ctrl 2,Aft Yishun Ctrl,1.423626,103.8367
+2086,Bedok Sth Rd,Blk 71,1.320671,103.9426,Marine Parade Rd,Opp Laguna Pk,1.309836,103.9294
+2097,Upp Thomson Rd,Opp Thomson Plaza,1.3554,103.8315,Thomson Rd,Macritchie Reservoir,1.342193,103.836
+2127,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Queensway,Blk 97,1.306213,103.8017
+2156,Hougang Ave 5,Blk 327,1.368094,103.8959,Hougang Ave 3,Blk 172,1.350814,103.8898
+2176,West Coast Rd,Blk 411,1.318511,103.7464,West Coast Rd,Blk 726 Clementi West Mkt,1.304153,103.7645
+2188,Hougang Ave 9,Hougang 1,1.37513,103.8791,Hougang Ave 9,Blk 946A,1.374888,103.8807
+2190,Jln Eunos,Eunos Mans,1.328851,103.9055,Upp East Coast Rd,Opp Bedok Camp 2,1.319902,103.9551
+2193,Airport Rd,Opp Blk 1022,1.334677,103.8924,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456
+2215,Toh Tuck Rise,Opp Toh Tuck Cres,1.337696,103.7643,Jln Anak Bt,Opp Bt Timah Plaza,1.340071,103.7794
+2216,Tampines Ave 1,Opp Tropica Condo,1.349498,103.9278,New Upp Changi Rd,Blk 32,1.323383,103.9251
+2219,Geylang East Ctrl,Geylang Meth Pr Sch,1.318436,103.8843,Paya Lebar Rd,Opp Paya Lebar Stn,1.318567,103.8917
+2219,Nanyang Ave,Bef Jln Bahar,1.356931,103.6942,Aljunied Rd,Aljunied Pk,1.329303,103.8798
+2226,Simei Ave,Opp Blk 3012,1.337368,103.9507,Robinson Rd,Aft Capital Twr,1.277826,103.8481
+2240,Still Rd,Flora East,1.314733,103.9059,PIE,Opp Catholic JC,1.326481,103.834
+2245,Woodlands Ave 3,Blk 320,1.4321,103.7782,Pending Rd,Opp Pending Stn,1.3763,103.771
+2265,Penjuru Rd,Aft Jln Buroh,1.312675,103.7345,Teck Whye Lane,Blk 25,1.378208,103.7551
+2270,Guillemard Rd,Bef S'pore Badminton Assn,1.310546,103.8832,Paya Lebar Rd,Paya Lebar Stn,1.318602,103.8921
+2278,Teck Whye Ave,Opp Choa Chu Kang Polyclinic,1.38152,103.7514,Tuas Sth Ave 3,Sin Lian Heng Const,1.314709,103.6287
+2281,Bt Timah Rd,King Albert Pk,1.336871,103.7804,Choa Chu Kang Rd,Phoenix Stn,1.378356,103.7577
+2296,Tampines Ave 10,Opp Tampines Dormitory,1.367208,103.9311,Tampines Ave 9,Blk 721,1.360248,103.936
+2303,Pipit Rd,Blk 90,1.323622,103.887,Paya Lebar Rd,Opp CISCO Ctr,1.320914,103.8912
+2307,Lavender St,Opp Umar P Tamil Lang Ctr,1.315385,103.8595,Lavender St,Opp Pek Chuan Bldg,1.311676,103.8619
+2308,Pasir Ris Dr 10,Meridian JC,1.376943,103.9363,Pasir Ris Dr 3,Opp Downtown East,1.375066,103.954
+2316,Teck Whye Ave,Choa Chu Kang Polyclinic,1.381773,103.7513,Jln Kolam Ayer,MOM Svcs Ctr,1.326856,103.8695
+2339,Bedok Reservoir Rd,Blk 646,1.330965,103.9063,Tampines Ave 1,Temasek Poly,1.346753,103.9326
+2339,Bedok Reservoir Rd,Blk 646,1.330965,103.9063,Tampines Ave 1,Temasek Poly,1.346753,103.9326
+2373,Bt Timah Rd,Little India Stn,1.306644,103.8492,S'goon Ctrl,Serangoon Stn,1.350818,103.8733
+2378,Jln Bt Merah,Blk 201,1.280395,103.8271,Lower Delta Rd,Blk 48,1.288758,103.8257
+2378,Jln Bt Merah,Blk 201,1.280395,103.8271,New Bridge Rd,New Bridge Ctr,1.282938,103.8425
+2379,Tampines Ave 7,Blk 449,1.356747,103.951,Sims Ave,Aft Tg Katong Cplx,1.317406,103.8948
+2380,Bedok Reservoir Rd,Opp Kaki Bt Ctr,1.337532,103.9153,Ubi Ave 3,Opp HDB CP,1.332276,103.895
+2380,Bedok Reservoir Rd,Opp Kaki Bt Ctr,1.337532,103.9153,Ubi Ave 3,Opp HDB CP,1.332276,103.895
+2382,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Pasir Ris Dr 1,Blk 197,1.366253,103.9612
+2382,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Compassvale Rd,Opp Blk 223D,1.388949,103.8969
+2400,Bedok Nth Ave 3,Blk 403,1.330047,103.9344,Eunos Link,Blk 637,1.33074,103.9037
+2400,Bedok Nth Rd,Blk 85,1.331739,103.9386,Bedok Nth Ave 3,Blk 109,1.332133,103.9343
+2403,Upp Bt Timah Rd,Aft Ct Bt Timah,1.345848,103.7726,Upp Bt Timah Rd,Opp Bt Timah Shop Ctr,1.343007,103.7754
+2403,Jln Batu Nilam,Opp Hillbrooks,1.359003,103.7621,Upp Bt Timah Rd,Aft Ct Bt Timah,1.345848,103.7726
+2405,Old Airport Rd,Blk 99,1.308455,103.8885,Tampines Ave 7,Bef Tampines Reg Lib,1.3566,103.9454
+2405,Old Airport Rd,Blk 99,1.308455,103.8885,Tampines Ave 4,Tampines Stn/Int,1.353667,103.9461
+2410,Woodlands Sq,Woodlands Reg Int,1.436621,103.7859,Bt Batok East Ave 4,Blk 254,1.349311,103.7579
+2417,Ang Mo Kio Ave 1,Teck Ghee Ct,1.36359,103.8479,Ang Mo Kio Ave 3,Blk 324,1.368755,103.8466
+2417,Ang Mo Kio Ave 1,Teck Ghee Ct,1.36359,103.8479,Ang Mo Kio Ave 3,Blk 324,1.368755,103.8466
+2431,C'wealth Ave,Blk 53A CP,1.293199,103.8074,Alexandra Rd,Anchorpoint,1.288571,103.8054
+2431,C'wealth Ave,Blk 53A CP,1.293199,103.8074,Alexandra Rd,Anchorpoint,1.288571,103.8054
+2431,C'wealth Ave,Blk 53A CP,1.293199,103.8074,Henderson Rd,Opp Blk 1,1.279144,103.8169
+2471,Eu Tong Sen St,People's Pk Cplx,1.28407,103.843,Shenton Way,UIC Bldg,1.27807,103.8496
+2472,Ang Mo Kio Ave 3,Opp Mayflower Sec Sch,1.368808,103.8368,Kg Bahru Rd,Opp Keppel DP Blk 519,1.271781,103.8271
+2481,Alexandra Rd,Opp SIS Bldg,1.29187,103.8144,Kim Keat Rd,Opp Jumbo Ind Bldg,1.324561,103.8533
+2528,Jurong Town Hall Rd,Opp Blk 114,1.338993,103.7339,Jurong Town Hall Rd,Opp Jurong East Lib,1.331759,103.7396
+2528,Jurong Town Hall Rd,Opp Blk 114,1.338993,103.7339,Jurong Town Hall Rd,Opp Jurong East Lib,1.331759,103.7396
+2569,Jln Boon Lay,Blk 680C,1.345227,103.7062,Mandai Lake Rd,S'Pore Zoo,1.404624,103.7894
+2587,Toh Guan Rd,Blk 288E,1.340456,103.744,C'wealth Ave West,Dover Stn,1.311683,103.7787
+2601,Jurong West St 42,Blk 416,1.352421,103.7254,Bras Basah Rd,NTUC Income Ctr,1.296389,103.8515
+2610,Buona Vista Flyover,Opp NUH,1.296482,103.7846,Alexandra Rd,Alexandra Pt,1.277184,103.8025
+2610,Buona Vista Flyover,Opp NUH,1.296482,103.7846,Alexandra Rd,Alexandra Pt,1.277184,103.8025
+2616,Geylang Rd,Aft Sims Way,1.310777,103.8736,Victoria St,Opp Bugis Junction,1.300155,103.8552
+2626,Jln Sultan,Sultan Plaza,1.302912,103.8616,Upp East Coast Rd,Opp The Summit,1.314854,103.9407
+2628,Upp S'goon Rd,Aft Serangoon Shop Ctr,1.35348,103.878,Upp Paya Lebar Rd,Blk 161,1.351701,103.8786
+2628,Upp S'goon Rd,Aft Serangoon Shop Ctr,1.35348,103.878,Upp Paya Lebar Rd,Blk 161,1.351701,103.8786
+2666,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401,Upp Changi Rd East,Opp Tropicana Condo,1.340415,103.9613
+2666,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401,Upp Changi Rd East,Bef Tropicana Condo,1.339954,103.9608
+2666,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401,Upp Changi Rd East,Opp Tropicana Condo,1.340415,103.9613
+2666,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401,Upp Changi Rd East,Bef Tropicana Condo,1.339954,103.9608
+2669,Ang Mo Kio Ave 8,Opp Nanyang Poly,1.378363,103.8472,Loyang Ave,Loyang Valley,1.369551,103.9706
+2670,Bt Batok West Ave 2,Blk 306,1.35797,103.7473,Pasir Panjang Rd,Opp Heng Mui Keng Terr,1.290463,103.7736
+2678,Senja Rd,West Spring Sec Sch,1.387155,103.7602,Bt Panjang Rd,Blk 223,1.375778,103.7742
+2678,Senja Rd,West Spring Sec Sch,1.387155,103.7602,Bt Panjang Rd,Blk 223,1.375778,103.7742
+2698,Depot Rd,Aft Hewlett Packard,1.281761,103.8096,Paterson Rd,Opp Paterson Lodge,1.302299,103.83
+2711,C'wealth Ave West,Clementi Stn,1.314975,103.765,Lower Delta Rd,Blk 25B,1.283736,103.8249
+2713,Yio Chu Kang Rd,Toho Green,1.366065,103.8752,Upp Paya Lebar Rd,Opp Paya Lebar St,1.33965,103.8864
+2713,Yio Chu Kang Rd,Toho Green,1.366065,103.8752,Upp Paya Lebar Rd,Opp Paya Lebar St,1.33965,103.8864
+2737,Ang Mo Kio Ave 6,Aft Blk 304,1.366187,103.8442,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486
+2737,Ang Mo Kio Ave 6,Aft Blk 304,1.366187,103.8442,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486
+2739,Hougang Ave 1,Blk 232,1.358755,103.8891,PTB1 Basement,Changi Airport PTB1,1.361267,103.9907
+2747,Bt Batok Ctrl,Opp Blk 628,1.351765,103.7502,Choa Chu Kang Loop,Choa Chu Kang Int,1.385511,103.7441
+2766,Upp Paya Lebar Rd,Opp Tai Seng Stn,1.335064,103.8887,Simei St 3,Opp Simei Stn,1.342118,103.9535
+2795,New Upp Changi Rd,Blk 65,1.324935,103.9395,New Upp Changi Rd,Bedok Sports Cplx,1.325319,103.9396
+2795,New Upp Changi Rd,Blk 65,1.324935,103.9395,New Upp Changi Rd,Bedok Sports Cplx,1.325319,103.9396
+2795,Airport Blvd,Near SATS Flight Kitchen,1.342037,103.9824,Sims Ave,Yi Xiu Fty Bldg,1.3138,103.8766
+2813,Telok Blangah Way,Al-Amin Mque,1.275682,103.8191,Alexandra Rd,Opp Lea Hin Hardware Fty,1.291088,103.8075
+2826,Changi Village Rd,Changi Village Ter,1.389698,103.9876,Lor 1 Toa Payoh,Braddell Stn,1.34069,103.848
+2842,Changi Rd,Aft GE Life Ctr,1.317095,103.903,Sims Ave,Eunos Stn,1.318779,103.9023
+2842,Changi Rd,Aft GE Life Ctr,1.317095,103.903,Sims Ave,Eunos Stn,1.318779,103.9023
+2878,Clemenceau Ave,Aft Haw Par Glass Twr,1.296246,103.8441,Jln Bt Merah,Blk 119,1.282923,103.8217
+2878,Tiong Bahru Rd,Tiong Bahru Plaza,1.286,103.8275,Thomson Rd,Opp Thomson Med Ctr,1.324895,103.8421
+2918,Tampines Ave 7,Blk 497D,1.358458,103.9592,Loyang Way,Opp Selarang Pk Drug Reh.,1.370821,103.9801
+2925,Marsiling Rd,Blk 12,1.440083,103.7785,Jln Toa Payoh,Opp Trellis Twrs,1.329315,103.8438
+2943,Lower Delta Rd,Blk 129,1.283665,103.8245,Kim Seng Rd,Opp Great World City,1.293627,103.8328
+2943,Lower Delta Rd,Blk 129,1.283665,103.8245,Kim Seng Rd,Opp Great World City,1.293627,103.8328
+2988,S'goon Rd,Boon Keng Stn,1.320088,103.8618,Geylang Bahru,Blk 68,1.322581,103.8702
+2988,S'goon Rd,Boon Keng Stn,1.320088,103.8618,Geylang Bahru,Blk 68,1.322581,103.8702
+2989,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Tampines Ave 1,Opp Temasek Poly East G,1.345678,103.936
+2989,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Tampines Ave 1,Opp Temasek Poly East G,1.345678,103.936
+2994,Bt Batok Ctrl,Bt Batok Int,1.349994,103.7511,Sembawang Dr,Blk 328,1.445829,103.8197
+3038,Sengkang East Rd,Blk 301D,1.388093,103.8917,Pasir Ris Dr 1,Aft Pasir Ris Ctrl,1.371163,103.9484
+3043,Jln Anak Bt,Opp Beauty World Ctr,1.343269,103.7769,Upp Thomson Rd,Bef Thomson Plaza,1.354497,103.8325
+3068,Jurong Gateway Rd,Jurong East Temp Int,1.333408,103.7415,Boon Lay Pl,Blk 207,1.346382,103.7133
+3081,Ang Mo Kio Ave 8,Blk 422,1.367845,103.8506,Bishan Rd,Blk 210,1.355383,103.8491
+3081,Ang Mo Kio Ave 1,Teck Ghee Ct,1.36359,103.8479,Bishan Rd,Blk 210,1.355383,103.8491
+3088,Sengkang West Ave,Pei Hwa Sec Sch,1.391002,103.8771,Yio Chu Kang Rd,Aft Jln Redop,1.387728,103.87
+3095,Bt Timah Rd,Botanic Gdns Stn,1.32265,103.8155,Hougang Ctrl,Hougang Ctrl Int,1.370607,103.8927
+3118,Yishun Ave 2,Opp Blk 757,1.426573,103.8354,Hougang Ave 3,Bef Kim Chuan Rd,1.34065,103.892
+3122,Elias Rd,Blk 633,1.378109,103.9413,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+3140,Tampines Ave 1,Temasek Poly East G,1.344986,103.9368,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+3199,Sims Ave,Aljunied Stn,1.315323,103.8834,Upp Changi Rd Nth,Bef Jln Bena,1.355352,103.9689
+3217,C'wealth Ave,C'wealth Stn,1.302133,103.7984,Queensway,Aft Queenstown NPC HQ,1.289418,103.8023
+3219,Bedok Nth Rd,Blk 45,1.329149,103.9247,Hougang Ave 3,Bef Airport Rd,1.339014,103.8951
+3241,Henderson Rd,Bef Telok Blangah Hts,1.275375,103.8151,Pasir Panjang Rd,Harbourside Ind Bldg 2,1.274815,103.7967
+3247,Bt Merah Ctrl,Bt Merah Int,1.282102,103.8172,Kg Bahru Rd,Opp Keppel DP Blk 519,1.271781,103.8271
+3309,Lor Ah Soo,Blk 146,1.35109,103.8821,Upp S'goon Rd,Kovan Stn,1.36026,103.8854
+3310,Bt Batok East Ave 3,Blk 229,1.348555,103.7546,Jln Boon Lay,Blk 695,1.343023,103.7077
+3311,Ang Mo Kio Ave 6,Opp Yio Chu Kang Stn,1.381433,103.8439,Yishun Ave 2,Blk 608,1.420546,103.835
+3315,Dorset Rd,Farrer Pk Tennis Ctr,1.31216,103.8486,Eu Tong Sen St,People's Pk Ctr,1.285711,103.8444
+3324,Marymount Rd,Blk 260,1.359687,103.8417,Marymount Rd,Marymount Stn,1.350167,103.8395
+3347,Bedok Sth Rd,Temasek JC,1.319579,103.9357,Bedok Nth Ave 3,Blk 506,1.332305,103.9339
+3363,Upp S'goon Rd,Aft Sengkang East Ave,1.378202,103.9035,Hougang Ctrl,Hougang Ctrl Int,1.370607,103.8927
+3374,Tampines Ave 5,Opp Tampines Stadium,1.352962,103.9417,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+3384,Marine Parade Rd,Neptune Ct,1.307876,103.9211,Ophir Rd,Landmark Village Hotel,1.30169,103.8575
+3388,Marine Cres,Blk 34,1.304255,103.9123,Marine Parade Rd,Tao Nan Sch,1.305663,103.911
+3388,Marine Cres,Blk 34,1.304255,103.9123,Marine Parade Rd,CHIJ Katong Convent (Pr),1.305853,103.9106
+3415,Telok Blangah Rd,HarbourFront Stn,1.265835,103.8193,C'wealth Ave West,Opp SP SMA,1.309561,103.782
+3421,Marine Parade Rd,CHIJ Katong Convent,1.307192,103.9176,Orchard Rd,YMCA,1.298074,103.8478
+3437,Kallang Rd,Opp Sri Manmatha K Tp,1.309725,103.8674,Beach Rd,Opp Golden Mile Cplx,1.303384,103.8648
+3437,Nth Bridge Rd,Blk 8,1.304957,103.8636,Eu Tong Sen St,Clarke Quay Stn,1.288985,103.8471
+3449,Pasir Ris Dr 3,Blk 500A,1.376548,103.946,Ang Mo Kio Ave 3,Blk 700B,1.369148,103.8462
+3462,Geylang East Ctrl,Opp Geylang Polyclinic,1.318771,103.8867,Paya Lebar Rd,Opp Paya Lebar Stn,1.318567,103.8917
+3484,Jln Rajah,Curtin S'pore,1.328033,103.8539,Lor 6 Toa Payoh,Toa Payoh Int,1.332021,103.8469
+3497,Ang Mo Kio Ave 1,Blk 310,1.364337,103.8449,S'goon Ave 2,Blk 334,1.350205,103.8712
+3519,Punggol Rd,Blk 190C,1.395044,103.9024,Alexandra Rd,Opp Queensway Shop Ctr,1.286657,103.8033
+3522,Upp S'goon Rd,Blk 302,1.368308,103.8939,Sin Ming Ave,Opp Ai Tong Sch,1.361257,103.832
+3527,Hougang Ctrl,Opp Hougang Ctrl Int,1.3714,103.8917,Tampines St 81,Blk 897,1.348106,103.9342
+3542,Ganges Ave,Opp Blk 79,1.290416,103.8279,Adam Rd,Opp S'pore Bible College,1.325429,103.814
+3542,Ganges Ave,Opp Blk 79,1.290416,103.8279,Bt Timah Rd,Botanic Gdns Stn,1.32265,103.8155
+3550,Ang Mo Kio Ave 10,Blk 409A,1.362383,103.8557,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486
+3558,Clementi Rd,Aft King Albert Pk,1.336074,103.7786,Clementi Rd,Blk 109,1.321785,103.7709
+3562,Nth Bridge Rd,Opp Peninsula Plaza,1.292082,103.8513,Yishun Ave 2,Opp Khatib Stn,1.416678,103.8332
+3565,Lor 4 Toa Payoh,Blk 73,1.334042,103.8515,Bishan Rd,Bishan Stn,1.3509,103.848
+3567,Tampines Ave 5,Bet Blks 701/702,1.355948,103.9371,Bedok Nth Ave 3,Blk 109,1.332133,103.9343
+3573,Hougang Ctrl,Hougang Ctrl Int,1.370607,103.8927,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486
+3576,Pasir Ris Dr 1,Blk 740,1.378372,103.9362,S'goon Ctrl,Serangoon Stn,1.350498,103.8732
+3586,Upp East Coast Rd,Opp Siglap Sth CC,1.313988,103.9316,Old Airport Rd,Blk 39,1.307517,103.885
+3588,Hougang Ave 8,Punggol Pk,1.375008,103.8978,Punggol Rd,Blk 126A,1.389935,103.9019
+3618,West Coast Rd,Opp Blk 408,1.31772,103.7488,Bt Batok West Ave 3,Bt Batok Polyclinic,1.352276,103.7474
+3624,Tampines Ave 5,Blk 730,1.35625,103.9338,Tampines Ave 5,Blk 938,1.348202,103.9419
+3628,Hougang Ave 8,Blk 639,1.370877,103.8802,Hougang Ave 8,Blk 632,1.370223,103.8803
+3629,Tampines Ave 6,Opp Blks 710/713,1.359023,103.9382,Marine Parade Rd,Parkway Parade,1.303004,103.906
+3663,Kaki Bt Ave 1,Blk 151,1.336013,103.9121,Upp Paya Lebar Rd,Opp Asiawide Ind Bldg,1.337475,103.8876
+3666,New Loyang Link,Bef Loyang Ave,1.364618,103.9676,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+3666,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Upp Changi Rd Nth,The Japanese Sch,1.353323,103.966
+3670,Jurong East Ave 1,Opp Parc Oasis,1.344408,103.7343,Orchard Rd,Royal Thai Embassy,1.305928,103.8305
+3678,Bedok Reservoir Rd,Opp Kaki Bt Ctr,1.337532,103.9153,Eunos Link,Blk 637,1.33074,103.9037
+3690,Lor Ah Soo,Opp Blk 146,1.350901,103.8826,Ang Mo Kio Ave 9,Opp Yio Chu Kang Stadium,1.384304,103.8468
+3690,Lor Ah Soo,Opp Blk 146,1.350901,103.8826,Ang Mo Kio Ave 6,Yio Chu Kang Stn,1.38262,103.8438
+3692,Upp Thomson Rd,Opp St. Theresa's Home,1.345922,103.8388,Pending Rd,Opp Pending Stn,1.3763,103.771
+3692,Upp Thomson Rd,Opp St. Theresa's Home,1.345922,103.8388,Sembawang Rd,Opp Blk 713,1.427536,103.8266
+3694,Teban Gdns Rd,Aft Hasanah Mque,1.322469,103.7395,West Coast Rd,Blk 726 Clementi West Mkt,1.304153,103.7645
+3694,West Coast Rd,Aft Teban Gdns Rd,1.320002,103.7391,New Bridge Rd,New Bridge Ctr,1.282938,103.8425
+3699,Toh Guan Rd,IMM Bldg,1.334462,103.7477,Orchard Rd,Concorde Hotel S'pore,1.30047,103.8419
+3699,Jurong West Ave 1,Blk 425,1.350584,103.7245,Toh Guan Rd,IMM Bldg,1.334462,103.7477
+3707,C'wealth Ave West,Blk 203,1.320852,103.7621,Marymount Rd,Marymount Stn,1.350167,103.8395
+3716,Compassvale Rd,Blk 240,1.391018,103.8978,Anchorvale Dr,Blk 313B,1.390995,103.8884
+3717,Still Rd,Aft Still Lane,1.310455,103.9081,Marine Parade Rd,Parkway Parade,1.303004,103.906
+3726,Jln Tenaga,Opp Blk 658,1.33343,103.9061,Eunos Link,Eunos Technolink,1.333755,103.9006
+3737,Lower Delta Rd,Opp Blk 48,1.28907,103.8256,Jln Bt Merah,Opp Blk 28,1.285928,103.8094
+3737,Delta Rd,Blk 4,1.291723,103.8261,Jln Bt Merah,Opp Blk 28,1.285928,103.8094
+3741,Sin Ming Ave,Blk 407,1.363556,103.8339,Bishan St 13,Bishan Int,1.350455,103.8499
+3745,Jurong Town Hall Rd,Blk 253,1.344383,103.7367,Jurong Town Hall Rd,Blk 303,1.344461,103.7364
+3751,Yio Chu Kang Link,Serangoon Sports Cplx,1.356632,103.8741,Hill St,Old Hill St Police Stn,1.290845,103.8486
+3757,Telok Blangah Rd,Telok Blangah Stn,1.270759,103.8101,Pasir Panjang Rd,Mapletree Business City,1.274263,103.7984
+3769,Pasir Ris St 52,Blk 502,1.375584,103.9465,Bendemeer Rd,Opp Blk 28,1.318897,103.8642
+3771,Telok Blangah Rd,Telok Blangah Stn,1.270759,103.8101,Pasir Panjang Rd,Heng Mui Keng Terr,1.29083,103.7731
+3772,Pending Rd,Bef Pending Stn,1.376561,103.7715,Cashew Rd,Opp Bt Panjang Pr Sch,1.373225,103.7703
+3772,Pending Rd,Bef Pending Stn,1.376561,103.7715,Jln Kolam Ayer,MOM Svcs Ctr,1.326856,103.8695
+3785,Holland Dr,Blk 10A,1.308411,103.7933,Bt Timah Rd,City Twrs,1.318065,103.8326
+3792,S'goon Nth Ave 1,Bet Blks 142/148,1.368218,103.8739,S'goon Nth Ave 5,Blk 538,1.375122,103.8732
+3792,S'goon Nth Ave 1,Bet Blks 142/148,1.368218,103.8739,S'goon Nth Ave 5,Blk 538,1.375122,103.8732
+3796,Pasir Ris Dr 3,Blk 500A,1.376548,103.946,Upp Paya Lebar Rd,Opp Asiawide Ind Bldg,1.337475,103.8876
+3803,Upp S'goon Rd,Paya Lebar Camp,1.351692,103.876,Victoria St,Opp Blk 461,1.305518,103.8605
+3821,Bt Batok West Ave 5,Bt Gombak Stn,1.359117,103.7517,Choa Chu Kang Ave 4,Opp Choa Chu Kang Stn,1.384254,103.7445
+3825,Tampines Ave 3,Blk 888,1.351151,103.931,Tampines Ave 1,Temasek Poly,1.346753,103.9326
+3833,Yio Chu Kang Rd,Opp Gracehaven S Army,1.372113,103.8765,Ang Mo Kio Ave 5,Aft AMK Ind Pk 2,1.378725,103.8685
+3833,S'goon Ctrl,Serangoon Stn,1.350498,103.8732,Pasir Ris Dr 1,Blk 197,1.366253,103.9612
+3851,Hillview Ave,The Petals Condo,1.353086,103.76,Buona Vista Flyover,PSB Science Pk Bldg,1.292825,103.7864
+3863,Zion Rd,Blk 94,1.288371,103.8335,Scotts Rd,Newton Stn,1.312232,103.8382
+3886,Jurong East Ave 1,Opp Parc Oasis,1.344408,103.7343,West Coast Highway,Tien Wah Press Bldg,1.304834,103.7604
+3906,Lor 6 Toa Payoh,Opp Toa Payoh Stadium,1.331468,103.8527,Jln Tenaga,Opp Blk 658,1.33343,103.9061
+3956,Hougang Ave 8,Opp Montfort Sch,1.374811,103.8881,Upp S'goon Rd,Kovan Stn,1.36026,103.8854
+3992,Bedok Reservoir Rd,Blk 133,1.332192,103.9118,Bedok Reservoir Rd,Blk 713,1.337421,103.9225
+4005,Sembawang Way,Opp Sembawang Stn,1.449535,103.8199,Airport Blvd,Aft Changi Airport PTB2,1.346872,103.9843
+4009,Lower Kent Ridge Rd,Kent Ridge Stn,1.293707,103.7849,Eu Tong Sen St,People's Pk Ctr,1.285711,103.8444
+4014,Yishun Ave 2,Yishun Stn,1.429266,103.8352,Woodlands Sq,Woodlands Reg Int,1.436493,103.7852
+4027,Bedok Nth Ave 3,Blk 506,1.332305,103.9339,Bedok Nth Ave 3,Blk 109,1.332133,103.9343
+4030,Ulu Pandan Rd,Police KINS Trg Camp,1.319434,103.7722,Clementi Rd,Aft Clementi Ave 1,1.309031,103.7715
+4046,Ang Mo Kio Ave 10,Blk 555,1.371734,103.8567,Bishan St 22,Opp Blk 203,1.354443,103.847
+4052,West Coast Rd,Opp Blk 408,1.31772,103.7488,Jurong West Ctrl 3,Boon Lay Int,1.339323,103.7055
+4064,Lower Delta Rd,Opp Blk 48,1.28907,103.8256,Jln Besar,Hoa Nam Bldg,1.312845,103.8599
+4073,Ganges Ave,Opp Blk 79,1.290416,103.8279,Hill St,Stamford Ct,1.294116,103.8502
+4074,Bt Panjang Rd,Blk 174,1.380496,103.7665,Bt Batok Ctrl,Blk 644,1.34866,103.752
+4084,Clementi Rd,NUS High Sch,1.305608,103.7699,AYE,Aft NUS High Sch,1.305141,103.7699
+4094,Yio Chu Kang Rd,Toho Green,1.366065,103.8752,S'goon Ctrl,Serangoon Stn,1.350498,103.8732
+4121,Thomson Rd,Opp Tan Tong Meng Twr,1.327704,103.841,Orchard Blvd,Opp Orchard Stn,1.302528,103.8324
+4130,S'goon Rd,Opp Bendemeer Pr Sch,1.322588,103.8639,Yio Chu Kang Rd,Opp Motorola,1.391224,103.846
+4134,Marine Parade Rd,Mandarin Gdns,1.308515,103.9247,Jln Eunos,Opp Eunos Stn,1.321357,103.9054
+4135,S'goon Rd,St. Michael's Pl,1.324773,103.8656,Clementi Rd,SIM HQ,1.328572,103.7768
+4156,Orchard Rd,Macdonald Hse,1.298958,103.8465,Jln Eunos,Eunos Stn,1.320656,103.9049
+4173,Eu Tong Sen St,Pearl's Ctr,1.281546,103.8409,Nth Bridge Rd,Opp Peninsula Plaza,1.292082,103.8513
+4173,Eu Tong Sen St,Pearl's Ctr,1.281546,103.8409,River Valley Rd,Opp Mohd Sultan Rd,1.294142,103.8423
+4189,Punggol Ctrl,Opp Blk 188,1.399955,103.9106,Punggol Rd,Blk 190C,1.395044,103.9024
+4199,Punggol Rd,Opp The Rivervale,1.381585,103.8972,Loyang Way,JTC Corporation,1.372132,103.9705
+4199,Punggol Rd,Blk 298A,1.394901,103.9019,Loyang Ave,Opp Loyang Ind Est,1.371498,103.9726
+4224,Tampines St 21,Blk 259,1.354847,103.9508,Dunearn Rd,Opp Botanic Gdns Stn,1.323333,103.8163
+4225,AYE,Blk 610,1.304725,103.7694,Clementi Ave 2,Blk 408,1.310925,103.7674
+4233,Sengkang East Ave,Opp Blk 310B,1.39002,103.8846,Yishun Ave 2,Aft NorthPoint Shop Ctr,1.428563,103.8354
+4237,Fernvale Lane,Blk 403A,1.38925,103.873,Pasir Ris Dr 1,Blk 740,1.378372,103.9362
+4241,Bedok Reservoir Rd,Blk 140,1.335086,103.914,Tampines Ave 5,Opp Tampines Stadium,1.352962,103.9417
+4299,Upp Changi Rd East,Mera Terr P/G,1.34665,103.9631,Upp Changi Rd East,Opp Expo Halls 4/5/6,1.335905,103.9584
+4299,Upp Changi Rd East,Mera Terr P/G,1.34665,103.9631,Upp Changi Rd East,Opp Expo Halls 4/5/6,1.335905,103.9584
+4311,Tampines Ave 7,Opp Blk 230,1.356425,103.9532,Bedok Reservoir Rd,Aft Kaki Bt Ctr,1.338047,103.9162
+4314,Bishan St 13,Zion Bible Presby Ch,1.347233,103.8546,Orchard Rd,Tang Plaza,1.304657,103.8327
+4315,Choa Chu Kang Rd,Phoenix Stn,1.378356,103.7577,Bt Batok Ctrl,Blk 628,1.351555,103.75
+4318,Rivervale Dr,Blk 122F,1.387678,103.9053,Punggol Field,Blk 101C,1.398569,103.9067
+4324,Hougang Ave 9,Blk 917,1.374548,103.884,PTB1 Basement,Changi Airport PTB1,1.361267,103.9907
+4332,Pipit Rd,Blk 90,1.323622,103.887,Aljunied Rd,Blk 60,1.319353,103.8817
+4333,Loyang Ave,Changi Golf Course,1.3875,103.9857,Loyang Ave,Opp Loyang Valley,1.369059,103.9697
+4345,Dunearn Rd,Opp The Nexus,1.334748,103.7878,Adam Rd,Aft The Japanese Assn,1.32963,103.8149
+4346,Bangkit Rd,Opp Blk 271,1.377511,103.7739,Raffles Ave,Seating Gallery,1.289503,103.859
+4356,Old Airport Rd,Blk 99,1.308455,103.8885,Joo Chiat Rd,Marshall Lane,1.308379,103.903
+4364,Shunfu Rd,Blk 314,1.35174,103.8379,Middle Rd,Opp Midlink Plaza,1.299454,103.8527
+4365,Rivervale Dr,Blk 119D,1.386021,103.9035,S'goon Gdn Way,Serangoon Gdn Circus,1.363983,103.8658
+4375,Tampines Ave 5,Blk 730,1.35625,103.9338,Tampines Ave 1,Temasek Poly West G,1.347925,103.9302
+4378,Kent Ridge Cres,NUS Raffles Hall,1.300983,103.7727,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+4394,Potong Pasir Ave 2,Potong Pasir CC,1.332368,103.8671,Middle Rd,Opp Prime Ctr,1.300634,103.8511
+4403,Yio Chu Kang Link,Opp Serangoon Swim Cplx,1.357446,103.8738,Boundary Rd,Opp Blk 257,1.355855,103.872
+4403,Boundary Rd,Opp Blk 257,1.355855,103.872,Hougang Ave 2,Blk 708,1.366872,103.8892
+4430,Bt Panjang Ring Rd,Bangkit Stn,1.380215,103.7726,Bt Panjang Ring Rd,Blk 602,1.381781,103.7629
+4433,Marine Cres,Blk 34,1.304255,103.9123,Marine Parade Rd,Opp Parkway Parade,1.302692,103.905
+4434,S'goon Rd,St. Michael's Pl,1.324773,103.8656,Woodlands Ave 8,Bef Admiralty Rd West,1.454702,103.8009
+4448,Hougang Ave 6,Punggol CC,1.374685,103.8927,Hougang St 21,Aft Blk 207,1.357572,103.8851
+4454,Compassvale St,Blk 253,1.394429,103.9003,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401
+4456,Marine Parade Rd,Bet Blks 72/74,1.304251,103.9077,Mountbatten Rd,Blk 2,1.305147,103.8834
+4494,MacPherson Rd,Bef Davidson Rd,1.332762,103.885,Thomson Rd,Novena Stn,1.319627,103.8434
+4526,Jln Bahar,Blk 271 CP,1.350237,103.7036,Scotts Rd,Env Bldg,1.311332,103.8369
+4543,Pioneer Rd Nth,Blk 653B,1.336491,103.6963,Marymount Rd,Marymount Stn,1.350167,103.8395
+4545,Jln Bt Merah,Opp Bt Merah Town Ctr,1.284209,103.8177,Bt Timah Rd,Sixth Ave Ctr,1.331615,103.795
+4545,Bt Batok Ctrl,Bt Batok Int,1.349994,103.7511,Thomson Rd,Opp Macritchie Reservoir,1.341783,103.8362
+4551,Petir Rd,Opp Petir Stn,1.377195,103.767,Bt Timah Rd,The Sterling,1.335983,103.7826
+4557,Sembawang Rd,Blk 114,1.434187,103.8264,Yishun Ave 2,Blk 154,1.431652,103.8351
+4557,Sembawang Rd,Blk 114,1.434187,103.8264,Upp Thomson Rd,Opp Nessea Club,1.400157,103.8172
+4607,Ang Mo Kio St 54,Blk 561,1.370347,103.8582,Upp Thomson Rd,Bef Thomson Ridge,1.353078,103.8344
+4625,Yio Chu Kang Rd,Opp Blk 139,1.368566,103.8763,Yio Chu Kang Rd,Blk 138,1.368146,103.8757
+4625,Yio Chu Kang Rd,Bef Blk 965,1.37996,103.8769,Yio Chu Kang Rd,Blk 138,1.368146,103.8757
+4658,Scotts Rd,Thong Teck Bldg,1.307838,103.8331,Bencoolen St,SMU,1.297342,103.849
+4687,Whitley Rd,Raffles Town Club,1.322148,103.8257,Aljunied Rd,Opp Aljunied Pk,1.329267,103.8794
+4687,Jelebu Rd,Opp Bt Panjang Plaza,1.379617,103.7639,Whitley Rd,Aft Tanglin CC,1.322554,103.8262
+4688,Ang Mo Kio Ave 3,Blk 564,1.369189,103.8589,Marine Parade Rd,Parkway Parade,1.303004,103.906
+4697,Kaki Bt Ave 1,Blk 151,1.336013,103.9121,Ang Mo Kio Ave 5,Nanyang Poly,1.376478,103.85
+4718,Hume Ave,Symphony Hts,1.356858,103.7674,Queensway,Opp Queen's Cl,1.291197,103.8005
+4720,Sengkang East Way,Sengkang Stn,1.392908,103.8953,Woodlands Ave 3,Tech,1.429304,103.7666
+4744,C'wealth Ave,Blk 43,1.307401,103.7925,Buona Vista Flyover,PSB Science Pk Bldg,1.292825,103.7864
+4745,Kg Bahru Rd,St. Teresa's Ch,1.273707,103.8286,Tiong Bahru Rd,Blk 18,1.285838,103.8324
+4778,Alexandra Rd,NOL Bldg,1.274525,103.8018,Jln Bt Merah,Opp Blk 28,1.285928,103.8094
+4778,Boon Lay Ave,Opp River Valley High Sch,1.344814,103.7081,Jln Bt Merah,Opp Blk 28,1.285928,103.8094
+4792,Rivervale Cres,Opp Blk 178A,1.388894,103.9088,Tampines Rd,Bef TPE,1.379184,103.9157
+4815,Henderson Rd,Opp Blk 1,1.279144,103.8169,Tiong Bahru Rd,Redhill Stn,1.289546,103.8167
+4821,Bedok Sth Rd,Opp Temasek JC,1.319691,103.9351,Simei St 3,Opp Simei Stn,1.342118,103.9535
+4832,Depot Rd,Blk 104B,1.281218,103.8121,Alexandra Rd,Opp Queensway Shop Ctr,1.286657,103.8033
+4832,Depot Rd,Blk 104B,1.281218,103.8121,Alexandra Rd,Opp Queensway Shop Ctr,1.286657,103.8033
+4849,Yishun Ave 2,Opp Khatib Stn,1.416678,103.8332,Buangkok Green,Blk 579,1.379385,103.8864
+4880,Lor 6 Toa Payoh,Blk 32,1.332872,103.8559,Corporation Rd,Opp Lakepoint Condo,1.34005,103.7161
+4904,Buangkok Dr,Blk 557,1.38028,103.8906,Hougang Ave 10,Blk 522,1.373138,103.8916
+4904,Paya Lebar Rd,Opp Trinity @ Paya Lebar,1.331558,103.8895,Yio Chu Kang Rd,Blk 138,1.368146,103.8757
+4922,Jln Eunos,Opp Eunos Stn,1.321357,103.9054,Sims Ave,Aft Tg Katong Cplx,1.317406,103.8948
+4929,Tampines Ave 1,Temasek Poly West G,1.347925,103.9302,Tampines Ave 8,Opp Springfield Sec Sch,1.350807,103.9295
+4934,Teck Whye Ave,Choa Chu Kang Polyclinic,1.381773,103.7513,Orchard Rd,YMCA,1.298074,103.8478
+4934,Teck Whye Ave,Choa Chu Kang Polyclinic,1.381773,103.7513,Eu Tong Sen St,Pearl's Ctr,1.281546,103.8409
+4945,Queensway,Opp Queen's Cl,1.291197,103.8005,Alexandra Rd,Opp Gan Eng Seng Sec Sch,1.290881,103.8241
+4948,Boon Keng Rd,Blk 12,1.317183,103.862,Thomson Rd,Novena Stn,1.319627,103.8434
+4959,Teck Whye Ave,Bet Blks 13/14,1.378671,103.7561,Choa Chu Kang Ave 4,Lot 1 Shoppers' Mall,1.384631,103.745
+4981,Marine Parade Rd,Bet Blks 72/74,1.304251,103.9077,Scotts Rd,Far East Plaza,1.30732,103.8332
+4985,Zion Rd,Blk 94,1.288371,103.8335,Crawford St,Bef Crawford Bridge,1.307746,103.8643
+4986,Tampines Ave 1,Opp Temasek Poly West G,1.34844,103.9298,Ubi Ave 2,Blk 3019,1.327335,103.8921
+4986,Tampines Ave 1,Opp Temasek Poly West G,1.34844,103.9298,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+4995,Clementi Ave 3,Clementi Int,1.315055,103.764,New Upp Changi Rd,Bedok Stn,1.324283,103.93
+4998,Upp Bt Timah Rd,The Rail Mall,1.35939,103.7674,Orchard Turn,Opp Ngee Ann City,1.302113,103.8343
+4998,Upp Bt Timah Rd,Southaven II,1.345825,103.7733,Bt Timah Rd,Botanic Gdns Stn,1.32265,103.8155
+5002,Jln Eunos,Blk 322,1.328165,103.9055,Tampines Ave 1,Temasek Poly,1.346753,103.9326
+5021,Balestier Rd,Opp Balestier Pt,1.32307,103.8526,Somerset Rd,Somerset Stn,1.300276,103.8388
+5033,Jln Jurong Kechil,Bef Upp Bt Timah Rd,1.340368,103.7753,Holland Rd,Holland Village,1.312232,103.7944
+5043,Hougang Ave 8,Blk 532,1.376344,103.8915,Lor 6 Toa Payoh,Blk 237,1.340018,103.8527
+5047,Hougang Ave 3,Blk 172,1.350814,103.8898,Yio Chu Kang Rd,Opp Motorola,1.391224,103.846
+5054,Yio Chu Kang Rd,Bef Thomson Hills Dr,1.380319,103.8324,Lentor Ave,Opp Countryside Est,1.391413,103.8387
+5071,Marsiling Rd,Blk 12,1.440083,103.7785,Woodlands Sq,Woodlands Reg Int,1.436493,103.7852
+5071,Tiong Bahru Rd,Redhill Stn,1.289546,103.8167,Scotts Rd,Thong Teck Bldg,1.307838,103.8331
+5091,West Coast Highway,Opp Haw Par Villa Stn,1.282976,103.7812,Pasir Panjang Rd,Opp Barossa Gdns,1.281204,103.7845
+5093,Airport Blvd,Bef Changi Airport PTB3,1.347195,103.9841,Marine Cres,Blk 34,1.304255,103.9123
+5112,Gambas Ave,Seagate,1.446327,103.8072,Yishun Ctrl 2,Aft Yishun Ctrl,1.423626,103.8367
+5121,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Changi Nth St 1,Aft VICOM,1.351806,103.968
+5121,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Changi Nth St 1,Aft VICOM,1.351806,103.968
+5122,Yishun Ctrl,Yishun Int,1.42794,103.8363,Clementi Rd,SIM HQ,1.328572,103.7768
+5124,Bedok Sth Rd,Opp Blk 40,1.320438,103.9402,New Upp Changi Rd,Blk 32,1.323383,103.9251
+5124,New Upp Changi Rd,Opp Blk 32,1.322953,103.9252,Yio Chu Kang Rd,Bef Blk 965,1.37996,103.8769
+5130,Jln Jurong Kechil,Blk 18,1.340277,103.7726,Bt Timah Rd,Botanic Gdns Stn,1.32265,103.8155
+5138,Pasir Ris Dr 10,Blk 651,1.379545,103.9383,Old Airport Rd,Blk 39,1.307517,103.885
+5148,Changi Rd,Joo Chiat Cplx,1.316342,103.8989,Merpati Rd,Aft Jln Anggerek,1.327684,103.881
+5148,New Upp Changi Rd,Blk 65,1.324935,103.9395,New Upp Changi Rd,Blk 32,1.323383,103.9251
+5153,Tiong Bahru Rd,Blk 1,1.286084,103.8329,Aljunied Rd,Blk 125,1.323223,103.8815
+5153,Tiong Bahru Rd,Blk 1,1.286084,103.8329,Newton Rd,Hotel Royal,1.317022,103.8416
+5155,Clementi Rd,Ngee Ann Poly,1.332439,103.7777,Jln Toa Payoh,Opp St. Andrew's Jnr Sch,1.328651,103.8662
+5165,S'goon Rd,St. Michael's Pl,1.324773,103.8656,Geylang Bahru,Blk 68,1.322581,103.8702
+5177,Orchard Blvd,Opp Orchard Stn,1.302528,103.8324,Bt Merah Ctrl,Bt Merah Int,1.282102,103.8172
+5177,Orchard Blvd,Opp Orchard Stn,1.302528,103.8324,Bt Merah Ctrl,Bt Merah Int,1.282102,103.8172
+5178,Kim Keat Rd,Opp Jumbo Ind Bldg,1.324561,103.8533,Robinson Rd,Aft Capital Twr,1.277826,103.8481
+5179,Upp Changi Rd East,Changi Ct,1.343513,103.9622,Upp Changi Rd East,Opp Expo Halls 1/2/3,1.333978,103.9566
+5179,Upp Changi Rd East,Changi Ct,1.343513,103.9622,Upp Changi Rd East,Opp Expo Halls 1/2/3,1.333978,103.9566
+5179,Upp Changi Rd East,Changi Ct,1.343513,103.9622,Upp Changi Rd East,Opp Expo Halls 1/2/3,1.333978,103.9566
+5181,Sengkang Ctrl,Buangkok Stn,1.383345,103.8933,Paya Lebar Rd,Paya Lebar Stn,1.318602,103.8921
+5211,Sengkang East Way,Blk 325 CP,1.39385,103.8917,Sengkang East Way,Opp Blk 325 CP,1.394257,103.8914
+5224,Jurong West Ave 3,Opp Blk 276B,1.352933,103.7051,Pioneer Rd Nth,Blk 978,1.340477,103.6944
+5246,Bishan St 13,Blk 169,1.346656,103.8543,Bishan St 13,Bishan Int,1.350455,103.8499
+5253,Bt Batok East Ave 3,Blk 289E,1.34399,103.7587,Jln Eunos,Eunos Mans,1.328851,103.9055
+5253,Bt Batok East Ave 3,Blk 289E,1.34399,103.7587,Jln Eunos,Eunos Mans,1.328851,103.9055
+5277,Jln Bt Merah,Blk 201,1.280395,103.8271,Middle Rd,Opp Prime Ctr,1.300634,103.8511
+5277,Jln Bt Merah,Blk 201,1.280395,103.8271,Middle Rd,Opp Prime Ctr,1.300634,103.8511
+5284,Choa Chu Kang Ave 4,Lot 1 Shoppers' Mall,1.384631,103.745,Upp Bt Timah Rd,Shell Kiosk,1.338762,103.7769
+5286,Marine Parade Rd,Blk 57,1.306578,103.9149,PTB3 Basement,Changi Airport PTB3,1.355998,103.9875
+5300,Mt Sinai Dr,Bet Hse Nos.33/35,1.317213,103.7807,Holland Rd,Holland Village,1.312232,103.7944
+5309,Sengkang East Way,Blk 128,1.390508,103.9032,S'goon Ctrl,Serangoon Stn,1.350498,103.8732
+5316,Boon Keng Rd,Opp Kallang Pl,1.314146,103.8657,Geylang Bahru,Blk 73,1.322124,103.8708
+5327,Punggol East,Opp Blk 166A,1.394105,103.916,Sengkang East Way,Sengkang Stn,1.392908,103.8953
+5331,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Ang Mo Kio Ave 5,Blk 538,1.375793,103.8532
+5337,East Coast Rd,Aft Siglap Rd,1.311689,103.9224,Eu Tong Sen St,People's Pk Cplx,1.28407,103.843
+5347,Bedok Nth Ave 3,Blk 506,1.332305,103.9339,Tampines Ave 1,Opp Temasek Poly,1.347078,103.9327
+5356,New Bridge Rd,Clarke Quay Stn,1.288827,103.8475,Havelock Rd,Ctrl Sq,1.287791,103.8433
+5362,Woodlands Ave 6,Blk 786A CP,1.445866,103.7997,Yishun Ave 5,Blk 701,1.430164,103.8289
+5366,Hougang Ave 2,Blk 615,1.368369,103.8849,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+5435,Choa Chu Kang Cres,Opp Blk 661,1.401272,103.7512,Tampines Ctrl 1,Tampines Int,1.354076,103.9434
+5441,Hougang Ave 9,Bet Blks 930/931,1.375145,103.8808,Clementi Rd,SIM HQ,1.328572,103.7768
+5443,Tampines Ave 2,Blk 206,1.350716,103.9528,Tampines Ave 2,Tampines East CC,1.353033,103.9548
+5456,Changi Rd,Bef Siglap Plain,1.319768,103.9151,Kallang Rd,Lavender Stn,1.307092,103.8622
+5475,Hougang Ave 9,Blk 917,1.374548,103.884,Hougang Ctrl,Blk 836,1.369888,103.8903
+5483,Yishun Ring Rd,Blk 367,1.430211,103.8452,Yishun Ctrl,Yishun Int,1.42794,103.8363
+5491,Woodlands Ave 2,Blk 511,1.433148,103.7882,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401
+5493,Boon Lay Ave,Blk 185,1.347402,103.7106,Boon Lay Way,Lakeside Stn,1.344258,103.7201
+5496,Tampines Ave 7,Opp Tampines JC,1.356467,103.9575,Tampines St 43,Blk 442,1.359295,103.9523
+5496,Tampines Ave 7,Opp Tampines JC,1.356467,103.9575,Tampines St 32,Opp Blk 331,1.353841,103.9599
+5498,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456,Yishun Ave 3,Blk 773,1.422974,103.8328
+5505,C'wealth Ave West,Clementi Stn,1.314975,103.765,Toh Guan Rd East,Wang-Fu Ind Pte Ltd,1.335652,103.7575
+5511,Bt Panjang Rd,Blk 604,1.380334,103.7623,Bt Panjang Ring Rd,Blk 602,1.381781,103.7629
+5519,C'wealth Ave,Blk 42,1.298636,103.8025,Seah Im Rd,HarbourFront Int,1.267035,103.819
+5526,Bartley Rd,Bartley Stn,1.342966,103.8798,Eunos Link,Opp Eunos Technolink,1.332915,103.901
+5565,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496,Pasir Ris Dr 12,Aft TPE,1.37803,103.9328
+5584,Petir Rd,Aft Petir Stn,1.377323,103.7673,Victoria St,Cath Of The Good Shepherd,1.295338,103.8511
+5590,Lor 1 Toa Payoh,Oleander Twrs,1.332718,103.844,Lor 6 Toa Payoh,Toa Payoh Int,1.332021,103.8469
+5590,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456,Lor 1 Toa Payoh,Blk 163,1.332265,103.8441
+5595,Lor 1 Geylang,Bet Blks 2B/2C,1.313245,103.8714,Marine Parade Rd,Parkway Parade,1.303004,103.906
+5635,Bedok Reservoir Rd,Opp The Clearwater Condo,1.338322,103.9339,Tampines Ave 1,Opp Temasek Poly West G,1.34844,103.9298
+5642,Bedok Nth St 1,Opp Bedok Ctrl PO,1.327888,103.9341,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+5656,Tampines Ave 2,The Holy Trinity Ch,1.349168,103.9492,Victoria St,Hotel Grand Pacific,1.296848,103.8525
+5656,Pasir Ris Dr 12,Opp Blk 717,1.382893,103.9358,Jln Bt Merah,Opp Pacific Tech Ctr,1.28598,103.8112
+5666,Hougang Ave 7,Blk 316,1.364793,103.8969,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+5674,Pasir Ris Dr 3,Opp Downtown East,1.375066,103.954,Punggol East,Opp Blk 166A,1.394105,103.916
+5683,Punggol Pl,Punggol Temp Int,1.403706,103.9022,Tampines Ave 10,Aft Tampines Ave 5,1.359098,103.9305
+5683,Pasir Ris Dr 12,Aft TPE,1.37803,103.9328,Tampines Ave 10,Aft Tampines Ave 9,1.361492,103.9308
+5687,Upp Bt Timah Rd,Opp Bt Timah Shop Ctr,1.343007,103.7754,Bedok Nth Ave 3,Opp Blk 761,1.336601,103.9331
+5691,Mountbatten Rd,One Amber,1.302378,103.899,Mountbatten Rd,Opp Santa Fe Mans,1.300465,103.8895
+5700,Jln Bt Merah,Blk 119,1.282923,103.8217,Bedok Reservoir Rd,Blk 703,1.337515,103.9197
+5720,Holland Ave,Blk 12,1.309067,103.7951,Dunearn Rd,Aft Rifle Range Rd,1.336799,103.7818
+5727,Pasir Ris Dr 3,Pasir Ris Pr Sch,1.373085,103.9637,Hougang Ave 10,Blk 522,1.373138,103.8916
+5758,Bt Batok Ctrl,Bt Batok Int,1.349994,103.7511,Upp Bt Timah Rd,Shell Kiosk,1.338762,103.7769
+5769,S'goon Rd,Sri Srinivasa Perumal Tp,1.313137,103.8564,Changi Business Pk Ctrl 2,Standard Chartered Bank,1.334509,103.9663
+5776,Dunearn Rd,Aft Rifle Range Rd,1.336799,103.7818,Dunearn Rd,Hua Guan Gdn,1.335803,103.7846
+5776,Bt Timah Rd,Aft POSBank,1.311036,103.8428,Dunearn Rd,Hua Guan Gdn,1.335803,103.7846
+5784,Upp Thomson Rd,Meadows @ Pierce,1.379456,103.8277,Crawford St,Bef Crawford Bridge,1.307746,103.8643
+5809,Bendemeer Rd,MOM Svcs Ctr,1.32634,103.8683,S'goon Rd,Boon Keng Stn,1.320088,103.8618
+5809,Bendemeer Rd,MOM Svcs Ctr,1.32634,103.8683,Hill St,Armenian Ch,1.293089,103.8497
+5833,Airport Rd,Aft Paya Lebar Rd,1.334117,103.8905,Hougang Ave 3,Bef Airport Rd,1.339014,103.8951
+5837,Pasir Ris Dr 8,Aft Pasir Ris St 53,1.373238,103.9483,Punggol Pl,Punggol Temp Int,1.403706,103.9022
+5839,Ang Mo Kio Ave 9,AMK Police Div HQ,1.384252,103.8445,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486
+5846,Nth Bridge Rd,Nth Bridge Commercial Cplx,1.298208,103.8555,Holland Rd,Opp Holland Village,1.312561,103.7945
+5850,Yio Chu Kang Rd,Opp Blk 953,1.375947,103.8769,Yio Chu Kang Rd,Blk 953,1.376792,103.8771
+5859,Tampines Ave 2,Blk 285,1.350264,103.9525,Bishan St 13,Bishan Int,1.350455,103.8499
+5861,Lor 1 Geylang,Opp Blk 2C,1.312674,103.8716,Lor 6 Toa Payoh,Opp Toa Payoh Swim Cplx,1.331157,103.8502
+5878,Queensway,Opp Queen's Cl,1.291197,103.8005,Beach Rd,St. John HQ,1.30202,103.8633
+5902,Alexandra Rd,Alexandra Hosp,1.285947,103.8025,Nth Bridge Rd,Cosmic Insurance Bldg,1.296673,103.8544
+5932,Henderson Rd,Blk 54,1.273273,103.8125,Tiong Bahru Rd,Opp Tiong Bahru Plaza,1.285931,103.8267
+5943,Boon Lay Way,Opp Lakeside Stn,1.34432,103.7193,Bras Basah Rd,Rendezvous Grand Hotel,1.29819,103.8494
+5955,Tampines Ave 9,Blk 484,1.362138,103.9531,Tampines Ave 2,Tampines East CC,1.353033,103.9548
+5968,Geylang Rd,Aft Sims Way,1.310777,103.8736,Holland Rd,CSC Dempsey Clubhse,1.306926,103.8119
+5970,Anchorvale Dr,Blk 313B,1.390995,103.8884,Upp S'goon Rd,Opp Serangoon Sec Sch,1.375579,103.9011
+5975,Compassvale Rd,Opp Blk 223D,1.388949,103.8969,Sengkang East Way,Blk 325 CP,1.39385,103.8917
+5977,Yishun Ave 5,Blk 701,1.430164,103.8289,Woodlands Ave 7,Woodsvale Condo,1.443887,103.8062
+5989,Mei Ling St,Blk 153,1.294208,103.8031,Jln Bt Merah,Opp Bt Merah Town Ctr,1.284209,103.8177
+5994,Jln Toa Payoh,Aft Blk 195,1.330814,103.8608,Sembawang Vista,Sembawang Int,1.447482,103.8194
+6015,Clementi Rd,Opp Blk 352,1.31523,103.7721,Alexandra Rd,Opp Queensway Shop Ctr,1.286657,103.8033
+6017,Geylang Rd,Opp Mohd Salleh Mque,1.312147,103.8772,Lor 6 Toa Payoh,Blk 32,1.332872,103.8559
+6021,Jurong East Ave 1,Blk 316,1.346127,103.7319,Jurong Gateway Rd,Jurong East Temp Int,1.333408,103.7415
+6024,Telok Blangah Way,Al-Amin Mque,1.275682,103.8191,C'wealth Ave,Queens Condo,1.292885,103.8071
+6039,Upp Changi Rd Nth,Salvation Army,1.352923,103.9654,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+6043,Marymount Rd,Blk 254,1.362135,103.8425,Orchard Turn,Orchard Stn,1.303237,103.8325
+6045,Pasir Ris Dr 1,Blk 156,1.364328,103.9631,Pasir Ris Dr 1,Bef Pasir Ris Ctrl,1.371591,103.9483
+6045,Henderson Rd,Blk 1,1.279478,103.8173,Pasir Ris Dr 1,Blk 197,1.366253,103.9612
+6046,Jln Eunos,Eunos Mans,1.328851,103.9055,Jln Damai,Opp Blk 668,1.333319,103.9095
+6048,Pasir Ris Dr 12,Aft TPE,1.37803,103.9328,Yishun Ave 2,Opp Blk 757,1.426573,103.8354
+6049,Bedok Nth Rd,Opp Blk 85,1.331518,103.9384,Mountbatten Rd,Katong Shop Ctr,1.303702,103.9013
+6051,Sengkang East Rd,Blk 261,1.394956,103.8944,Yio Chu Kang Rd,Opp Blk 953,1.375947,103.8769
+6054,Tampines Ave 2,Blk 302,1.352966,103.9551,Mountbatten Rd,Katong Shop Ctr,1.303702,103.9013
+6060,Tampines Ave 1,Opp Temasek Poly West G,1.34844,103.9298,Pasir Ris St 71,Opp Blks 771/772,1.375547,103.9375
+6064,Jln Toa Payoh,Trellis Twrs,1.329914,103.8438,Thomson Rd,Thomson Flyover,1.328942,103.8407
+6064,Ang Mo Kio Ave 3,Ang Mo Kio Stn,1.369469,103.8508,Thomson Rd,Thomson Flyover,1.328942,103.8407
+6070,Pasir Ris Dr 3,Opp Loyang Pt,1.367268,103.9656,Loyang Ave,Loyang Valley,1.369551,103.9706
+6092,Tiong Bahru Rd,Blk 1,1.286084,103.8329,Shenton Way,UIC Bldg,1.27807,103.8496
+6096,Hougang Ave 8,Montfort Sch,1.375287,103.8892,Hougang Ctrl,Hougang Ctrl Int,1.371227,103.8926
+6111,New Upp Changi Rd,Blk 221A,1.324691,103.9347,Upp Changi Rd,Flextronic,1.333949,103.9502
+6111,New Upp Changi Rd,Blk 221A,1.324691,103.9347,Upp Changi Rd,Flextronic,1.333949,103.9502
+6119,Yishun Ave 9,Blk 309,1.432265,103.8402,Simei Ave,Blk 3012,1.336385,103.9511
+6123,Henderson Rd,Blk 1,1.279478,103.8173,Telok Blangah Rd,Opp VivoCity,1.265963,103.8222
+6123,Lower Delta Rd,Blk 129,1.283665,103.8245,Depot Rd,Blk 118,1.281324,103.8127
+6141,C'wealth Ave West,Clementi Stn,1.315286,103.7654,Science Pk Rd,Aries,1.28701,103.7828
+6144,Upp S'goon Rd,Kovan Stn,1.360504,103.8854,Pasir Ris Dr 1,Aft Pasir Ris Ctrl,1.371163,103.9484
+6156,Braddell Rd,Blk 147,1.343388,103.8547,Braddell Rd,Blk 219,1.343097,103.8562
+6212,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Marine Parade Rd,Opp Laguna Pk,1.309836,103.9294
+6217,Ubi Ave 2,Automobile Megamart,1.330273,103.8998,Kallang Way,Aft Kallang Way 4,1.323198,103.8791
+6219,Upp Changi Rd East,Changi Ct,1.343513,103.9622,Upp Changi Rd,Grace Independent Ch,1.336502,103.9555
+6220,Balestier Rd,Opp Moulmein CC,1.326634,103.8464,Sembawang Dr,Opp Sun Plaza,1.447773,103.819
+6226,Braddell Rd,Opp Blk 998,1.344049,103.8503,Orchard Rd,Opp Mandarin Orchard,1.30234,103.837
+6228,Alexandra Rd,Opp Queensway Shop Ctr,1.286657,103.8033,Depot Rd,Aft Hewlett Packard,1.281761,103.8096
+6232,Upp S'goon Rd,Serangoon Stn,1.348979,103.8728,S'goon Ctrl,Blk 206,1.353392,103.8729
+6232,Sixth Ave,Hse No. 589,1.318624,103.7884,Kallang Rd,Lavender Stn,1.307092,103.8622
+6237,Ang Mo Kio Ave 10,Blk 443,1.365742,103.8561,Boundary Rd,Opp Blk 257,1.355855,103.872
+6241,Tampines Ave 1,Tropica Condo,1.349138,103.928,Tampines Ave 4,Opp Tampines Stn/Int,1.353707,103.9464
+6242,Braddell Rd,Blk 219,1.343097,103.8562,Bishan Rd,Opp Raffles Inst,1.347072,103.8471
+6246,Kallang Rd,Lavender Stn,1.307092,103.8622,Eu Tong Sen St,Bef Outram Rd,1.279008,103.8386
+6249,Jurong West Ave 4,Blk 641,1.340778,103.6959,Pioneer Rd Nth,Blk 840,1.344043,103.6919
+6253,Upp S'goon Rd,Kovan Stn,1.36026,103.8854,Braddell Rd,BCA Academy,1.343543,103.8587
+6258,Toh Guan Rd East,Wang-Fu Ind Pte Ltd,1.335652,103.7575,Jln Eunos,Eunos Stn,1.320656,103.9049
+6259,Kallang Rd,Aft Kallang Rd ERP Gantry,1.309419,103.8675,Hill St,Old Hill St Police Stn,1.290845,103.8486
+6272,Tampines Ave 2,Blk 206,1.350716,103.9528,Pasir Ris St 21,Blk 242,1.371365,103.9622
+6275,Balestier Rd,Opp Balestier Pt,1.32307,103.8526,Airport Rd,Opp Blk 1022,1.334677,103.8924
+6278,Jln Bt Merah,Blk 201,1.280395,103.8271,Shenton Way,UIC Bldg,1.27807,103.8496
+6280,Jln Bt Merah,Opp Blk 140,1.278555,103.8301,Orchard Turn,Orchard Stn,1.303237,103.8325
+6281,Upp Paya Lebar Rd,Opp Bethany Presby Ch,1.348383,103.8802,Clementi Ave 4,Blk 376,1.3182,103.7662
+6281,Telok Kurau Rd,Bef Lor K Telok Kurau,1.312608,103.9106,Victoria St,Hotel Grand Pacific,1.296848,103.8525
+6287,Upp S'goon Rd,Opp Blk 1,1.351497,103.8752,Upp Paya Lebar Rd,Aft Tai Seng Stn,1.335306,103.888
+6287,Upp S'goon Rd,Opp Blk 1,1.351497,103.8752,Upp Paya Lebar Rd,Aft Tai Seng Stn,1.335306,103.888
+6288,Jln Tenaga,Opp Blk 658,1.33343,103.9061,Scotts Rd,Newton Stn,1.312436,103.838
+6289,Mountbatten Rd,Bef Kg Kayu Rd,1.30315,103.8844,Orchard Rd,Dhoby Ghaut Stn,1.299333,103.8453
+6297,Upp Changi Rd East,Changi Ct,1.343513,103.9622,Simei St 3,Simei Stn,1.342262,103.9535
+6297,Upp Changi Rd East,Changi Ct,1.343513,103.9622,New Upp Changi Rd,Tanah Merah Stn,1.327333,103.9463
+6298,Tiong Bahru Rd,Opp Redhill Stn,1.289281,103.8166,Queensway,Blk 97,1.306213,103.8017
+6298,Tiong Bahru Rd,Opp Redhill Stn,1.289281,103.8166,Scotts Rd,Thong Teck Bldg,1.307838,103.8331
+6307,Woodlands Rd,Opp Jln Bumbong,1.414219,103.7552,Woodlands Rd,Kranji Stn,1.42526,103.7618
+6307,Woodlands Rd,Opp Jln Bumbong,1.414219,103.7552,Woodlands Rd,Kranji Stn,1.42526,103.7618
+6314,Upp Thomson Rd,Thomson CC,1.351447,103.8359,Balestier Rd,Aft Irrawaddy Rd,1.326465,103.8442
+6320,Bt Timah Rd,Bef Lewis Rd,1.321018,103.8235,Jln Eunos,Opp Eunos Stn,1.321357,103.9054
+6327,Upp Thomson Rd,Opp Windsor Pk,1.357772,103.8289,Upp Thomson Rd,Thomson View Condo,1.357158,103.8288
+6327,Sin Ming Ave,Blk 454,1.359298,103.8303,Orchard Rd,YMCA,1.298074,103.8478
+6329,Beach Rd,St. John HQ,1.30202,103.8633,Robinson Rd,Aft Capital Twr,1.277826,103.8481
+6331,Bendemeer Rd,Opp Blk 28,1.318897,103.8642,Bayfront Ave,Marina Bay Sands Theatre,1.284999,103.8606
+6333,Tampines Ave 1,Tropica Condo,1.349138,103.928,Bayfront Ave,Marina Bay Sands Hotel,1.28315,103.86
+6336,AYE,Opp Normanton Pk,1.290174,103.7921,Seah Im Rd,HarbourFront Int,1.267035,103.819
+6377,Nth Buona Vista Rd,Buona Vista Stn,1.306498,103.7906,Pasir Panjang Rd,Pasir Panjang Stn,1.275812,103.7926
+6383,Pandan Gdns,Blk 410,1.319081,103.7482,C'wealth Ave West,Clementi Stn,1.314975,103.765
+6383,Pandan Gdns,Blk 407,1.319242,103.7485,West Coast Rd,Blk 726 Clementi West Mkt,1.304153,103.7645
+6389,Ang Mo Kio Ave 4,Blk 110,1.37047,103.8368,Eu Tong Sen St,People's Pk Ctr,1.285711,103.8444
+6393,Jurong West Ave 3,Bet Blks 272D/271A,1.351286,103.7041,Jurong West Ave 5,Blk 834,1.342854,103.6941
+6398,Pasir Ris Dr 4,Blk 485,1.374111,103.9609,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+6403,Henderson Rd,Opp Blk 55,1.273242,103.813,New Bridge Rd,New Bridge Ctr,1.282938,103.8425
+6423,Clementi Rd,Kent Ridge Ter,1.294253,103.7699,Telok Blangah Rd,HarbourFront Stn,1.265835,103.8193
+6423,Clementi Rd,Kent Ridge Ter,1.294253,103.7699,C'wealth Ave West,Clementi Stn,1.315286,103.7654
+6424,Punggol Rd,Blk 227D,1.387118,103.9016,Sengkang East Way,Blk 250A,1.391431,103.8996
+6480,Ang Mo Kio Ave 5,ITE College Ctrl,1.375995,103.8558,Jln Bt Merah,Blk 1,1.286351,103.8081
+6480,Hougang Ave 4,Blk 670,1.373533,103.885,Jln Bt Merah,Blk 1,1.286351,103.8081
+6481,Jurong Town Hall Rd,Blk 303,1.344461,103.7364,Woodlands Rd,Opp Heavy Veh Pk,1.39304,103.7542
+6493,Upp Cross St,Opp Subordinate Ct,1.286077,103.8424,Stirling Rd,Opp Queens,1.29236,103.8058
+6498,Zion Rd,The Boys' Brigade HQ,1.291525,103.8322,Sth Bridge Rd,Boat Quay,1.287247,103.8483
+6511,Sengkang West Ave,Pei Hwa Sec Sch,1.391002,103.8771,Sengkang East Ave,Opp Blk 305 CP,1.388138,103.8876
+6513,Victoria St,Cath Of The Good Shepherd,1.295338,103.8511,Jln Toa Payoh,Trellis Twrs,1.329914,103.8438
+6516,Changi Rd,Bef Jamiyah Home,1.317744,103.9064,Victoria St,Opp Bugis Junction,1.300155,103.8552
+6518,Selegie Rd,Peace Ctr,1.300999,103.8498,Hougang Ctrl,Hougang Ctrl Int,1.370607,103.8927
+6521,Sin Ming Ave,Ai Tong Sch,1.36081,103.8321,Upp Thomson Rd,Opp Former Seletar Inst,1.397192,103.8186
+6523,Bt Batok Ctrl,Opp Blk 628,1.351765,103.7502,Hillview Ave,Opp Hillbrooks,1.357573,103.7627
+6528,Bt Timah Rd,Newton FC,1.312053,103.8403,Kim Tian Rd,Blk 126 CP,1.282661,103.8289
+6546,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486,Mattar Rd,MacPherson Pr Sch,1.325254,103.882
+6572,Bedok Rd,Country Pk,1.321903,103.9547,Bedok Rd,Aft Bedok Meth Ch,1.322618,103.9543
+6587,Yio Chu Kang Rd,Opp Blk 953,1.375947,103.8769,Buangkok Green,Opp Blk 565,1.38154,103.8881
+6591,Nth Bridge Rd,Blk 8,1.304957,103.8636,Eu Tong Sen St,Clarke Quay Stn,1.288985,103.8471
+6591,Nth Bridge Rd,Blk 8,1.304957,103.8636,Eu Tong Sen St,Clarke Quay Stn,1.288985,103.8471
+6593,Hougang Ctrl,Hougang Ctrl Int,1.371227,103.8926,Tiong Bahru Rd,Redhill Stn,1.289546,103.8167
+6615,Sin Ming Ave,Ai Tong Sch,1.36081,103.8321,C'wealth Ave West,Clementi Stn,1.314975,103.765
+6615,West Coast Rd,Blk 512,1.309683,103.76,Sin Ming Ave,Ai Tong Sch,1.36081,103.8321
+6621,Tampines Ave 10,Bef TPE,1.373642,103.9308,Compassvale Rd,Blk 203,1.386908,103.8962
+6621,Tampines Ave 10,Bef TPE,1.373642,103.9308,Sengkang Ctrl,Buangkok Stn,1.383933,103.893
+6626,Lor 4 Toa Payoh,Jackson Sq,1.336831,103.8497,Thomson Rd,Macritchie Reservoir,1.342193,103.836
+6634,C'wealth Ave West,Nan Hua Pr Sch,1.319937,103.7622,Hillview Ave,Opp Hillbrooks,1.357573,103.7627
+6642,Lor 2 Toa Payoh,Toa Payoh Stn,1.333185,103.8468,Hougang St 21,Hougang St 21 FC,1.357993,103.8855
+6653,Marine Parade Rd,Laguna Pk,1.309585,103.9295,Bishan St 13,Bishan Int,1.350455,103.8499
+6672,Sengkang Sq,Sengkang Int,1.391781,103.8959,Geylang East Ctrl,Folec Tech Ctr,1.319763,103.8902
+6732,Jurong West Ave 1,Blk 425,1.350584,103.7245,Orchard Rd,Dhoby Ghaut Stn,1.299333,103.8453
+6739,Jln Toa Payoh,Aft Blk 195,1.330814,103.8608,Paya Lebar Rd,Opp CISCO Ctr,1.320914,103.8912
+6747,Clementi Ave 3,NTUC Fairprice,1.312335,103.7658,Boon Lay Ave,Blk 220,1.349737,103.7124
+6750,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Tampines Ave 9,Blk 464,1.359763,103.9554
+6761,Scotts Rd,Newton Stn,1.312232,103.8382,Clemenceau Ave,Aft River Valley Rd,1.294646,103.8439
+6761,Scotts Rd,Newton Stn,1.312232,103.8382,Clemenceau Ave,Aft River Valley Rd,1.294646,103.8439
+6764,Upp Bt Timah Rd,Bef Cashew Rd,1.368633,103.7647,Bt Batok East Ave 3,Blk 283,1.34695,103.7568
+6764,Upp Bt Timah Rd,Bef Cashew Rd,1.368633,103.7647,Bt Batok East Ave 3,Blk 283,1.34695,103.7568
+6778,Ang Mo Kio Ave 3,Opp Mayflower Sec Sch,1.368808,103.8368,Beach Rd,The Gateway,1.299072,103.8589
+6824,Tampines Ave 2,Blk 302,1.352966,103.9551,Sims Ave,Blk 416,1.317764,103.8972
+6833,Lor Ah Soo,Opp Blk 115,1.35225,103.8879,Upp S'goon Rd,Kovan Stn,1.36026,103.8854
+6835,Ubi Ave 2,Blk 3019,1.327335,103.8921,Ubi Ave 1,Opp Blk 343,1.326801,103.9002
+6846,Fort Rd,Opp Fort Gdns,1.299138,103.8855,Fullerton Rd,Fullerton Sq,1.285598,103.8533
+6846,Mountbatten Rd,Katong Pk Twrs,1.300526,103.8883,Robinson Rd,Opp AIA Twr,1.282075,103.8509
+6854,Jln Boon Lay,Blk 680C,1.345227,103.7062,Nanyang Ave,Hall 8,1.351507,103.6857
+6862,Ang Mo Kio Ave 8,Blk 354,1.363985,103.8524,Ang Mo Kio Ave 8,Ang Mo Kio Int,1.369688,103.8486
+6871,Lor 7 Toa Payoh,Blk 17A,1.33631,103.8571,MacPherson Rd,Bef Siemens Ctr,1.328292,103.8705
+6895,AYE,Opp The Infiniti,1.321025,103.7547,AYE,The Infiniti,1.32056,103.7546
+6897,Sungei Rd,The Verge,1.304613,103.852,Marine Parade Rd,Opp Blk 57,1.306863,103.9148
+6899,Bedok Reservoir Rd,Aft Kaki Bt Ctr,1.338047,103.9162,Chai Chee St,Opp Blk 53,1.32797,103.9201
+6900,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Pasir Ris Dr 3,Downtown East,1.375333,103.9539
+6916,Jln Bahagia,Bet Blks 33/34,1.326977,103.8582,Thomson Rd,Thomson Flyover,1.328942,103.8407
+6930,Pasir Ris Dr 3,Blk 479,1.375458,103.958,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+6943,Lower Delta Rd,Blk 40,1.272438,103.8238,Paterson Rd,Opp Paterson Lodge,1.302299,103.83
+6971,Woodlands St 83,Blk 856,1.440714,103.7932,Henderson Rd,Blk 116,1.284983,103.821
+6991,Bedok Reservoir Rd,Blk 121,1.33151,103.9098,Sims Ave,Eunos Stn,1.318779,103.9023
+7009,Pioneer Rd Nth,Blk 705,1.341016,103.6943,Tampines Ave 1,Opp Temasek Poly East G,1.345678,103.936
+7009,Pioneer Rd Nth,Blk 705,1.341016,103.6943,Tampines Ave 1,Opp Temasek Poly,1.347078,103.9327
+7013,Montreal Link,Aft Montreal Dr,1.450719,103.8271,Sembawang Way,Sembawang Stn,1.449262,103.8198
+7018,Pasir Ris St 11,Bef Blk 187,1.364761,103.9591,Bedok Nth Ave 4,SBST Bedok Bus Pk,1.337748,103.947
+7033,Bedok Reservoir Rd,Christ Ch,1.333195,103.916,Jln Eunos,Eunos Stn,1.320656,103.9049
+7044,Owen Rd,Blk 51,1.316655,103.8504,Kg Java Rd,KK Women & Child Hosp,1.310362,103.8478
+7065,Jurong Town Hall Rd,Blk 303,1.344461,103.7364,Toa Payoh Ctrl,Blk 177,1.334122,103.8489
+7067,Hougang Ave 1,Blk 105 Mkt/FC,1.35413,103.8899,S'goon Ctrl,Serangoon Stn,1.350498,103.8732
+7080,Pasir Ris Dr 1,Blk 541,1.369449,103.9513,Tampines Ave 2,Blk 206,1.350716,103.9528
+7099,Tg Katong Rd,CDAC Bldg,1.312995,103.8943,Telok Blangah Rd,Bef Seah Im Rd,1.268635,103.8155
+7100,Jelebu Rd,Bt Panjang Plaza,1.38007,103.764,Hougang Ave 7,Rio Vista,1.372405,103.9007
+7102,Telok Blangah Dr,Blk 48,1.27275,103.8104,Henderson Rd,Blk 54,1.273273,103.8125
+7105,Hougang Ave 1,Opp Yuying Sec Sch,1.356238,103.8898,Pasir Ris Dr 1,Blk 197,1.366253,103.9612
+7105,Hougang Ave 1,Opp Yuying Sec Sch,1.356238,103.8898,Pasir Ris Dr 1,Blk 197,1.366253,103.9612
+7122,Tampines St 45,Opp Blk 487B,1.35967,103.9584,Bedok Nth Rd,Blk 521,1.329999,103.9273
+7128,Sengkang East Way,Blk 122C,1.38772,103.9066,Sengkang East Way,Opp Blk 317B,1.39459,103.8884
+7132,Bishan St 13,Blk 169,1.346656,103.8543,Bishan St 13,Bishan Int,1.350455,103.8499
+7133,Woodlands Ave 9,Blk 774,1.447969,103.7984,Woodlands Ave 6,Blk 786A CP,1.445866,103.7997
+7146,Jurong West St 91,Blk 920,1.339704,103.6877,Clementi Rd,Opp Maju Camp,1.326528,103.7757
+7155,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Upp Changi Rd Nth,Ballota Pk Condo,1.357851,103.9694
+7166,Telok Blangah Rd,Opp Telok Blangah Stn,1.271186,103.8094,Henderson Rd,Blk 54,1.273273,103.8125
+7172,Tampines Ave 7,Tampines JC,1.356669,103.9574,S'goon Ctrl,Serangoon Stn,1.350818,103.8733
+7184,Bt Panjang Rd,Blk 223,1.375778,103.7742,Bt Batok West Ave 7,Opp Blk 336,1.365273,103.7483
+7184,Bt Panjang Rd,Blk 223,1.375778,103.7742,Toh Guan Rd,IMM Bldg,1.334462,103.7477
+7197,Jln Bt Merah,Opp Blk 120,1.282278,103.8224,Buona Vista Flyover,Opp NUH,1.296482,103.7846
+7200,Old Airport Rd,Blk 62,1.308213,103.8885,Nicoll Highway,Natl Stadium,1.306636,103.8745
+7202,Tampines Ave 5,Blk 147,1.348753,103.9421,PTB2 Basement,Changi Airport PTB2,1.355093,103.9892
+7205,Sims Ave,Eunos Stn,1.318779,103.9023,Geylang East Ctrl,Opp Geylang Polyclinic,1.318771,103.8867
+7212,Jln Toa Payoh,Opp Trellis Twrs,1.329315,103.8438,Eu Tong Sen St,Aft Hosp Dr,1.27832,103.8376
+7220,Clementi Rd,Opp Blk 109A,1.321305,103.771,C'wealth Ave West,Clementi Stn,1.315286,103.7654
+7225,New Bridge Rd,Chinatown Pt,1.285315,103.8446,Jln Bt Merah,Opp Pacific Tech Ctr,1.28598,103.8112
+7233,Tiong Bahru Rd,Opp Redhill Stn,1.289281,103.8166,New Bridge Rd,Chinatown Pt,1.285315,103.8446
+7233,Tiong Bahru Rd,Opp Redhill Stn,1.289281,103.8166,Alexandra Rd,NOL Bldg,1.274525,103.8018
+7246,Admiralty St,Nth Link Bldg,1.461187,103.8127,Woodlands Ring Rd,Blk 628A,1.435077,103.8005
+7251,Yio Chu Kang Rd,Aft Serangoon Nth Ave 1,1.364263,103.874,S'goon Nth Ave 5,Blk 531,1.375003,103.875
+7253,Raffles Ave,Seating Gallery,1.289503,103.859,Nth Bridge Rd,St. Andrew's Cath,1.2925,103.8515
+7264,West Coast Highway,Blk 705,1.305051,103.7606,West Coast Highway,Tien Wah Press Bldg,1.304834,103.7604
+7277,Corporation Dr,Blk 65,1.332434,103.7233,Boon Lay Way,Opp Lakeside Stn,1.34432,103.7193
+7291,Tampines Ave 2,Tampines East CC,1.353033,103.9548,PTB3 Basement,Changi Airport PTB3,1.355998,103.9875
+7296,Tampines Ave 2,Tampines East CC,1.353033,103.9548,Simei St 3,Simei Stn,1.342262,103.9535
+7300,Yishun Ave 2,Opp Blk 757,1.426573,103.8354,Sengkang Sq,Sengkang Int,1.391781,103.8959
+7300,Yishun Ave 2,Opp Blk 757,1.426573,103.8354,Bt Timah Rd,Opp Natl JC,1.328988,103.8027
+7310,Jln Bt Merah,Bt Merah Town Ctr,1.283941,103.8178,Alexandra Rd,Anchorpoint,1.288571,103.8054
+7315,Nanyang Dr,Sch Of CEE,1.346232,103.6785,Jurong West Ctrl 3,Boon Lay Int,1.339323,103.7055
+7315,Corporation Dr,Opp Blk 117,1.334761,103.7224,Nanyang Dr,Sch Of Comm And Info,1.34208,103.6792
+7322,Admiralty Rd West,Bef Sembawang Shipyard G 3,1.460528,103.8204,Yung Ho Rd,Blk 151,1.326661,103.721
+7370,New Upp Changi Rd,Blk 32,1.323383,103.9251,Bedok Sth Ave 3,Blk 172,1.319928,103.9444
+7387,Bedok Sth Rd,Blk 45,1.320993,103.9433,New Upp Changi Rd,Tanah Merah Stn,1.327006,103.9464
+7388,Bedok Nth Rd,Bet Blks 705/706,1.336425,103.9183,Bedok Nth Rd,Opp Blks 705/706,1.336439,103.918
+7395,Bendemeer Rd,Opp Blk 28,1.318897,103.8642,Lor 1 Geylang,Opp Blk 2C,1.312674,103.8716
+7395,Still Rd,Aft Lor G Telok Kurau,1.315744,103.9059,Lor 1 Geylang,Opp Blk 2C,1.312674,103.8716
+7435,Bishan St 22,Opp Bishan Nth Shop Mall,1.358045,103.8452,Lavender St,Aft Kallang Rd,1.309508,103.8635
+7439,Hougang Ave 3,Blk 1,1.363958,103.8926,Hougang Ave 7,Opp Blk 316,1.364398,103.8968
+7443,Balestier Rd,Opp Balestier Pt,1.32307,103.8526,Thomson Rd,United Sq,1.317353,103.8442
+7446,Yishun Ave 2,Blk 608,1.420546,103.835,Dunearn Rd,Opp Coronation Plaza,1.324695,103.8103
+7454,Petir Rd,Blk 219,1.374022,103.7726,Temasek Blvd,Suntec Convention Ctr,1.293178,103.8578
+7473,Paya Lebar Rd,Citipoint Ind Cplx,1.328246,103.8901,Tampines Ave 1,SAFRA Tampines,1.344712,103.9402
+7474,Queensway,Aft Queenstown NPC HQ,1.289418,103.8023,Alexandra Rd,NOL Bldg,1.274525,103.8018
+7479,Upp S'goon Rd,Blk 355,1.372491,103.8984,Hougang Ctrl,Hougang Ctrl Int,1.370607,103.8927
+7496,Henderson Rd,Bef Bt Merah Ctrl,1.281363,103.8183,Woodlands Sq,Woodlands Reg Int,1.436621,103.7859
+7496,Orchard Blvd,Opp Orchard Stn,1.302528,103.8324,Henderson Rd,Bef Bt Merah Ctrl,1.281363,103.8183
+7511,Sembawang Rd,Opp Sembawang Pk,1.461499,103.8376,Sembawang Way,Opp Sembawang Stn,1.449535,103.8199
+7520,Bedok Nth Rd,Blk 45,1.329149,103.9247,Eunos Link,Opp Comfort Driving Ctr,1.336396,103.8979
+7524,Telok Blangah Rd,VivoCity,1.265514,103.8221,Henderson Rd,Blk 1,1.279478,103.8173
+7530,Tampines Ave 5,Bet Blks 701/702,1.355948,103.9371,PTB3 Basement,Changi Airport PTB3,1.355998,103.9875
+7540,Jln Eunos,Blk 322,1.328165,103.9055,Tampines Ave 4,Opp Century Sq,1.351621,103.9439
+7540,Jln Tenaga,Blk 658,1.333443,103.9062,Keppel Rd,Customs Port Br HQ,1.272735,103.8414
+7542,C'wealth Ave West,Blk 203,1.320852,103.7621,C'wealth Ave West,Clementi Stn,1.314975,103.765
+7542,Clementi Ave 6,Blk 304,1.320485,103.7639,C'wealth Ave West,Clementi Stn,1.314975,103.765
+7553,Marsiling Rd,Opp Blk 12,1.440159,103.7789,Lor 7 Toa Payoh,Opp Blk 5,1.338251,103.8554
+7564,Tampines Ave 2,Tampines East CC,1.353033,103.9548,Airline Rd,3rd Cargo Agents,1.375283,103.9962
+7566,Ang Mo Kio Ave 3,Blk 151,1.369979,103.8746,Sembawang Rd,Khatib Camp,1.424439,103.8257
+7580,Cecil St,Opp GB Bldg,1.278921,103.8478,S'goon Rd,St. Michael's Pl,1.324773,103.8656
+7582,Ang Mo Kio Ave 9,AMK Police Div HQ,1.384252,103.8445,Simei St 3,Opp Simei Stn,1.342118,103.9535
+7582,Ang Mo Kio Ave 9,AMK Police Div HQ,1.384252,103.8445,Jln Kayu,Bef Seletar Camp G,1.402222,103.8714
+7600,Changi Rd,Joo Chiat Cplx,1.316342,103.8989,River Valley Rd,Opp Mohd Sultan Rd,1.294142,103.8423
+7634,Orchard Rd,Tang Plaza,1.304657,103.8327,Tiong Bahru Rd,Blk 1,1.286084,103.8329
+7674,Telok Blangah Rd,HarbourFront Stn,1.266079,103.8198,Victoria St,Bras Basah Cplx,1.296983,103.853
+7715,Bedok Nth St 1,Opp Bedok Ctrl PO,1.327888,103.9341,Aljunied Rd,Aljunied Pk,1.329303,103.8798
+7728,Hougang Ave 10,Opp Blk 521,1.372872,103.8917,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+7752,Telok Blangah Rd,HarbourFront Stn,1.266079,103.8198,Punggol Rd,Blk 190C,1.395044,103.9024
+7777,Boon Lay Way,Blk 210,1.338399,103.7386,Jurong Gateway Rd,Jurong East Temp Int,1.333408,103.7415
+7789,Marine Parade Rd,Parkway Parade,1.303004,103.906,Temasek Blvd,Suntec Convention Ctr,1.293178,103.8578
+7823,Upp Thomson Rd,Bef Thomson Ridge,1.353078,103.8344,Penang Rd,Dhoby Ghaut Stn,1.298312,103.8453
+7830,Tiong Bahru Rd,Blk 1,1.286084,103.8329,Victoria St,Bugis Stn,1.30111,103.8564
+7833,Hougang Ave 8,Blk 434,1.376688,103.8939,Clementi Rd,Opp Ngee Ann Poly,1.331113,103.778
+7842,Jurong West Ave 3,Opp St. Joseph's Home,1.349484,103.709,Jurong West Ctrl 3,Boon Lay Int,1.339323,103.7055
+7862,Teck Whye Ave,Blk 8,1.381049,103.7542,Choa Chu Kang Ave 4,Opp Choa Chu Kang Stn,1.384254,103.7445
+7863,Anson Rd,Intl Plaza,1.275703,103.8463,Kim Keat Rd,Opp NKF,1.326523,103.8549
+7866,AYE,Opp Cycle & Carriage,1.323321,103.7477,AYE,Hong Leong Shop Ctr,1.316689,103.7579
+7868,Kg Bahru Rd,St. Teresa's Ch,1.273707,103.8286,Scotts Rd,Far East Plaza,1.30732,103.8332
+7878,Marine Parade Rd,Blk 57,1.306578,103.9149,Jln Eunos,Opp Eunos Stn,1.321357,103.9054
+7880,Ganges Ave,Opp Blk 79,1.290416,103.8279,Pasir Panjang Rd,Opp Redwood West,1.279376,103.7857
+7882,Jln Bt Merah,Opp Blk 140,1.278555,103.8301,Jln Bt Merah,Blk 111,1.280453,103.8264
+7890,Tampines Ave 2,Blk 285,1.350264,103.9525,Tampines Ctrl 1,Tampines Int,1.354076,103.9434
+7890,Tampines Ave 2,Blk 285,1.350264,103.9525,Tampines Ctrl 1,Tampines Int,1.354076,103.9434
+7897,Compassvale Rd,Blk 203,1.386908,103.8962,Sengkang Ctrl,Buangkok Stn,1.383933,103.893
+7906,S'goon Ctrl,Serangoon Stn,1.350818,103.8733,Bedok Reservoir Rd,Blk 629,1.334568,103.9142
+7910,Punggol Rd,The Rivervale,1.381512,103.8975,Upp S'goon Rd,Woodleigh Stn,1.338365,103.8705
+7916,Bedok Sth Rd,Blk 45,1.320993,103.9433,New Upp Changi Rd,Tanah Merah Stn,1.327006,103.9464
+7957,Lor 1 Geylang,Opp Blk 2C,1.312674,103.8716,Victoria St,Opp Bugis Junction,1.300155,103.8552
+7977,Orchard Blvd,Opp Orchard Stn,1.302528,103.8324,Ganges Ave,Ganges Ctr,1.290329,103.8311
+7979,Buangkok Green,Blk 911,1.379123,103.8833,Hougang Ave 9,Hougang 1,1.37513,103.8791
+8017,Clementi Ave 4,Bet Blks 315/318,1.318288,103.7659,Pandan Ave,Opp Foh Foh Pte Ltd,1.302958,103.7514
+8034,New Upp Changi Rd,Blk 55,1.325487,103.9422,Sims Ave,Aft Tg Katong Cplx,1.317406,103.8948
+8047,Marine Parade Rd,Bet Blks 72/74,1.304251,103.9077,East Coast Rd,The Holy Family Ch,1.306864,103.9065
+8064,Bt Purmei Ave,Blk 109,1.274084,103.8255,Jln Bt Merah,Blk 119,1.282923,103.8217
+8090,Pasir Ris Dr 3,Opp Greenview Sec Sch,1.369701,103.9641,Upp Changi Rd Nth,Ballota Pk Condo,1.357851,103.9694
+8093,Upp Changi Rd Nth,Bef Jln Bena,1.355352,103.9689,New Upp Changi Rd,Tanah Merah Stn,1.327333,103.9463
+8095,Yishun Ring Rd,Jiemin Pr Sch,1.428262,103.8306,Yishun Ctrl,Yishun Int,1.42794,103.8363
+8099,Lor 1 Geylang,Opp Blk 2C,1.312674,103.8716,Boon Keng Rd,Blk 22,1.317953,103.8613
+8106,Woodlands Ave 5,Blk 515,1.435136,103.7904,Tampines St 21,Blk 230B,1.355013,103.9509
+8117,Hougang Ctrl,Hougang Ctrl Int,1.370607,103.8927,Jln Eunos,Blk 17,1.323478,103.9053
+8123,Farrer Rd,Opp Tulip Gdn,1.313053,103.8044,Holland Rd,Les Jardins De Holland,1.310601,103.8052
+8123,Farrer Rd,Opp Tulip Gdn,1.313053,103.8044,New Bridge Rd,New Bridge Ctr,1.282938,103.8425
+8126,Boon Lay Way,Bef Yuhua CC,1.340164,103.7363,Toh Guan Rd,IMM Bldg,1.334462,103.7477
+8126,Boon Lay Way,Bef Yuhua CC,1.340164,103.7363,Jurong Town Hall Rd,Blk 228,1.34239,103.736
+8135,Jln Damai,Opp Blk 668,1.333319,103.9095,Zion Rd,Blk 94,1.288371,103.8335
+8156,Lor 1 Toa Payoh,Blk 128,1.338108,103.8439,Lor 6 Toa Payoh,Blk 1,1.33976,103.853
+8168,West Coast Rd,Opp Kent Ridge Sec Sch,1.301532,103.7661,Pasir Panjang Rd,Opp Haw Par Villa Stn,1.282778,103.7819
+8187,Jln Bt Merah,Opp Pacific Tech Ctr,1.28598,103.8112,Telok Blangah Rd,HarbourFront Stn,1.266079,103.8198
+8187,Jln Bt Merah,Opp Pacific Tech Ctr,1.28598,103.8112,Nth Bridge Rd,St. Andrew's Cath,1.2925,103.8515
+8191,Yio Chu Kang Link,Opp Serangoon Swim Cplx,1.357446,103.8738,Ang Mo Kio Ave 8,Opp Blk 710,1.371373,103.8487
+8205,Airport Rd,Bef RSAF Roundabout,1.351979,103.8995,S'goon Rd,Boon Keng Stn,1.320088,103.8618
+8211,Paya Lebar Rd,Paya Lebar Stn,1.318602,103.8921,Guillemard Rd,Opp Kong Hwa Sch,1.311679,103.8874
+8219,Dunearn Rd,Aft Swiss Club Rd,1.333252,103.7921,Marina Blvd,Marina Bay Financial Ctr,1.280372,103.855
+8227,Bedok Reservoir Rd,Blk 716,1.338157,103.9254,Tg Kling Rd,Aft Shipyard Rd,1.310079,103.6972
+8241,Pasir Ris Dr 1,Blk 115,1.369085,103.9551,Pasir Ris Dr 1,Bef Pasir Ris Ctrl,1.371591,103.9483
+8249,Pasir Ris Dr 6,Blk 446,1.370312,103.9572,Pasir Ris Dr 1,Blk 197,1.366253,103.9612
+8258,Tampines Ave 5,Opp Tampines Stadium,1.352962,103.9417,Tampines St 83,Opp Blk 853,1.353276,103.9344
+8259,S'goon Nth Ave 5,Blk 538,1.375122,103.8732,S'goon Nth Ave 6,Yio Chu Kang Amenity Ctr,1.37665,103.8717
+8259,S'goon Nth Ave 1,Blk 112,1.369273,103.8719,Sengkang East Way,Sengkang Stn,1.392339,103.8961
+8262,New Upp Changi Rd,Blk 32,1.323383,103.9251,Bedok Nth Dr,Bedok Int,1.325005,103.9282
+8275,Middle Rd,Opp Prime Ctr,1.300634,103.8511,Alexandra Rd,Aft SM Motors Ctr,1.292159,103.8107
+8275,Alexandra Rd,Opp SM Motors Ctr,1.292335,103.8115,Middle Rd,Opp Prime Ctr,1.300634,103.8511
+8276,Yishun Ave 2,Yishun Sapphire,1.440037,103.8317,Yishun Ave 2,Yishun Stn,1.429266,103.8352
+8289,Somerset Rd,Somerset Stn,1.300276,103.8388,Henderson Rd,Blk 1,1.279478,103.8173
+8306,Queensway,Opp Queenstown Polyclinic,1.298722,103.8003,East Coast Rd,The Holy Family Ch,1.306864,103.9065
+8308,Marymount Rd,Blk 254,1.362135,103.8425,Dover Ave,S'pore Poly,1.307393,103.7821
+8309,Upp Cross St,Opp Subordinate Ct,1.286077,103.8424,Bt Batok Rd,Bt Batok Fire Stn,1.374014,103.7526
+8309,Upp Cross St,Opp Subordinate Ct,1.286077,103.8424,Eu Tong Sen St,Bef Outram Rd,1.279008,103.8386
+8310,New Upp Changi Rd,Blk 221A,1.324691,103.9347,Tampines Ctrl 1,Tampines Int,1.354076,103.9434
+8323,Tampines St 34,East Spring Sec Sch,1.356303,103.9598,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401
+8324,C'wealth Ave West,Clementi Stn,1.314975,103.765,Toh Guan Rd East,Mori Seiki,1.336655,103.7495
+8325,Bedok Nth Ave 3,Blk 220 CP,1.325663,103.9353,Airport Blvd,Near SATS Flight Kitchen,1.342037,103.9824
+8331,New Bridge Rd,Opp Pearl's Ctr,1.281184,103.841,Clementi Rd,NUS Fac Of Engrg,1.300603,103.7702
+8337,Paya Lebar Rd,Citipoint Ind Cplx,1.328246,103.8901,Nth Buona Vista Rd,Buona Vista Stn,1.306498,103.7906
+8341,Ang Mo Kio Ave 3,Blk 5022,1.370195,103.8628,Paya Lebar Rd,Opp Orion @ Paya Lebar,1.328843,103.8896
+8341,Paya Lebar Rd,Opp Orion @ Paya Lebar,1.328843,103.8896,Ang Mo Kio Ave 3,Blk 516,1.37094,103.8733
+8342,Hougang Ctrl,Opp Hougang Ctrl Int,1.3714,103.8917,Tampines Ctrl 1,Tampines Int,1.354076,103.9434
+8344,Bt Batok West Ave 3,Princess E Pr Sch,1.349724,103.7412,Bt Timah Rd,Opp Natl JC,1.328988,103.8027
+8345,Bendemeer Rd,Opp Blk 28,1.318897,103.8642,Hill St,Old Hill St Police Stn,1.290845,103.8486
+8345,Jln Toa Payoh,Aft Blk 195,1.330814,103.8608,Hill St,Old Hill St Police Stn,1.290845,103.8486
+8353,Upp Bt Timah Rd,Opp Hume Pk Condo,1.3557,103.7689,Holland Rd,Holland Village,1.312232,103.7944
+8358,C'wealth Ave,Queenstown Stn,1.294693,103.8059,Boon Lay Ave,Blk 176,1.347203,103.7103
+8366,Ang Mo Kio Ave 4,Blk 258,1.370533,103.8365,PTB2 Basement,Changi Airport PTB2,1.355093,103.9892
+8368,Pasir Panjang Rd,Opp PSA Wharves G3,1.277066,103.7902,Raffles Quay,One Raffles Quay,1.280976,103.8514
+8379,Circuit Rd,ITE MacPherson Campus 1,1.324611,103.8889,Sims Ave,Bef Lor 23 Geylang,1.314907,103.881
+8385,Jln Anak Bt,Opp Beauty World Ctr,1.343269,103.7769,Jln Jurong Kechil,Aft Upp Bt Timah Rd,1.340093,103.7753
+8389,Guillemard Rd,Kong Hwa Sch,1.311533,103.8878,Guillemard Rd,Versailles Condo,1.312008,103.8904
+8401,Bt Panjang Rd,Blk 223,1.375778,103.7742,Joo Chiat Rd,Parkway Hotel,1.304765,103.9059
+8402,Ang Mo Kio Ave 4,Blk 641,1.3789,103.84,Eu Tong Sen St,Aft Hosp Dr,1.27832,103.8376
+8411,Pasir Ris Dr 3,Opp Blk 233,1.375131,103.9621,PTB2 Basement,Changi Airport PTB2,1.355093,103.9892
+8420,Thomson Rd,Novena Lodge,1.323623,103.8416,Punggol Pl,Punggol Temp Int,1.403706,103.9022
+8422,Bt Batok East Ave 3,Blk 229,1.348555,103.7546,Jurong Gateway Rd,Blk 131,1.334739,103.7403
+8429,Upp Thomson Rd,Bef Thomson Ridge,1.353078,103.8344,Sin Ming Ave,Blk 454,1.359298,103.8303
+8434,Toa Payoh East,Blk 30,1.333903,103.8547,Tg Katong Rd,Opp Tg Katong Girls' Sch,1.307253,103.8954
+8436,Tiong Bahru Rd,Blk 78,1.2886,103.819,Tiong Bahru Rd,Delta Swim Cplx,1.288757,103.8194
+8443,Tampines Ave 7,Opp Tampines JC,1.356467,103.9575,Tampines St 32,Ngee Ann Sec Sch,1.35385,103.9574
+8447,Yio Chu Kang Rd,Opp Seletar Hills Est,1.387394,103.873,Sengkang West Ave,After Jalan Kayu,1.391067,103.8706
+8462,Lor Chuan,St. Gabriel's Pr Sch,1.350172,103.8614,Bt Panjang Ring Rd,Blk 602,1.381781,103.7629
+8462,Bt Panjang Ring Rd,Blk 602,1.381781,103.7629,Lor Chuan,St. Gabriel's Pr Sch,1.350172,103.8614
+8463,Pasir Ris Dr 1,Blk 156,1.364328,103.9631,Woodlands Sq,Woodlands Reg Int,1.436621,103.7859
+8473,Depot Rd,Blk 109B,1.281673,103.8092,Tanglin Rd,Crescent Girls' Sch,1.293647,103.816
+8479,Marine Parade Rd,Tao Nan Sch,1.305663,103.911,Marine Parade Rd,CHIJ Katong Convent (Pr),1.305853,103.9106
+8489,Dover Rd,Opp Fairfield Meth Pr Sch,1.300046,103.7847,C'wealth Ave West,Dover Stn,1.311683,103.7787
+8492,Pasir Ris Dr 1,Blk 210,1.366776,103.9611,Simei Ave,Opp Changi General Hosp,1.339417,103.9485
+8498,S'goon Ave 3,Melrose,1.349266,103.8659,Lor Chuan,New Tech Pk,1.350967,103.8618
+8509,Depot Rd,Aft Hewlett Packard,1.281761,103.8096,Bt Merah Ctrl,Bt Merah Int,1.282102,103.8172
+8515,AYE,Blk 426,1.311637,103.7635,Telok Blangah Rd,VivoCity,1.265514,103.8221
+8521,Yishun Ave 3,Blk 773,1.422974,103.8328,Selegie Rd,Peace Ctr,1.300999,103.8498
+8528,Corporation Dr,Blk 117,1.334684,103.7227,Pasir Panjang Rd,Opp Heng Mui Keng Terr,1.290463,103.7736
+8533,Lor Ah Soo,Opp Blk 115,1.35225,103.8879,Hougang Ave 3,Blk 172,1.350814,103.8898
+8533,Hougang Ave 3,Opp Blk 169,1.351107,103.8903,Lor Ah Soo,Opp Blk 115,1.35225,103.8879
+8538,Telok Blangah Way,Al-Amin Mque,1.275682,103.8191,Hougang Ave 6,Punggol CC,1.374685,103.8927
+8553,Kim Keat Rd,Opp Jumbo Ind Bldg,1.324561,103.8533,Selegie Rd,Selegie Ctr,1.303245,103.85
+8567,Punggol Rd,Blk 102C,1.398936,103.9047,Tampines Ave 2,Blk 302,1.352966,103.9551
+8577,Geylang Bahru,Blk 73,1.322124,103.8708,Bendemeer Rd,Blk 54,1.324095,103.8676
+8580,Guillemard Rd,Versailles Condo,1.312008,103.8904,Robinson Rd,Opp AIA Twr,1.282075,103.8509
+8586,Kaki Bt Ave 1,Blk 151,1.336013,103.9121,Thomson Rd,Opp Novena Ch,1.321273,103.8418
+8592,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496,Sengkang Sq,Sengkang Int,1.391781,103.8959
+8604,Upp Paya Lebar Rd,Blk 161,1.351701,103.8786,Thomson Rd,Thomson Med Ctr,1.325613,103.8419
+8614,Sth Buona Vista Rd,Opp Kent Ridge Stn,1.29241,103.7846,Science Pk Dr,Bef Reuters,1.290103,103.7892
+8621,Canberra Rd,Blk 311,1.446673,103.8228,Bt Batok Rd,Opp Bt Batok Fire Stn,1.373923,103.7522
+8628,Boon Lay Way,Blk 112,1.339508,103.7366,Jln Toa Payoh,Opp Blk 195,1.329917,103.8603
+8635,Pasir Panjang Rd,Westvale,1.289138,103.7774,Tiong Bahru Rd,Opp Tiong Bahru Plaza,1.285931,103.8267
+8636,Pasir Ris Dr 1,Blk 115,1.369085,103.9551,Pasir Ris Dr 1,Bef Pasir Ris Ctrl,1.371591,103.9483
+8662,Lor 5 Toa Payoh,Blk 68,1.334446,103.8536,Lor 5 Toa Payoh,Blk 59,1.33697,103.8522
+8665,Punggol Dr,Opp Blk 612A,1.404944,103.9091,Ang Mo Kio Ave 9,AMK Police Div HQ,1.384252,103.8445
+8671,Loyang Ave,Opp Blk 149A,1.362261,103.9634,West Coast Highway,Opp Wholesale Ctr,1.286435,103.7789
+8672,Bendemeer Rd,Blk 44,1.322049,103.8663,New Upp Changi Rd,Opp Blk 32,1.322953,103.9252
+8691,Upp S'goon Rd,Serangoon Stn,1.349046,103.8734,S'goon Ctrl,Serangoon Stn,1.350498,103.8732
+8703,Marine Terr,Blk 19,1.304964,103.9149,Marine Parade Rd,Opp Parkway Parade,1.302692,103.905
+8704,Jurong Town Hall Rd,Blk 253,1.344383,103.7367,Jurong West Ave 3,Blk 276B,1.353072,103.7049
+8713,Tg Katong Rd,Opp Tg Katong Girls' Sch,1.307253,103.8954,Robinson Rd,Opp AIA Twr,1.282075,103.8509
+8717,Bedok Reservoir Rd,The Clearwater Condo,1.338118,103.934,Eunos Link,Opp Eunos Technolink,1.332915,103.901
+8724,Mountbatten Rd,Katong Shop Ctr,1.303702,103.9013,Upp Changi Rd East,Expo Halls 4/5/6,1.335608,103.9584
+8731,Yuan Ching Rd,Opp Japanese Gdn,1.333636,103.7249,Boon Lay Way,Opp Lakeside Stn,1.34432,103.7193
+8736,S'goon Ave 2,Serangoon Int,1.350466,103.8717,Nicoll Highway,Opp Suntec City,1.295949,103.8576
+8737,Toh Tuck Link,Aft Old Toh Tuck Rd,1.331498,103.7577,West Coast Highway,Blk 705,1.305051,103.7606
+8743,Yishun Ave 2,Northpoint Shop Ctr,1.429458,103.8355,Boon Lay Way,Aft Boon Lay Sub Stn,1.328075,103.7514
+8746,New Upp Changi Rd,Bedok Sports Cplx,1.325319,103.9396,Upp Changi Rd East,Opp Tropicana Condo,1.340415,103.9613
+8748,Admiralty Dr,Bet Blks 357/359,1.450206,103.8161,Yishun Ave 5,Blk 741,1.430344,103.8328
+8749,Thomson Rd,Novena Stn,1.319627,103.8434,Owen Rd,Blk 51,1.316655,103.8504
+8751,Tuas Ave 9,Toshiba Chemical S'pore,1.327585,103.6453,Choa Chu Kang Nth 6,Yew Mei Green Condo,1.394588,103.7519
+8755,Jln Besar,Opp Veerasamy Rd,1.30653,103.8562,Sims Ave East,Kembangan Stn,1.320969,103.9133
+8791,Bt Timah Rd,Little India Stn,1.306644,103.8492,Pasir Ris Dr 3,Pasir Ris Int,1.373708,103.9496
+8803,Loyang Ave,Loyang Ind Est,1.371186,103.9718,Loyang Ave,Loyang Valley,1.369551,103.9706
+8810,Hougang Ctrl,Hougang Ctrl Int,1.370607,103.8927,Ang Mo Kio Ave 3,Ang Mo Kio Stn,1.369469,103.8508
+8815,Yishun Ring Rd,Blk 846,1.417426,103.835,Yishun Ave 2,Opp Blk 757,1.426573,103.8354
+8827,Choa Chu Kang Loop,Choa Chu Kang Int,1.385511,103.7441,Woodlands Sq,Woodlands Reg Int,1.436621,103.7859
+8829,Tampines Ave 1,Temasek Poly,1.346753,103.9326,Tampines Ave 2,Blk 302,1.352966,103.9551
+8836,Woodlands Ave 8,Opp Pacific Vinitex,1.452489,103.8018,Ang Mo Kio Ave 8,Yio Chu Kang Int,1.381132,103.8456
+8847,Jln Bt Merah,Blk 111,1.280453,103.8264,Tiong Bahru Rd,Opp Tiong Bahru Plaza,1.285931,103.8267
+8865,Bishan Rd,Opp Raffles Inst,1.347072,103.8471,Stamford Rd,Capitol Bldg,1.293956,103.8513
+8869,Stamford Rd,Capitol Bldg,1.293956,103.8513,Dover Rd,United World College,1.303703,103.7818
+8873,Zion Rd,Opp Great World City,1.294092,103.8308,C'wealth Ave West,Clementi Stn,1.314975,103.765
+8939,Upp Thomson Rd,Bef Thomson Ridge,1.353078,103.8344,Marymount Rd,Marymount Stn,1.350167,103.8395
+8942,Ang Mo Kio Ave 3,Ang Mo Kio Pr Sch,1.369606,103.8399,Scotts Rd,Far East Plaza,1.30732,103.8332
+8944,Upp Changi Rd East,Mera Terr P/G,1.34665,103.9631,Anson Rd,Intl Plaza,1.275703,103.8463
+8945,Jurong West St 62,Blk 668D,1.340891,103.7025,Jurong West St 62,Blk 668D,1.340891,103.7025
+8959,Tiong Bahru Rd,Bef Al-Rabitah Mque,1.288488,103.8209,Alexandra Rd,Opp Gan Eng Seng Sec Sch,1.290881,103.8241
+8972,Senja Rd,Opp West Spring Sec Sch,1.387075,103.76,Sungei Rd,The Verge,1.304613,103.852
+8979,Jln Bt Merah,Blk 111,1.280453,103.8264,Jln Bt Merah,Bt Merah Town Ctr,1.283941,103.8178
+8982,Telok Blangah Rd,Opp Chr CC Chapel,1.269648,103.8129,Bedok Reservoir Rd,Blk 121,1.33151,103.9098
+8985,Upp Aljunied Rd,Opp Blk 4,1.333408,103.8784,MacPherson Rd,Aft Jln Belangkas,1.332182,103.8833
+8999,Braddell Rd,PUB Recreation Club,1.343261,103.8674,Lor 1 Toa Payoh,Braddell Stn,1.34069,103.848
+9000,Geylang Bahru,Blk 82,1.31956,103.8723,Tiong Bahru Rd,Tiong Bahru Plaza,1.286,103.8275
+9001,Lor 1 Toa Payoh,Blk 111,1.340938,103.8454,Toa Payoh Rise,Caldecott Stn,1.337357,103.8394
+9012,Thomson Rd,Novena Stn,1.319627,103.8434,Eu Tong Sen St,People's Pk Ctr,1.285711,103.8444
+9017,Tampines Ctrl 1,Tampines Int,1.354076,103.9434,Tampines Ave 7,Blk 233,1.356603,103.9477
+9039,Yuan Ching Rd,Opp Blk 134D,1.341342,103.7221,Yuan Ching Rd,Yuan Ching Sec Sch,1.341766,103.7214
+9040,Woodlands Ave 6,Opp Woodlands Mart,1.446497,103.7981,Woodlands Ave 9,Opp Blk 773,1.447969,103.7976
+9041,Bedok Sth Rd,Blk 40,1.320681,103.94,New Upp Changi Rd,Blk 32,1.323383,103.9251
+9043,Tampines St 33,Blk 323,1.35208,103.9587,Tampines Ave 2,Blk 302,1.352966,103.9551
+9069,Yio Chu Kang Rd,Opp Gracehaven S Army,1.372113,103.8765,Hougang Ave 9,Blk 946A,1.374888,103.8807
+9079,Pioneer Rd Nth,Blk 840,1.344043,103.6919,Jurong West Ave 5,Blk 834,1.342854,103.6941
+9098,Tampines Ave 2,Blk 302,1.352966,103.9551,Tampines Ave 1,Opp SAFRA Tampines,1.345034,103.9401

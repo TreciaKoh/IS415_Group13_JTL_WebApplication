@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>IS415_GeoProject_TeamJTL_LongShortDistance</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script src="js/maketable.js"></script>
+    <script src="data/gene_data.js"></script>
+
+    <style>
+        #map {
+            margin: 20px;
+            width: 922px;
+            height: 557px;
+        }
+        
+        path {
+            fill: none;
+            stroke: orange;
+            stroke-width=36px;
+            stroke-linecap: round;
+            cursor: pointer;
+        }
+        
+        path:hover {
+            stroke-opacity: 0.8;
+            stroke: #315B7E;
+            stroke-width=96;
+        }
+        
+        .curvesettings {
+            position: absolute;
+            right: 10px;
+            top: 6px;
+        }
+        
+        img.resize {
+            max-width: 70px;
+            max-height: 70px;
+            float: left;
+        }
+        
+        #container {
+            width: 90%;
+            height: 557px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <img class="resize" src='css/images/JTLLogo.png'>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+                    <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+                    <li><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+                    <li class="active"><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+                    <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+            <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+            <li><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+            <li class="active"><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+            <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+        </ul>
+    </div>
+
+    <div id='map'></div>
+    <div id='container'></div>
+    <div id='controls'></div>
+
+
+    <script>
+        var map = new L.map('map', {
+            center: new L.LatLng(1.35049497584, 103.842483365),
+            zoom: 12,
+            layers: [
+                    new L.tileLayer('http://{s}tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+                    subdomains: ['', 'a.', 'b.', 'c.', 'd.'],
+                    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
+                })
+                ]
+        });
+
+        var marker = "";
+        var start = "";
+        var end = "";
+
+        var origin = "";
+        var dest = "";
+
+        // Start and end points, in x = longitude, y = latitude values
+        d3.csv("data/commuterOriginToDestination.csv", function (links) {
+            for (i = 0; i < links.length; i++) {
+
+                start = {
+                    x: links[i].start_x,
+                    y: links[i].start_y
+                };
+                end = {
+                    x: links[i].end_x,
+                    y: links[i].end_y
+                };
+                var generator = new arc.GreatCircle(start, end, {
+                    name: 'Origin-To-Destination'
+                });
+                var line = generator.Arc(200, {
+                    offset: 0
+                });
+                L.geoJson(line.json()).addTo(map);
+            }
+        });
+
+
+        //var start = { x: array_startX, y: array_startY};
+        //var end = { x: array_endX, y: array_endY };
+        //var generator = new arc.GreatCircle(start, end, { name: 'Testing' });
+        //var line = generator.Arc(200, { offset: 10 });
+        //L.geoJson(line.json()).addTo(map);
+    </script>
+
+
+
+    <script>
+        var table_plot = makeTable()
+            .datum(gene_data)
+            .sortBy('UserID', true)
+            .filterCols(['col', 'x', 'y']);
+
+        d3.select('#container').call(table_plot);
+
+        table_plot.on('highlight', function (data, on_off) {
+            if (on_off) { //if the data is highlighted
+                d3.select('#highlighted').text(
+                    'Oops, I just stepped over gene ' + data.symb
+                );
+            }
+        });
+        table_plot.on('select', function (data, on_off) {
+            if (on_off) { //if the data is highlighted
+                d3.select('#selected').text(
+                    'And it was the chosen one ' + data.UserID
+                );
+            }
+        });
+    </script>
+</body>
+
+</html>

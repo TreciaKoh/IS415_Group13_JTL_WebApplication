@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>IS415_GeoProject_TeamJTL_LongShortDistance</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script src="js/maketable.js"></script>
+    <script src="data/gene_data.js"></script>
+
+    <style>
+        #map {
+            margin: 20px;
+            width: 922px;
+            height: 557px;
+        }
+        
+        img.resize {
+            max-width: 70px;
+            max-height: 70px;
+            float: left;
+        }
+        
+        #container {
+            margin: 20px;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <img class="resize" src='css/images/JTLLogo.png'>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+                    <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+                    <li><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+                    <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+                    <li class="active"><a href="results.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+            <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+            <li><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+            <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+            <li class="active"><a href="results.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+        </ul>
+    </div>
+
+    <div id='container'>
+        <b>Summary Statistics</b>
+        <table border=1 margin=5>
+            <tr>
+                <td height=2 padding: 15px;>
+                    <b>Wednesday</b>
+                </td>
+                <td height=2>
+                    <b>Thursday</b>
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    <img src="image/WedSS.png">
+                </td>
+                <td height=2>
+                    <img src="image/ThurSS.png">
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    Looking at Wednesday, it showed that our dataset consists of 823 rows of data with 418 unique users and each user has an average ride of 1.97.
+                </td>
+                <td height=2>
+                    Looking at Thursday, it showed that our dataset consists of 1362 rows of data with 687 unique users and each user has an average ride of 1.98. </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id='container'>
+        <b>Moran’s I Results</b>
+        <table border=1 margin=5>
+            <tr>
+                <td height=2 padding: 15px;>
+                    <b>Wednesday</b>
+                </td>
+                <td height=2>
+                    <b>Thursday</b>
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    <img src="image/WedMIR.png">
+                </td>
+                <td height=2>
+                    <img src="image/ThurMIR.png">
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    Firstly, we want to test if the null hypothesis states that values are randomly distributed across the whole study area. From the result it showed that p-value is lesser than 0.05 and Z-score fall between -2.5 or + 54, thus the null hypothesis can be rejected. From the Moran I statistics, as result is greater than 0, shows signs of clustering and observations tend to be similar.
+                </td>
+                <td height=2>
+                    From the result it shows that p-value is lesser than 0.05 and Z-score fall between -2.5 or + 54, thus the null hypothesis can be rejected. From the Moran I statistics, since result is greater than 0, it shows signs of clustering and observations tend to be similar. </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id='container'>
+        <b>Moran Scatterplot</b>
+        <table border=1 margin=5>
+            <tr>
+                <td height=2 padding: 15px;>
+                    <b>Wednesday</b>
+                </td>
+                <td height=2>
+                    <b>Thursday</b>
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    <img src="image/WedSP.png">
+                </td>
+                <td height=2>
+                    <img src="image/ThursSP.png">
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    Moran scatterplot allows us to perform linear association between values at i and weight average of its neighbors. Through the use of scatterplot, it allows us to determine linear spatial autocorrelation by looking out for outliers, high leverage points or sensitivity to boundary values. There are 4 quadrants in the graph to provide a classification of 4 different types of spatial autocorrelation: high-high (upper-right), high-low (lower-right), low-low (lower-left) and low-high (upper-left). There are also positive (high-high, low-low) and negative (high-low, low-high) autocorrelation. From the scatterplot result, it can be seen that Bukit Merah is located at the quadrant of high-low and Bedok, Hougang and Tampines is located at the quadrant of high-high.
+                </td>
+                <td height=2>
+                    From the scatterplot result, it can be seen that Bukit Merah is located at the quadrant of high-low and Bedok, Hougang, Pasir Ris and Tampines is located at the quadrant of high-high.
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id='container'>
+        <b>Local Moran’s I Map</b>
+        <table border=1 margin=5>
+            <tr>
+                <td height=2 padding: 15px;>
+                    <b>Wednesday</b>
+                </td>
+                <td height=2>
+                    <b>Thursday</b>
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    <img src="image/WedMM.png">
+                </td>
+                <td height=2>
+                    <img src="image/ThursMM.png">
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    From the above picture, the map shows signs of significance however it does not exactly specify which area is significant. The left map showed that areas with purple colored showed dispersion and those with dark green shows concentration. Looking at the map on the right, it shows the p-value on different areas on the map. Darker shades of red indicate that p-value is 0.01 showing substantial evidence against the null hypothesis. These areas are Bedok, Geylang, Tampines and Hougang.
+
+                </td>
+                <td height=2>
+                    The darker shades of red indicate that p-value is 0.01 showing substantial evidence against the null hypothesis. These areas are Bedok, Geylang, Tampines and Hougang.
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id='container'>
+        <b>LISA Cluster Map</b>
+        <table border=1 margin=5>
+            <tr>
+                <td height=2 padding: 15px;>
+                    <b>Wednesday</b>
+                </td>
+                <td height=2>
+                    <b>Thursday</b>
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    <img src="image/WedLisa.png">
+                </td>
+                <td height=2>
+                    <img src="image/ThursLisa.png">
+                </td>
+
+            </tr>
+            <tr>
+                <td height=2>
+                    By using the LISA map, we are able to identify clusters and spatial outliers of the areas. From the map, it shows information of areas that are significant with different categories and only those with Local Moran statistics of p-value below 0.05 are colored in the different shades of blue and red. Spatial clusters of hot spots (High-High) are in red and this indicates positive association that arises from own and neighboring high values of attribute variable. While cool spots (Low-Low) are in blue and it indicates that there is positive spatial autocorrelation that emerge from own and neighboring low values of attribute variable. From the above, it can be seen that the hot spots that are within the clusters are mostly found in the east and north-east regions. East region consists of areas like Bedok, Geylang and Tampines. North-east region consists of areas like Ang Mo Kio, Hougang, and Toa Payoh. Lastly there is a hot spot that is not within the clusters but is in a central region, Queenstown. To further understand the user profile and travel patterns of users, we drilled down the travel profiles based on the destination and three periods of the day set about in the data preparation phase.
+                </td>
+                <td height=2>
+                    From the above, it can be seen that the hot spots that are within the clusters are mostly found in the east and north-east regionsl. East region consists of areas like Bedok, Geylang, Marine Parade, Tampines, Pasir Ris and Peya Lebar. North-east region consists of areas like Ang Mo Kio, Bishan, Hougang, Sengkang and Toa Payoh. Lastly, there is a hot spot that is not within the clusters in the central and west region; namely Queenstown and Clementi.
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

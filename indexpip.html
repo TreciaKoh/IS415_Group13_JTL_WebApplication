@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/qgis2web.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/label.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Libraries -->
+    <script src="js/Autolinker.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/label.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Search CSS/Libraries -->
+    <link rel="stylesheet" href="css/leaflet-geocoder-mapzen.css">
+    <script src="js/leaflet-geocoder-mapzen.js"></script>
+
+    <!-- Map Style -->
+    <style>
+        #map {
+            width: 897px;
+            height: 557px;
+        }
+        
+        #space {
+            margin: 20px;
+        }
+        
+        img.resize {
+            max-width: 70px;
+            max-height: 70px;
+            float: left;
+        }
+        
+        .leaflet-pelias-control.leaflet-pelias-expanded .leaflet-pelias-search-icon:not(.leaflet-pelias-loading) {
+            background-image: url('searchPic/search_blue.png');
+        }
+    </style>
+    <title>IS415_GeoProject_TeamJTL_PointInPolygon</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <img class="resize" src='css/images/JTLLogo.png'>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+                    <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+                    <li class="active"><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+                    <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+                    <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+            <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+            <li class="active"><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+            <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+            <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+        </ul>
+    </div>
+
+    <!--<div id="map">
+        </div>-->
+    <div id="space">
+        <table border=1>
+            <tr>
+                <td rowspan=4 id="map"></td>
+            </tr>
+            <tr>
+                <td height=2 id="baseLayer">
+                    <p> Map Base Layer: </p>
+            </tr>
+            <tr>
+                <td id="day">
+                    <p> Day of Week: </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Calling of dataset -->
+    <script src="data/json_thurspip0.js"></script>
+    <script src="data/json_wedpip1.js"></script>
+
+    <script>
+        var highlightLayer;
+
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+
+            if (e.target.feature.geometry.type === 'LineString') {
+                highlightLayer.setStyle({
+                    color: '#ffff00',
+                });
+            } else {
+                highlightLayer.setStyle({
+                    fillColor: '#ffff00',
+                    fillOpacity: 1
+                });
+            }
+            highlightLayer.openPopup();
+        }
+        L.ImageOverlay.include({
+            getBounds: function () {
+                return this._bounds;
+            }
+        });
+
+        // Initialize the map
+        var map = L.map('map', {
+            zoomControl: true,
+            maxZoom: 28,
+            minZoom: 1
+        }).fitBounds([[1.19276017575, 103.527836685], [1.52044374783, 104.058140853]]);
+
+        L.control.scale({
+            options: {
+                position: 'bottomleft',
+                maxWidth: 100,
+                metric: true,
+                imperial: false,
+                updateWhenIdle: false
+            }
+        }).addTo(map);
+
+        var hash = new L.Hash(map);
+        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        var feature_group = new L.featureGroup([]);
+        var bounds_group = new L.featureGroup([]);
+        var raster_group = new L.LayerGroup([]);
+
+        var basemap0 = L.tileLayer('http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>,&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            maxZoom: 28
+        });
+        basemap0.addTo(map);
+
+        var layerOrder = new Array();
+        /*function stackLayers() {
+            for (index = 0; index < layerOrder.length; index++) {
+                map.removeLayer(layerOrder[index]);
+                map.addLayer(layerOrder[index]);
+            }
+        }
+        function restackLayers() {
+            for (index = 0; index < layerOrder.length; index++) {
+                layerOrder[index].bringToFront();
+            }
+        }*/
+        layerControl = L.control.layers({}, {}, {
+            collapsed: false
+        });
+
+        //---------------------------------------------------------------------------------Data on Map---------------------------------------------------------------------------------
+
+        //Wednesday
+        function pop_wedpip1(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylewedpip1(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Subzone Name:</th><td>' + (feature.properties['SUBZONE_N'] !== null ? Autolinker.link(String(feature.properties['SUBZONE_N'])) : '') + '</td></tr><tr><th scope="row">Planning Area:</th><td>' + (feature.properties['PLN_AREA_N'] !== null ? Autolinker.link(String(feature.properties['PLN_AREA_N'])) : '') + '</td></tr><tr><th scope="row">Region:</th><td>' + (feature.properties['REGION_N'] !== null ? Autolinker.link(String(feature.properties['REGION_N'])) : '') + '</td></tr><tr><th scope="row">Count:</th><td>' + (feature.properties['PNTCNT'] !== null ? Autolinker.link(String(feature.properties['PNTCNT'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylewedpip1(feature) {
+            if (feature.properties.PNTCNT >= 0.0 &&
+                feature.properties.PNTCNT <= 13.3333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '0.3',
+                    fillOpacity: '0.3',
+                }
+            }
+            if (feature.properties.PNTCNT >= 13.3333333333 &&
+                feature.properties.PNTCNT <= 26.6666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '0.3',
+                    fillOpacity: '0.3',
+                }
+            }
+            if (feature.properties.PNTCNT >= 26.6666666667 &&
+                feature.properties.PNTCNT <= 40.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '0.3',
+                    fillOpacity: '0.3',
+                }
+            }
+        }
+        var json_wedpip1JSON = new L.geoJson(json_wedpip1, {
+            onEachFeature: pop_wedpip1,
+            style: doStylewedpip1
+        });
+        /*layerOrder[layerOrder.length] = json_thurspip0JSON;
+        bounds_group.addLayer(json_thurspip0JSON);
+        feature_group.addLayer(json_thurspip0JSON);*/
+
+        // Thursday	
+        function pop_thurspip0(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylethurspip0(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Subzone Name:</th><td>' + (feature.properties['SUBZONE_N'] !== null ? Autolinker.link(String(feature.properties['SUBZONE_N'])) : '') + '</td></tr><tr><th scope="row">Planning Area:</th><td>' + (feature.properties['PLN_AREA_N'] !== null ? Autolinker.link(String(feature.properties['PLN_AREA_N'])) : '') + '</td></tr><tr><th scope="row">Region:</th><td>' + (feature.properties['REGION_N'] !== null ? Autolinker.link(String(feature.properties['REGION_N'])) : '') + '</td></tr><tr><th scope="row">Count:</th><td>' + (feature.properties['PNTCNT'] !== null ? Autolinker.link(String(feature.properties['PNTCNT'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylethurspip0(feature) {
+            if (feature.properties.PNTCNT >= 0.0 &&
+                feature.properties.PNTCNT <= 18.3333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '0.3',
+                    fillOpacity: '0.3',
+                }
+            }
+            if (feature.properties.PNTCNT >= 18.3333333333 &&
+                feature.properties.PNTCNT <= 36.6666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '0.3',
+                    fillOpacity: '0.3',
+                }
+            }
+            if (feature.properties.PNTCNT >= 36.6666666667 &&
+                feature.properties.PNTCNT <= 55.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '0.3',
+                    fillOpacity: '0.3',
+                }
+            }
+        }
+        var json_thurspip0JSON = new L.geoJson(json_thurspip0, {
+            onEachFeature: pop_thurspip0,
+            style: doStylethurspip0
+        });
+        /*layerOrder[layerOrder.length] = json_wedpip1JSON;
+        bounds_group.addLayer(json_wedpip1JSON);
+        feature_group.addLayer(json_wedpip1JSON);
+        raster_group.addTo(map);
+        feature_group.addTo(map);*/
+
+        //-------------------------------------------------------------------------BottomRight of Map (Legend)-------------------------------------------------------------------------
+        var currentLegend;
+
+        //Wednesday
+        var wedLegend = L.control({
+            position: 'bottomright'
+        });
+        wedLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/wedpip1_013.png" />  0 - 12 <br />' +
+                '<img src="legend/wedpip1_1327.png" />  13 - 26 <br />' +
+                '<img src="legend/wedpip1_2740.png" />   27 - 40 <br />';
+            return div;
+        };
+        currentLegend = wedLegend;
+        //wedLegend.addTo(map);	
+
+        //Thursday
+        var thursLegend = L.control({
+            position: 'bottomright'
+        });
+        thursLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/thurspip0_018.png" /> 0 - 17 <br />' +
+                '<img src="legend/thurspip0_1837.png" /> 18 - 36 <br />' +
+                '<img src="legend/thurspip0_3755.png" /> 37 - 55 <br />';
+            return div;
+        };
+        currentLegend = thursLegend;
+        //thursLegend.addTo(map);	
+
+        //-------------------------------------------------------------------------UpperRight of Map (Menus)-------------------------------------------------------------------------
+        // Search Bar
+        var geocoder = L.control.geocoder('search-MKZrG6M').addTo(map);
+
+        // Maps/Layers Menu
+        var baseMaps = {
+            'Thunderforest Transport': basemap0
+        };
+        //L.control.layers(baseMaps,{'wed_pip<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/wedpip1_013.png" />  0 - 13 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/wedpip1_1327.png" />  13 - 27 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/wedpip1_2740.png" />  27 - 40 <br />': json_wedpip1JSON,'thurs_pip<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/thurspip0_018.png" />  0 - 18 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/thurspip0_1837.png" />  18 - 37 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/thurspip0_3755.png" />  37 - 55 <br />': json_thurspip0JSON,},{collapsed:false}).addTo(map);
+
+        var mapBase = L.control.layers(baseMaps, {}, {
+            collapsed: false
+        });
+        mapBase._map = map;
+        var mapBaseControl = mapBase.onAdd(map);
+        document.getElementById('baseLayer').appendChild(mapBaseControl);
+
+        var sourceLayer = L.control.layers({}, {
+            'Wednesday': json_wedpip1JSON,
+            'Thursday': json_thurspip0JSON,
+        }, {
+            collapsed: false
+        });
+        sourceLayer._map = map;
+        var sourceControl = sourceLayer.onAdd(map);
+        document.getElementById('day').appendChild(sourceControl);
+
+
+        //Toggle on legend that belongs to map
+        map.on('overlayadd', function (eventLayer) {
+            if (eventLayer.name === 'Wednesday') {
+                this.addControl(wedLegend);
+            } else if (eventLayer.name === 'Thursday') {
+                this.addControl(thursLegend);
+            }
+        });
+
+        //Toggle off legend that belongs to map
+        map.on('overlayremove', function (eventLayer) {
+            if (eventLayer.name === 'Wednesday') {
+                this.removeControl(wedLegend);
+            } else if (eventLayer.name === 'Thursday') {
+                this.removeControl(thursLegend);
+            }
+        });
+
+        stackLayers();
+        map.on('overlayadd', restackLayers);
+    </script>
+</body>
+
+</html>

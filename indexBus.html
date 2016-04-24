@@ -1,0 +1,1046 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/qgis2web.css">
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/label.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Libraries -->
+    <script src="js/Autolinker.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/leaflet-hash.js"></script>
+    <script src="js/label.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Search CSS/Libraries -->
+    <link rel="stylesheet" href="css/leaflet-geocoder-mapzen.css">
+    <script src="js/leaflet-geocoder-mapzen.js"></script>
+
+    <!-- Map Style -->
+    <style>
+        #map {
+            width: 936px;
+            height: 557px;
+        }
+        
+        #space {
+            margin: 20px;
+        }
+        
+        img.resize {
+            max-width: 70px;
+            max-height: 70px;
+            float: left;
+        }
+        
+        .leaflet-pelias-control.leaflet-pelias-expanded .leaflet-pelias-search-icon:not(.leaflet-pelias-loading) {
+            background-image: url('searchPic/search_blue.png');
+        }
+    </style>
+    <title>IS415_GeoProject_TeamJTL_Proportional Symbol Map</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <img class="resize" src='css/images/JTLLogo.png'>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+                    <li class="active"><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+                    <li><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+                    <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+                    <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+            <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+            <li class="active"><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+            <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+            <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+        </ul>
+    </div>
+
+
+    <!--<div id="map">
+        </div>-->
+    <div id="space">
+        <table border=1>
+            <tr>
+                <td rowspan=6 width=25 id="map"></td>
+            </tr>
+            <tr>
+                <td colspan=3 height=2 id="curDisplay">
+                    <p> Subzone Layers: </p>
+            </tr>
+            <tr>
+                <td colspan=3 height=2 id="baseLayer">
+                    <p> Map Base Layer: </p>
+            </tr>
+            <tr>
+                <td colspan=3 height=2 id="day">
+                    <p> Day of Week: </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=3 height=2>
+                    <p> Peak Period: </p>
+                </td>
+            </tr>
+            <tr>
+                <td height=2 id="wedPeak">
+                    <p> Wednesday </p>
+                </td>
+                <td height=2 id="thursPeak">
+                    <p> Thursday </p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <!--Calling of dataset -->
+    <script src="data/json_MP14SUBZONEWEBPLPlanningNameSVY210.js"></script>
+    <script src="data/json_PropSymWed1.js"></script>
+    <script src="data/json_PropSymWedEvening2.js"></script>
+    <script src="data/json_PropSymWedMrng3.js"></script>
+    <script src="data/json_PropSymWedNonPeak4.js"></script>
+    <script src="data/json_PropSymThurs5.js"></script>
+    <script src="data/json_PropSymThursMrng6.js"></script>
+    <script src="data/json_PropSymThursEvening7.js"></script>
+    <script src="data/json_PropSymThursNonPeak8.js"></script>
+
+    <script>
+        var highlightLayer;
+
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+
+            if (e.target.feature.geometry.type === 'LineString') {
+                highlightLayer.setStyle({
+                    color: '#ffff00',
+                });
+            } else {
+                highlightLayer.setStyle({
+                    fillColor: '#ffff00',
+                    fillOpacity: 1
+                });
+            }
+            highlightLayer.openPopup();
+        }
+        L.ImageOverlay.include({
+            getBounds: function () {
+                return this._bounds;
+            }
+        });
+
+        // Initialize the map
+        var map = L.map('map', {
+            zoomControl: true,
+            maxZoom: 28,
+            minZoom: 1
+        }).fitBounds([[1.18936983259, 103.571097369], [1.51704395551, 104.10140675]]);
+
+        L.control.scale({
+            options: {
+                position: 'bottomleft',
+                maxWidth: 100,
+                metric: true,
+                imperial: false,
+                updateWhenIdle: false
+            }
+        }).addTo(map);
+
+        var hash = new L.Hash(map);
+        map.attributionControl.addAttribution('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a>');
+        var feature_group = new L.featureGroup([]);
+        var bounds_group = new L.featureGroup([]);
+        var raster_group = new L.LayerGroup([]);
+
+        var basemap0 = L.tileLayer('http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>,&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            maxZoom: 28
+        });
+        basemap0.addTo(map);
+
+        var layerOrder = new Array();
+        /*function stackLayers() {
+            for (index = 0; index < layerOrder.length; index++) {
+                map.removeLayer(layerOrder[index]);
+                map.addLayer(layerOrder[index]);
+            }
+        }
+        function restackLayers() {
+            for (index = 0; index < layerOrder.length; index++) {
+                layerOrder[index].bringToFront();
+            }
+        }*/
+        layerControl = L.control.layers({}, {}, {
+            collapsed: false
+        });
+        //---------------------------------------------------------------------------------Data on Map---------------------------------------------------------------------------------
+        // MP14SUBZONEWEBPLPlanningName    
+        function pop_MP14SUBZONEWEBPLPlanningNameSVY210(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStyleMP14SUBZONEWEBPLPlanningNameSVY210(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Subzone Name: </th><td>' + (feature.properties['SUBZONE_N'] !== null ? Autolinker.link(String(feature.properties['SUBZONE_N'])) : '') + '</td></tr><tr><th scope="row">Planning Area: </th><td>' + (feature.properties['PLN_AREA_N'] !== null ? Autolinker.link(String(feature.properties['PLN_AREA_N'])) : '') + '</td></tr><tr><th scope="row">Region: </th><td>' + (feature.properties['REGION_N'] !== null ? Autolinker.link(String(feature.properties['REGION_N'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStyleMP14SUBZONEWEBPLPlanningNameSVY210(feature) {
+            return {
+                weight: 0.26,
+                color: '#000000',
+                fillColor: '#fffca3',
+                dashArray: '',
+                lineCap: 'square',
+                lineJoin: 'bevel',
+                opacity: 0.4,
+                fillOpacity: 0.4
+            };
+        }
+        var json_MP14SUBZONEWEBPLPlanningNameSVY210JSON = new L.geoJson(json_MP14SUBZONEWEBPLPlanningNameSVY210, {
+            onEachFeature: pop_MP14SUBZONEWEBPLPlanningNameSVY210,
+            style: doStyleMP14SUBZONEWEBPLPlanningNameSVY210
+        });
+        /*layerOrder[layerOrder.length] = json_MP14SUBZONEWEBPLPlanningNameSVY210JSON;
+        bounds_group.addLayer(json_MP14SUBZONEWEBPLPlanningNameSVY210JSON);
+        feature_group.addLayer(json_MP14SUBZONEWEBPLPlanningNameSVY210JSON);*/
+
+        //Wed Full
+        function pop_PropSymWed1(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymWed1(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymWed1(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 3.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 3.33333333333 &&
+                feature.properties.totalUser <= 5.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 5.66666666667 &&
+                feature.properties.totalUser <= 8.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymWed1JSON = new L.geoJson(json_PropSymWed1, {
+            onEachFeature: pop_PropSymWed1,
+            style: doStylePropSymWed1
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymWed1JSON;
+        bounds_group.addLayer(json_PropSymWed1JSON);
+        feature_group.addLayer(json_PropSymWed1JSON);*/
+
+        //Wed Mrng
+        function pop_PropSymWedMrng3(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymWedMrng3(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymWedMrng3(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 1.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 1.66666666667 &&
+                feature.properties.totalUser <= 2.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 2.33333333333 &&
+                feature.properties.totalUser <= 3.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymWedMrng3JSON = new L.geoJson(json_PropSymWedMrng3, {
+            onEachFeature: pop_PropSymWedMrng3,
+            style: doStylePropSymWedMrng3
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymWedMrng3JSON;
+        bounds_group.addLayer(json_PropSymWedMrng3JSON);
+        feature_group.addLayer(json_PropSymWedMrng3JSON);*/
+
+        //Wed Evening
+        function pop_PropSymWedEvening2(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymWedEvening2(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymWedEvening2(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 1.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 1.66666666667 &&
+                feature.properties.totalUser <= 2.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 2.33333333333 &&
+                feature.properties.totalUser <= 3.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymWedEvening2JSON = new L.geoJson(json_PropSymWedEvening2, {
+            onEachFeature: pop_PropSymWedEvening2,
+            style: doStylePropSymWedEvening2
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymWedEvening2JSON;
+        bounds_group.addLayer(json_PropSymWedEvening2JSON);
+        feature_group.addLayer(json_PropSymWedEvening2JSON);*/
+
+        //Wed NonPeak
+        function pop_PropSymWedNonPeak4(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymWedNonPeak4(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymWedNonPeak4(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 2.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 2.33333333333 &&
+                feature.properties.totalUser <= 3.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 3.66666666667 &&
+                feature.properties.totalUser <= 5.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymWedNonPeak4JSON = new L.geoJson(json_PropSymWedNonPeak4, {
+            onEachFeature: pop_PropSymWedNonPeak4,
+            style: doStylePropSymWedNonPeak4
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymWedNonPeak4JSON;
+        bounds_group.addLayer(json_PropSymWedNonPeak4JSON);
+        feature_group.addLayer(json_PropSymWedNonPeak4JSON);*/
+
+        //Thurs Full
+        function pop_PropSymThurs5(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymThurs5(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymThurs5(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 4.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 4.66666666667 &&
+                feature.properties.totalUser <= 8.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 8.33333333333 &&
+                feature.properties.totalUser <= 12.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymThurs5JSON = new L.geoJson(json_PropSymThurs5, {
+            onEachFeature: pop_PropSymThurs5,
+            style: doStylePropSymThurs5
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymThurs5JSON;
+        bounds_group.addLayer(json_PropSymThurs5JSON);
+        feature_group.addLayer(json_PropSymThurs5JSON);*/
+
+        //Thurs Mrng
+        function pop_PropSymThursMrng6(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymThursMrng6(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymThursMrng6(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 2.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 2.66666666667 &&
+                feature.properties.totalUser <= 4.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 4.33333333333 &&
+                feature.properties.totalUser <= 6.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymThursMrng6JSON = new L.geoJson(json_PropSymThursMrng6, {
+            onEachFeature: pop_PropSymThursMrng6,
+            style: doStylePropSymThursMrng6
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymThursMrng6JSON;
+        bounds_group.addLayer(json_PropSymThursMrng6JSON);
+        feature_group.addLayer(json_PropSymThursMrng6JSON);*/
+
+        //Thurs Evening
+        function pop_PropSymThursEvening7(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymThursEvening7(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymThursEvening7(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 2.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 2.66666666667 &&
+                feature.properties.totalUser <= 4.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 4.33333333333 &&
+                feature.properties.totalUser <= 6.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymThursEvening7JSON = new L.geoJson(json_PropSymThursEvening7, {
+            onEachFeature: pop_PropSymThursEvening7,
+            style: doStylePropSymThursEvening7
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymThursEvening7JSON;
+        bounds_group.addLayer(json_PropSymThursEvening7JSON);
+        feature_group.addLayer(json_PropSymThursEvening7JSON);*/
+
+        //Thurs NonPeak
+        function pop_PropSymThursNonPeak8(feature, layer) {
+            layer.on({
+                mouseout: function (e) {
+                    layer.setStyle(doStylePropSymThursNonPeak8(feature));
+
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function (feature) {
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table><tr><th scope="row">Description:</th><td>' + (feature.properties['busStopDes'] !== null ? Autolinker.link(String(feature.properties['busStopDes'])) : '') + '</td></tr><tr><th scope="row">Bus-stop No: </th><td>' + (feature.properties['busStopNo'] !== null ? Autolinker.link(String(feature.properties['busStopNo'])) : '') + '</td></tr><tr><th scope="row">Road Description: </th><td>' + (feature.properties['roadDes'] !== null ? Autolinker.link(String(feature.properties['roadDes'])) : '') + '</td></tr><tr><th scope="row">Total users: </th><td>' + (feature.properties['totalUser'] !== null ? Autolinker.link(String(feature.properties['totalUser'])) : '') + '</td></tr><tr><th scope="row">Radius</th><td>' + (feature.properties['R'] !== null ? Autolinker.link(String(feature.properties['R'])) : '') + '</td></tr></table>';
+            layer.bindPopup(popupContent);
+        }
+
+        function doStylePropSymThursNonPeak8(feature) {
+            if (feature.properties.totalUser >= 1.0 &&
+                feature.properties.totalUser <= 2.33333333333) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#ffffb2',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 2.33333333333 &&
+                feature.properties.totalUser <= 3.66666666667) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#fd8d3c',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+            if (feature.properties.totalUser >= 3.66666666667 &&
+                feature.properties.totalUser <= 5.0) {
+
+                return {
+                    color: '#000000',
+                    weight: '1.04',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    fillColor: '#bd0026',
+                    opacity: '1.0',
+                    fillOpacity: '1.0',
+                }
+            }
+        }
+        var json_PropSymThursNonPeak8JSON = new L.geoJson(json_PropSymThursNonPeak8, {
+            onEachFeature: pop_PropSymThursNonPeak8,
+            style: doStylePropSymThursNonPeak8
+        });
+        /*layerOrder[layerOrder.length] = json_PropSymThursNonPeak8JSON;
+        bounds_group.addLayer(json_PropSymThursNonPeak8JSON);
+        feature_group.addLayer(json_PropSymThursNonPeak8JSON);
+        raster_group.addTo(map);
+        feature_group.addTo(map);*/
+        //-------------------------------------------------------------------------BottomRight of Map (Legend)-------------------------------------------------------------------------
+        var currentLegend;
+        //Wed full Legend
+        var wedFullLegend = L.control({
+            position: 'bottomright'
+        });
+        wedFullLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymWed1_13.png" />    1 - 3 <br />' +
+                '<img src="legend/PropSymWed1_36.png" />  4 - 5 <br />' +
+                '<img src="legend/PropSymWed1_68.png" />  6 - 8 <br />';
+            return div;
+        };
+        currentLegend = wedFullLegend;
+        //wedFullLegend.addTo(map);			
+
+        //Wed Morning Legend
+        var wedMrngLegend = L.control({
+            position: 'bottomright'
+        });
+        wedMrngLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymWedMrng3_12.png" />   1  <br />' +
+                '<img src="legend/PropSymWedMrng3_22.png" />  2 <br />' +
+                '<img src="legend/PropSymWedMrng3_23.png" />  3 <br />';
+            return div;
+        };
+        currentLegend = wedMrngLegend;
+
+        //Wed Evening Legend
+        var wedEveningLegend = L.control({
+            position: 'bottomright'
+        });
+        wedEveningLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymWedEvening2_12.png" />  1 <br />' +
+                '<img src="legend/PropSymWedEvening2_22.png" />  2 <br />' +
+                '<img src="legend/PropSymWedEvening2_23.png" /> 3 <br />';
+            return div;
+        };
+        currentLegend = wedEveningLegend;
+
+        //Wed Non-Peak Legend
+        var wedNpLegend = L.control({
+            position: 'bottomright'
+        });
+        wedNpLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymWedNonPeak4_12.png" />  1 - 2 <br />' +
+                '<img src="legend/PropSymWedNonPeak4_24.png" />   3 - 4 <br />' +
+                '<img src="legend/PropSymWedNonPeak4_45.png" />  5 <br />';
+            return div;
+        };
+        currentLegend = wedNpLegend;
+
+        //Thurs full Legend
+        var thursFullLegend = L.control({
+            position: 'bottomright'
+        });
+        thursFullLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymThurs5_15.png" />   1 - 4 <br />' +
+                '<img src="legend/PropSymThurs5_58.png" />  5 - 7 <br />' +
+                '<img src="legend/PropSymThurs5_812.png" />   8 - 12 <br />';
+            return div;
+        };
+        currentLegend = thursFullLegend;
+
+        //Thurs Morning Legend
+        var thursMrngLegend = L.control({
+            position: 'bottomright'
+        });
+        thursMrngLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymThursMrng6_13.png" />  1 - 2 <br />' +
+                '<img src="legend/PropSymThursMrng6_34.png" />   3 - 4 <br />' +
+                '<img src="legend/PropSymThursMrng6_46.png" />  5 - 6 <br />';
+            return div;
+        };
+        currentLegend = thursMrngLegend;
+
+        //Thurs Evening Legend
+        var thursEveningLegend = L.control({
+            position: 'bottomright'
+        });
+        thursEveningLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymThursEvening7_13.png" />  1 - 2 <br />' +
+                '<img src="legend/PropSymThursEvening7_34.png" />   3 - 4 <br />' +
+                '<img src="legend/PropSymThursEvening7_46.png" />   5 - 6 <br />';
+            return div;
+        };
+        currentLegend = thursEveningLegend;
+
+        //Thurs Non-Peak Legend
+        var thursNpLegend = L.control({
+            position: 'bottomright'
+        });
+        thursNpLegend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML += "<b>Legend</b><br/>" +
+                '<img src="legend/PropSymThursNonPeak8_12.png" />  1 - 2 <br />' +
+                '<img src="legend/PropSymThursNonPeak8_24.png" />  3 <br />' +
+                '<img src="legend/PropSymThursNonPeak8_45.png" />  4 - 5 <br />';
+            return div;
+        };
+        currentLegend = thursNpLegend;
+
+        //-------------------------------------------------------------------------UpperRight of Map (Menus)-------------------------------------------------------------------------
+        // Search Bar
+        var geocoder = L.control.geocoder('search-MKZrG6M').addTo(map);
+
+        // Maps/Layers Menu			
+        var baseMaps = {
+            'Thunderforest Transport': basemap0
+        };
+        //L.control.layers(baseMaps,{'PropSym_ThursNonPeak<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursNonPeak8_12.png" />  1 - 2 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursNonPeak8_24.png" />  2 - 4 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursNonPeak8_45.png" />  4 - 5 <br />': json_PropSymThursNonPeak8JSON,'PropSym_ThursEvening<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursEvening7_13.png" />  1 - 3 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursEvening7_34.png" />  3 - 4 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursEvening7_46.png" />  4 - 6 <br />': json_PropSymThursEvening7JSON,'PropSym_ThursMrng<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursMrng6_13.png" />  1 - 3 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursMrng6_34.png" />  3 - 4 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThursMrng6_46.png" />  4 - 6 <br />': json_PropSymThursMrng6JSON,'PropSym_Thurs<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThurs5_15.png" />  1 - 5 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThurs5_58.png" />  5 - 8 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymThurs5_812.png" />  8 - 12 <br />': json_PropSymThurs5JSON,'PropSym_WedNonPeak<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedNonPeak4_12.png" />  1 - 2 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedNonPeak4_24.png" />  2 - 4 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedNonPeak4_45.png" />  4 - 5 <br />': json_PropSymWedNonPeak4JSON,'PropSym_WedMrng<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedMrng3_12.png" />  1 - 2 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedMrng3_22.png" />  2 - 2 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedMrng3_23.png" />  2 - 3 <br />': json_PropSymWedMrng3JSON,'PropSym_WedEvening<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedEvening2_12.png" />  1 - 2 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedEvening2_22.png" />  2 - 2 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWedEvening2_23.png" />  2 - 3 <br />': json_PropSymWedEvening2JSON,'PropSym_Wed<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWed1_13.png" />  1 - 3 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWed1_36.png" />  3 - 6 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="legend/PropSymWed1_68.png" />  6 - 8 <br />': json_PropSymWed1JSON,'<img src="legend/MP14SUBZONEWEBPLPlanningNameSVY210.png" /> MP14_SUBZONE_WEB_PL_PlanningName_SVY21': json_MP14SUBZONEWEBPLPlanningNameSVY210JSON,},{collapsed:false}).addTo(map);
+
+        var curDis = L.control.layers({}, {
+            'SUBZONE': json_MP14SUBZONEWEBPLPlanningNameSVY210JSON,
+        }, {
+            collapsed: false
+        });
+        curDis._map = map;
+        var curDisControl = curDis.onAdd(map);
+        document.getElementById('curDisplay').appendChild(curDisControl);
+
+        var mapBase = L.control.layers(baseMaps, {}, {
+            collapsed: false
+        });
+        mapBase._map = map;
+        var mapBaseControl = mapBase.onAdd(map);
+        document.getElementById('baseLayer').appendChild(mapBaseControl);
+
+        var day = L.control.layers({}, {
+            'Wednesday': json_PropSymWed1JSON,
+            'Thursday': json_PropSymThurs5JSON,
+        }, {
+            collapsed: false
+        });
+        day._map = map;
+        var dayControl = day.onAdd(map);
+        document.getElementById('day').appendChild(dayControl);
+
+        var wednPeak = L.control.layers({}, {
+            'Wednesday Morning': json_PropSymWedMrng3JSON,
+            'Wednesday Evening': json_PropSymWedEvening2JSON,
+            'Wednesday Non-peak': json_PropSymWedNonPeak4JSON,
+        }, {
+            collapsed: false
+        });
+        wednPeak._map = map;
+        var wednPeakControl = wednPeak.onAdd(map);
+        document.getElementById('wedPeak').appendChild(wednPeakControl);
+
+        var thurPeak = L.control.layers({}, {
+            'Thursday Morning': json_PropSymThursMrng6JSON,
+            'Thursday Evening': json_PropSymThursEvening7JSON,
+            'Thursday Non-peak': json_PropSymThursNonPeak8JSON,
+        }, {
+            collapsed: false
+        });
+        thurPeak._map = map;
+        var thurPeakControl = thurPeak.onAdd(map);
+        document.getElementById('thursPeak').appendChild(thurPeakControl);
+
+        //Toggle on legend that belongs to map
+        map.on('overlayadd', function (eventLayer) {
+            if (eventLayer.name === 'Wednesday') {
+                this.addControl(wedFullLegend);
+            } else if (eventLayer.name === 'Thursday') {
+                this.addControl(thursFullLegend);
+            } else if (eventLayer.name === 'Wed_Morning') {
+                this.addControl(wedMrngLegend);
+            } else if (eventLayer.name === 'Wed_Evening') {
+                this.addControl(wedEveningLegend);
+            } else if (eventLayer.name === 'Wed_Non-peak') {
+                this.addControl(wedNpLegend);
+            } else if (eventLayer.name === 'Thurs_Morning') {
+                this.addControl(thursMrngLegend);
+            } else if (eventLayer.name === 'Thurs_Evening') {
+                this.addControl(thursEveningLegend);
+            } else if (eventLayer.name === 'Thurs_Non-peak') {
+                this.addControl(thursNpLegend);
+            }
+        });
+
+        //Toggle off legend that belongs to map
+        map.on('overlayremove', function (eventLayer) {
+            if (eventLayer.name === 'Wednesday') {
+                this.removeControl(wedFullLegend);
+            } else if (eventLayer.name === 'Thursday') {
+                this.removeControl(thursFullLegend);
+            } else if (eventLayer.name === 'Wed_Morning') {
+                this.removeControl(wedMrngLegend);
+            } else if (eventLayer.name === 'Wed_Evening') {
+                this.removeControl(wedEveningLegend);
+            } else if (eventLayer.name === 'Wed_Non-peak') {
+                this.removeControl(wedNpLegend);
+            } else if (eventLayer.name === 'Thurs_Morning') {
+                this.removeControl(thursMrngLegend);
+            } else if (eventLayer.name === 'Thurs_Evening') {
+                this.removeControl(thursEveningLegend);
+            } else if (eventLayer.name === 'Thurs_Non-peak') {
+                this.removeControl(thursNpLegend);
+            }
+        });
+
+        stackLayers();
+        map.on('overlayadd', restackLayers);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Network overview</title>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<style>
+    #map {
+        margin: 20px;
+        width: 922px;
+        height: 507px;
+    }
+    
+    #space {
+        margin: 20px;
+    }
+    
+    path {
+        fill: none;
+        stroke: blue;
+        stroke-width=36px;
+        stroke-linecap: round;
+        cursor: pointer;
+    }
+    
+    path:hover {
+        stroke-opacity: 0.8;
+        stroke: #315B7E;
+        stroke-width=96;
+    }
+    
+    .curvesettings {
+        position: absolute;
+        right: 10px;
+        top: 6px;
+    }
+    
+    img.resize {
+        max-width: 70px;
+        max-height: 70px;
+        float: left;
+    }
+</style>
+
+<body onload="drawSpankey('Both')">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <img class="resize" src='css/images/JTLLogo.png'>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+                    <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+                    <li><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+                    <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+                    <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="indexSK.html" title="Overview" data-placement="bottom" data-toggle="tooltip">Commuter Travel Flow</a></li>
+            <li><a href="indexBus.html" title="Commuters travel patterns" data-placement="bottom" data-toggle="tooltip">Proportional Symbol of Bus Stop</a></li>
+            <li><a href="indexpip.html" title="Commuters density" data-placement="bottom" data-toggle="tooltip">Choropleth Map of Commuters Density</a></li>
+            <li><a href="indexDist.html" title="Commuter travel patterns" data-placement="bottom" data-toggle="tooltip">Commuter Travel Patterns</a></li>
+            <li><a href="index.html" title="Statistcial analysis of SGBusLeh" data-placement="bottom" data-toggle="tooltip">Statistcial analysis of SGBusLeh</a></li>
+        </ul>
+    </div>
+
+
+    <div id="space">
+        <table border=1>
+            <tr>
+                <td rowspan=6 width=25 id="map"></td>
+            </tr>
+            <tr>
+                <td colspan=3 height=2 id="curDisplay">
+                    <p> Filtered by distance: </p>
+                    <select id="ddlViewBy" class="btn btn-default dropdown-toggle">
+                        <option value="Both" selected>Short and Long</option>
+                        <option value="short">Short</option>
+                        <option value="long">Long</option>
+                    </select>
+            </tr>
+            <tr>
+                <td colspan=3 height=2 id="baseLayer">
+                    <p>
+                        <div id="nodeCountInfo">Hover to see inflow and outflow</div>
+                    </p>
+            </tr>
+            </tr>
+
+        </table>
+    </div>
+
+    <!--<select id="ddlViewBy" class="btn btn-default dropdown-toggle">
+        <option value="Both" selected>Short and Long</option>
+        <option value="short">Short</option>
+        <option value="long">Long</option>
+    </select>
+
+    <div id="nodeCountInfo">Hover to see inflow and outflow</div>
+    <div id="map"></div>-->
+
+</body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script src="js/spatialsankey.js"></script>
+
+<script type="text/javascript">
+    $buttonAll = $('#Allbutton');
+    $btnchange = $('#ddlViewBy');
+    var e = document.getElementById("ddlViewBy");
+    var svg;
+
+    // Set leaflet map
+    var map = new L.map('map', {
+        center: new L.LatLng(1.35049497584, 103.842483365),
+        zoom: 12,
+        layers: [
+            new L.tileLayer('http://{s}tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+                subdomains: ['', 'a.', 'b.', 'c.', 'd.'],
+                attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>'
+            })
+        ]
+    });
+
+    // Initialize the SVG layer
+    map._initPathRoot()
+
+
+    //drawSpankey();
+
+    $btnchange.change(function () {
+
+        drawSpankey($('#ddlViewBy').val());
+
+    });
+
+    function drawSpankey(distanceType) {
+        // Load data asynchronosuly
+
+        //console.log($( "circle" ).length);
+        if ($("circle").length > 0) {
+            svg.selectAll("*").remove();
+        }
+
+
+        var spatialsankey;
+        var arrayjo = [];
+        d3.json("data/nodes.geojson", function (nodes) {
+            // Setup svg element to work with
+            svg = d3.select("#map").select("svg"),
+                linklayer = svg.append("g"),
+                nodelayer = svg.append("g");
+            d3.csv("data/links2.csv", function (links) {
+                for (i = 0; i < links.length; i++) {
+                    if (links[i].distance == "Long" && distanceType === "long") {
+                        arrayjo.push(links[i]);
+                    } else if (links[i].distance == "Short" && distanceType === "short") {
+                        arrayjo.push(links[i]);
+                    } else if (distanceType == "Both") {
+                        arrayjo.push(links[i]);
+                    }
+                }
+
+                // Setup spatialsankey object
+                spatialsankey = d3.spatialsankey()
+                    .lmap(map)
+                    .nodes(nodes.features)
+                    .links(arrayjo);
+
+                var mouseover = function (d) {
+
+                    // Get link data for this node
+                    var nodelinks = spatialsankey.links().filter(function (link) {
+                        //console.log(d);
+                        var inflowCount = d.properties.aggregate_inflows;
+                        var outFlowCount = d.properties.aggregate_outflows;
+                        //console.log(inflowCount);
+                        // console.log("In Flow: " + inflowCount.toString().charAt(0) + ". Outflows: " + outFlowCount.toString().charAt(0) + ".");
+                        $("#nodeCountInfo").html("In Flow: " + inflowCount.toString().charAt(0) + ". Outflows: " + outFlowCount.toString().charAt(0) + ".");
+                        return link.source == d.id;
+                    });
+
+                    // Add data to link layer
+                    var beziers = linklayer.selectAll("path").data(nodelinks);
+                    link = spatialsankey.link(options);
+
+                    //console.log(spatialsankey);
+                    // Draw new links
+                    beziers.enter()
+                        .append("path")
+                        .attr("d", link)
+                        .attr('id', function (d) {
+                            return d.id
+                        })
+                        .style("stroke-width", spatialsankey.link().width());
+
+                    // Remove old links
+                    beziers.exit().remove();
+
+                    // Hide inactive nodes
+                    var circleUnderMouse = this;
+                    circs.transition().style('opacity', function () {
+                        return (this === circleUnderMouse) ? 0.7 : 0;
+                    });
+                };
+
+                var mouseout = function (d) {
+                    // Remove links
+                    linklayer.selectAll("path").remove();
+                    // Show all nodes
+                    circs.transition().style('opacity', 0.7);
+                    $("#nodeCountInfo").html("Hover to see inflow and outflow");
+                };
+
+                // Draw nodes
+                var node = spatialsankey.node()
+                var circs = nodelayer.selectAll("circle")
+                    .data(spatialsankey.nodes())
+                    .enter()
+                    .append("circle")
+                    .text("circle")
+                    .attr("cx", node.cx)
+                    .attr("cy", node.cy)
+                    .attr("r", node.r)
+                    .style("fill", node.fill)
+                    .attr("opacity", 0.7)
+                    .on('mouseover', mouseover)
+                    .on('mouseout', mouseout);
+
+                // Adopt size of drawn objects after leaflet zoom reset
+                var zoomend = function () {
+                    linklayer.selectAll("path").attr("d", spatialsankey.link());
+
+                    circs.attr("cx", node.cx)
+                        .attr("cy", node.cy);
+                };
+
+                map.on("zoomend", zoomend);
+            });
+        });
+
+        var options = {
+            'use_arcs': false,
+            'flip': false
+        };
+        d3.selectAll("input").forEach(function (x) {
+            options[x.name] = parseFloat(x.value);
+        })
+
+        d3.selectAll("input").on("click", function () {
+            options[this.name] = parseFloat(this.value);
+        });
+
+    }
+</script>

@@ -1,0 +1,1057 @@
+target,source,flow,distance,TargetBusstopName,SourceBusstopName
+3222,70049,1,Long,Anson Rd,Upp Aljunied Rd
+3223,96069,1,Long,Anson Rd,Upp Changi Rd East
+3501,60119,1,Long,Bayfront Ave,Bendemeer Rd
+3509,75259,1,Long,Bayfront Ave,Tampines Ave 1
+1519,54219,1,Long,Beach Rd,Ang Mo Kio Ave 3
+1519,3021,1,Short,Beach Rd,Cecil St
+1421,80011,1,Short,Beach Rd,Kallang Rd
+1419,11031,1,Long,Beach Rd,Queensway
+1519,1541,1,Short,Beach Rd,Rochor Rd
+4179,28571,1,Long,Bras Basah Rd,Jurong West St 42
+3151,10149,1,Long,Cecil St,Tiong Bahru Rd
+4311,40189,2,Long,Clemenceau Ave,Scotts Rd
+1339,56049,1,Long,Crawford St,Upp Thomson Rd
+1339,6081,1,Long,Crawford St,Zion Rd
+5022,54189,1,Long,Eu Tong Sen St,Ang Mo Kio Ave 4
+5022,50351,1,Long,Eu Tong Sen St,Dorset Rd
+5013,93069,1,Long,Eu Tong Sen St,East Coast Rd
+5022,18331,1,Long,Eu Tong Sen St,Lower Kent Ridge Rd
+4222,1329,3,Long,Eu Tong Sen St,Nth Bridge Rd
+5012,44299,1,Long,Eu Tong Sen St,Teck Whye Ave
+5022,50038,1,Long,Eu Tong Sen St,Thomson Rd
+3011,91089,1,Long,Fullerton Rd,Fort Rd
+3011,92059,2,Long,Fullerton Rd,Marine Parade Rd
+4223,60119,2,Long,Hill St,Bendemeer Rd
+4143,10231,1,Long,Hill St,Ganges Ave
+4223,52081,1,Long,Hill St,Jln Toa Payoh
+4223,80029,1,Long,Hill St,Kallang Rd
+4142,84019,1,Long,Hill St,New Upp Changi Rd
+4223,63369,1,Long,Hill St,Yio Chu Kang Link
+1311,83079,1,Long,Kallang Rd,Changi Rd
+1311,11309,1,Long,Kallang Rd,Sixth Ave
+98239,65061,1,Long,Loyang Ave,Punggol Rd
+98129,65011,1,Long,Loyang Way,Punggol Rd
+3391,42029,1,Long,Marina Blvd,Dunearn Rd
+3381,10149,1,Long,Marina Blvd,Tiong Bahru Rd
+5039,10079,1,Long,New Bridge Rd,Jln Bt Merah
+1029,11511,1,Long,Nth Bridge Rd,Alexandra Rd
+4167,40019,1,Long,Nth Bridge Rd,Bt Timah Rd
+4168,14209,1,Long,Nth Bridge Rd,Depot Rd
+4168,5012,1,Long,Nth Bridge Rd,Eu Tong Sen St
+4167,10119,1,Long,Nth Bridge Rd,Jln Bt Merah
+4167,2051,1,Short,Nth Bridge Rd,Raffles Ave
+1559,93019,1,Long,Ophir Rd,Marine Parade Rd
+3219,83101,1,Long,Palmer Rd,Jln Eunos
+3211,5199,1,Long,Palmer Rd,Sth Bridge Rd
+3211,5129,1,Long,Palmer Rd,Upp Pickering St
+2051,44301,1,Long,Raffles Ave,Bangkit Rd
+3059,15209,1,Long,Raffles Quay,Pasir Panjang Rd
+3111,1419,1,Long,Robinson Rd,Beach Rd
+3031,81141,1,Long,Robinson Rd,Guillemard Rd
+3111,50159,1,Long,Robinson Rd,Kim Keat Rd
+3031,91059,1,Long,Robinson Rd,Mountbatten Rd
+3111,96109,1,Long,Robinson Rd,Simei Ave
+3031,82071,1,Long,Robinson Rd,Tg Katong Rd
+3129,5013,1,Long,Shenton Way,Eu Tong Sen St
+3129,10079,1,Long,Shenton Way,Jln Bt Merah
+3129,10149,1,Long,Shenton Way,Tiong Bahru Rd
+4111,53211,1,Long,Stamford Rd,Bishan Rd
+5029,6131,1,Long,Sth Bridge Rd,Zion Rd
+2151,92241,2,Long,Temasek Blvd,Amber Rd
+2151,92049,1,Long,Temasek Blvd,Marine Parade Rd
+2151,80159,1,Short,Temasek Blvd,Nicoll Highway
+2151,44371,1,Long,Temasek Blvd,Petir Rd
+2151,75239,1,Long,Temasek Blvd,Tampines Ave 1
+1059,44241,1,Long,Victoria St,Bt Panjang Rd
+1112,83029,1,Long,Victoria St,Changi Rd
+1112,80049,1,Long,Victoria St,Geylang Rd
+1013,7371,1,Long,Victoria St,Lavender St
+1112,80101,1,Long,Victoria St,Lor 1 Geylang
+4151,44221,1,Long,Victoria St,Pending Rd
+4151,44201,2,Long,Victoria St,Petir Rd
+1012,76089,1,Long,Victoria St,Tampines Ave 2
+1019,14129,1,Long,Victoria St,Telok Blangah Rd
+1012,83121,1,Long,Victoria St,Telok Kurau Rd
+1059,10149,1,Long,Victoria St,Tiong Bahru Rd
+5039,20179,1,Long,New Bridge Rd,West Coast Rd
+5039,14049,1,Long,New Bridge Rd,Henderson Rd
+5039,11099,1,Long,New Bridge Rd,Farrer Rd
+5049,10201,1,Long,New Bridge Rd,Tiong Bahru Rd
+5411,5631,1,Long,Tg Pagar Rd,Cantonment Link
+5641,70049,1,Long,Keppel Rd,Upp Aljunied Rd
+5641,72049,1,Long,Keppel Rd,Jln Tenaga
+6011,6031,2,Long,Outram Rd,Chin Swee Rd
+6051,10231,1,Short,Tiong Bahru Rd,Ganges Ave
+6051,3041,1,Long,Tiong Bahru Rd,Cross St
+6081,72081,1,Long,Zion Rd,Jln Damai
+6189,4239,1,Short,Havelock Rd,New Bridge Rd
+7011,63199,1,Long,Selegie Rd,Yio Chu Kang Rd
+7011,59331,1,Long,Selegie Rd,Yishun Ave 3
+7021,52451,1,Long,Selegie Rd,Whampoa Rd
+7021,50159,1,Long,Selegie Rd,Kim Keat Rd
+7329,10381,1,Long,Jln Besar,Lower Delta Rd
+7361,7249,1,Short,Lavender St,Lavender St
+7371,61061,1,Long,Lavender St,Potong Pasir Ave 1
+7371,62129,1,Long,Lavender St,Upp S'goon Rd
+7371,53389,1,Long,Lavender St,Bishan St 22
+7379,1012,1,Long,Lavender St,Victoria St
+7509,9213,1,Long,Bencoolen St,Scotts Rd
+7531,15139,1,Long,Rochor Canal Rd,Sth Buona Vista Rd
+7539,44819,1,Long,Sungei Rd,Senja Rd
+7551,44261,1,Long,Rochor Rd,Bt Panjang Rd
+7561,53299,1,Long,Middle Rd,Shunfu Rd
+7571,10199,1,Long,Middle Rd,Tiong Bahru Rd
+7571,10119,1,Long,Middle Rd,Jln Bt Merah
+7571,61099,1,Long,Middle Rd,Potong Pasir Ave 2
+7571,10079,2,Long,Middle Rd,Jln Bt Merah
+7571,10299,1,Long,Middle Rd,Alexandra Rd
+7589,93019,1,Long,Ophir Rd,Marine Parade Rd
+8019,6051,1,Long,Clemenceau Ave,Tiong Bahru Rd
+8031,61101,1,Long,Penang Rd,Potong Pasir Ave 1
+8031,53041,1,Long,Penang Rd,Upp Thomson Rd
+8041,92089,1,Long,Orchard Rd,Marine Parade Rd
+8041,44299,1,Long,Orchard Rd,Teck Whye Ave
+8041,53361,1,Long,Orchard Rd,Sin Ming Ave
+8057,44611,2,Long,Orchard Rd,Jelapang Rd
+8057,91091,1,Long,Orchard Rd,Mountbatten Rd
+8057,28519,1,Long,Orchard Rd,Jurong West Ave 1
+8069,28099,1,Long,Bras Basah Rd,Boon Lay Way
+8121,50211,1,Long,Somerset Rd,Balestier Rd
+8138,28659,1,Long,Orchard Rd,Toh Guan Rd
+9011,43059,1,Long,Orchard Turn,Upp Bt Timah Rd
+9022,51011,1,Long,Orchard Blvd,Thomson Rd
+9023,44241,1,Long,Orchard Turn,Bt Panjang Rd
+9023,53169,1,Long,Orchard Turn,Marymount Rd
+9023,10069,1,Long,Orchard Turn,Jln Bt Merah
+9037,52031,1,Long,Orchard Rd,Braddell Rd
+9038,60161,1,Long,Orchard Rd,S'goon Rd
+9038,60139,1,Long,Orchard Rd,Bendemeer Rd
+9047,53289,1,Long,Orchard Rd,Bishan St 13
+9179,28459,1,Long,Orchard Rd,Jurong East Ave 1
+9212,84459,1,Long,Scotts Rd,Bedok Nth Rd
+9213,10209,2,Long,Scotts Rd,Tiong Bahru Rd
+9219,92059,1,Long,Scotts Rd,Marine Parade Rd
+9219,14229,1,Long,Scotts Rd,Kg Bahru Rd
+9219,54229,1,Long,Scotts Rd,Ang Mo Kio Ave 3
+10009,14209,1,Short,Bt Merah Ctrl,Depot Rd
+10009,9022,2,Long,Bt Merah Ctrl,Orchard Blvd
+10017,52079,1,Long,Eu Tong Sen St,Jln Toa Payoh
+10017,55139,1,Long,Eu Tong Sen St,Ang Mo Kio Ave 4
+10018,1311,1,Long,Eu Tong Sen St,Kallang Rd
+10018,6171,1,Long,Eu Tong Sen St,Upp Cross St
+10049,2149,1,Long,Kg Bahru Rd,Temasek Blvd
+10071,10069,1,Short,Jln Bt Merah,Jln Bt Merah
+10079,5039,1,Long,Jln Bt Merah,New Bridge Rd
+10081,10161,1,Short,Jln Bt Merah,Tiong Bahru Rd
+10089,14381,1,Short,Jln Bt Merah,Bt Purmei Ave
+10089,8019,1,Long,Jln Bt Merah,Clemenceau Ave
+10091,10071,1,Short,Jln Bt Merah,Jln Bt Merah
+10099,11599,1,Long,Jln Bt Merah,Mei Ling St
+10101,19019,1,Long,Jln Bt Merah,C'wealth Ave West
+10111,10381,1,Short,Jln Bt Merah,Lower Delta Rd
+10111,10519,1,Short,Jln Bt Merah,Delta Rd
+10111,53289,1,Long,Jln Bt Merah,Bishan St 13
+10111,15041,1,Long,Jln Bt Merah,Alexandra Rd
+10111,21399,1,Long,Jln Bt Merah,Boon Lay Ave
+10119,77269,1,Long,Jln Bt Merah,Pasir Ris Dr 12
+10119,5049,1,Long,Jln Bt Merah,New Bridge Rd
+10121,40031,1,Long,Kim Tian Rd,Bt Timah Rd
+10131,52189,1,Long,Jln Bt Merah,Lor 2 Toa Payoh
+10139,54481,1,Long,Jln Bt Merah,Ang Mo Kio Ave 5
+10139,64411,1,Long,Jln Bt Merah,Hougang Ave 4
+10141,14229,1,Short,Tiong Bahru Rd,Kg Bahru Rd
+10149,9047,1,Long,Tiong Bahru Rd,Orchard Rd
+10161,14229,1,Short,Tiong Bahru Rd,Kg Bahru Rd
+10161,10071,1,Short,Tiong Bahru Rd,Jln Bt Merah
+10161,14041,1,Short,Tiong Bahru Rd,Henderson Rd
+10161,16049,1,Long,Tiong Bahru Rd,Pasir Panjang Rd
+10169,71091,2,Long,Tiong Bahru Rd,Eunos Link
+10169,80291,1,Long,Tiong Bahru Rd,Geylang Bahru
+10199,10191,1,Short,Tiong Bahru Rd,Tiong Bahru Rd
+10201,14041,1,Short,Tiong Bahru Rd,Henderson Rd
+10201,22009,1,Long,Tiong Bahru Rd,Jurong West Ctrl 3
+10201,10299,1,Long,Tiong Bahru Rd,Alexandra Rd
+10209,14241,1,Short,Tiong Bahru Rd,Henderson Rd
+10209,10481,1,Short,Tiong Bahru Rd,Redhill Cl
+10209,14071,1,Short,Tiong Bahru Rd,Keppel Rd
+10209,44251,1,Long,Tiong Bahru Rd,Bt Panjang Rd
+10209,64541,1,Long,Tiong Bahru Rd,Hougang Ctrl
+10221,9022,1,Long,Ganges Ave,Orchard Blvd
+10249,10181,1,Short,Alexandra Rd,Tiong Bahru Rd
+10249,11031,1,Long,Alexandra Rd,Queensway
+10281,10169,1,Short,Alexandra Rd,Tiong Bahru Rd
+10291,7571,1,Long,Alexandra Rd,Middle Rd
+10329,14201,1,Short,Tanglin Rd,Depot Rd
+10331,9022,1,Long,Henderson Rd,Orchard Blvd
+10349,46429,1,Long,Henderson Rd,Woodlands St 83
+10379,17171,1,Long,Lower Delta Rd,C'wealth Ave West
+10389,10079,1,Short,Lower Delta Rd,Jln Bt Merah
+11021,11161,1,Short,Queensway,C'wealth Ave
+11031,43829,1,Long,Queensway,Hume Ave
+11071,40239,1,Long,Queensway,Whitley Rd
+11071,75009,1,Long,Queensway,Tampines Ctrl 1
+11071,10201,1,Long,Queensway,Tiong Bahru Rd
+11131,14271,1,Long,C'wealth Ave,Telok Blangah Way
+11149,10299,1,Short,C'wealth Ave,Alexandra Rd
+11171,42181,2,Long,C'wealth Ave,Jln Jurong Kechil
+11201,80049,1,Long,Holland Rd,Geylang Rd
+11229,11099,1,Short,Holland Rd,Farrer Rd
+11261,43049,1,Short,Holland Rd,Upp Bt Timah Rd
+11261,12211,1,Short,Holland Rd,Mt Sinai Dr
+11261,42159,1,Short,Holland Rd,Jln Jurong Kechil
+11261,53351,1,Long,Holland Rd,Sin Ming Ave
+11269,1039,1,Long,Holland Rd,Nth Bridge Rd
+11361,11111,1,Long,Nth Buona Vista Rd,Farrer Rd
+11361,12151,1,Long,Nth Buona Vista Rd,Moonbeam Walk
+11361,70269,1,Long,Nth Buona Vista Rd,Paya Lebar Rd
+11369,18099,1,Short,Nth Buona Vista Rd,Ayer Rajah Cres
+11369,19071,1,Short,Nth Buona Vista Rd,Dover Rd
+11511,10231,1,Long,Alexandra Rd,Ganges Ave
+11519,17109,1,Short,Alexandra Rd,Clementi Rd
+11519,17159,1,Long,Alexandra Rd,C'wealth Ave West
+11519,65069,1,Long,Alexandra Rd,Punggol Rd
+11519,14191,2,Long,Alexandra Rd,Depot Rd
+11521,11139,2,Short,Alexandra Rd,C'wealth Ave
+11521,10091,1,Long,Alexandra Rd,Jln Bt Merah
+11531,14271,1,Long,Alexandra Rd,Telok Blangah Way
+11541,6171,1,Long,Stirling Rd,Upp Cross St
+12061,42149,1,Long,Clementi Rd,Clementi Rd
+12069,44441,1,Long,Clementi Rd,Choa Chu Kang Way
+12089,27141,1,Long,Clementi Rd,Jurong West St 91
+12091,60161,1,Long,Clementi Rd,S'goon Rd
+12091,59009,1,Long,Clementi Rd,Yishun Ctrl
+12091,64481,1,Long,Clementi Rd,Hougang Ave 9
+12099,11451,1,Long,Clementi Rd,C'wealth Dr
+12101,53241,1,Long,Clementi Rd,Bishan Rd
+12101,65159,1,Long,Clementi Rd,Punggol Field
+12101,62221,1,Long,Clementi Rd,Lor Ah Soo
+12109,64039,1,Long,Clementi Rd,Hougang Ave 8
+13101,2161,1,Long,River Valley Rd,Temasek Ave
+13101,5012,1,Long,River Valley Rd,Eu Tong Sen St
+13101,82049,1,Long,River Valley Rd,Changi Rd
+13119,10371,2,Long,Kim Seng Rd,Lower Delta Rd
+13199,14209,1,Long,Paterson Rd,Depot Rd
+13199,14379,1,Long,Paterson Rd,Lower Delta Rd
+14009,11151,1,Long,Seah Im Rd,C'wealth Ave
+14009,18049,1,Long,Seah Im Rd,AYE
+14039,14221,1,Short,Lower Delta Rd,Kg Bahru Rd
+14041,14351,1,Short,Henderson Rd,Telok Blangah Dr
+14041,14169,1,Short,Henderson Rd,Telok Blangah Rd
+14119,14249,1,Short,Telok Blangah Rd,Henderson Rd
+14121,16009,1,Long,Telok Blangah Rd,Clementi Rd
+14129,10119,1,Short,Telok Blangah Rd,Jln Bt Merah
+14139,82099,1,Long,Telok Blangah Rd,Tg Katong Rd
+14141,10041,1,Short,Telok Blangah Rd,Kg Bahru Rd
+14141,64629,1,Long,Telok Blangah Rd,Buangkok Green
+14141,64331,1,Long,Telok Blangah Rd,Hougang Ave 4
+14141,15161,1,Long,Telok Blangah Rd,Pasir Panjang Rd
+14141,17149,1,Long,Telok Blangah Rd,AYE
+14199,10371,1,Short,Depot Rd,Lower Delta Rd
+14209,10071,1,Short,Depot Rd,Jln Bt Merah
+14209,11519,1,Long,Depot Rd,Alexandra Rd
+14239,10009,1,Short,Kg Bahru Rd,Bt Merah Ctrl
+14239,54219,1,Long,Kg Bahru Rd,Ang Mo Kio Ave 3
+14241,11139,1,Long,Henderson Rd,C'wealth Ave
+14249,14141,1,Short,Henderson Rd,Telok Blangah Rd
+14249,8121,1,Long,Henderson Rd,Somerset Rd
+15041,11021,1,Short,Alexandra Rd,Queensway
+15041,28109,1,Long,Alexandra Rd,Toh Tuck Ave
+15041,46549,1,Long,Alexandra Rd,Woodlands Ave 3
+15041,10201,1,Long,Alexandra Rd,Tiong Bahru Rd
+15051,18079,2,Short,Alexandra Rd,Buona Vista Flyover
+15131,12199,1,Long,Sth Buona Vista Rd,Mt Sinai Rise
+15159,14161,1,Long,Pasir Panjang Rd,Telok Blangah Rd
+15169,14059,1,Long,Pasir Panjang Rd,Henderson Rd
+15191,11361,1,Short,Pasir Panjang Rd,Nth Buona Vista Rd
+15229,10231,1,Long,Pasir Panjang Rd,Ganges Ave
+16011,17039,1,Long,Pasir Panjang Rd,West Coast Rd
+16019,15219,1,Short,Pasir Panjang Rd,Pasir Panjang Rd
+16061,46831,1,Long,Pasir Panjang Rd,Woodlands Circle
+16061,43471,1,Long,Pasir Panjang Rd,Bt Batok West Ave 2
+16061,21599,1,Long,Pasir Panjang Rd,Corporation Dr
+16069,14161,1,Long,Pasir Panjang Rd,Telok Blangah Rd
+16091,28511,1,Long,AYE,Jurong West Ave 1
+16111,17179,1,Long,Science Pk Rd,C'wealth Ave West
+16121,22449,1,Long,Science Pk Rd,Jurong West St 64
+16159,5019,1,Long,Clementi Rd,New Bridge Rd
+16209,16221,1,Short,Pasir Panjang Rd,West Coast Highway
+16239,98019,1,Long,West Coast Highway,Loyang Ave
+17041,20159,1,Long,West Coast Rd,West Coast Rd
+17041,20239,1,Long,West Coast Rd,Teban Gdns Rd
+17041,20191,1,Long,West Coast Rd,Pandan Gdns
+17091,12119,1,Long,Clementi Rd,Ulu Pandan Rd
+17129,17191,1,Short,AYE,Clementi Rd
+17149,64601,1,Long,AYE,Hougang Ave 4
+17159,16071,1,Long,C'wealth Ave West,Pasir Panjang Rd
+17171,20109,1,Short,C'wealth Ave West,C'wealth Ave West
+17171,17379,1,Short,C'wealth Ave West,Clementi Ave 6
+17171,42259,1,Long,C'wealth Ave West,Jln Jurong Kechil
+17171,7529,1,Long,C'wealth Ave West,Jln Besar
+17171,20199,1,Long,C'wealth Ave West,Pandan Gdns
+17171,53351,1,Long,C'wealth Ave West,Sin Ming Ave
+17171,13121,1,Long,C'wealth Ave West,Zion Rd
+17179,3217,1,Long,C'wealth Ave West,Shenton Way
+17179,16009,2,Long,C'wealth Ave West,Clementi Rd
+17219,62041,1,Long,Clementi Ave 4,Upp Paya Lebar Rd
+17259,17121,1,Short,Clementi Ave 2,AYE
+17321,17329,1,Short,West Coast Highway,West Coast Highway
+17321,28459,1,Long,West Coast Highway,Jurong East Ave 1
+17329,28701,1,Short,West Coast Highway,Toh Tuck Link
+18071,20199,1,Long,Buona Vista Flyover,Pandan Gdns
+18079,10081,1,Long,Buona Vista Flyover,Jln Bt Merah
+18101,11189,1,Short,Buona Vista Flyover,C'wealth Ave
+18101,43239,1,Long,Buona Vista Flyover,Hillview Ave
+18121,76249,1,Long,Buona Vista Flyover,Tampines Ave 7
+18129,28509,1,Long,Buona Vista Flyover,Jurong West Ave 1
+18269,15139,1,Short,Science Pk Dr,Sth Buona Vista Rd
+19029,14121,1,Long,C'wealth Ave West,Telok Blangah Rd
+19031,64359,1,Long,C'wealth Ave West,Hougang Ave 8
+19039,18119,1,Short,C'wealth Ave West,Dover Rd
+19039,28639,1,Long,C'wealth Ave West,Toh Guan Rd
+19051,28431,2,Long,Dover Rd,Jurong East Ctrl
+19089,4111,1,Long,Dover Rd,Stamford Rd
+19091,53169,1,Long,Dover Ave,Marymount Rd
+20021,20059,2,Long,AYE,AYE
+21211,52339,1,Long,Corporation Rd,Lor 6 Toa Payoh
+21241,17239,1,Long,Boon Lay Ave,Clementi Ave 3
+21261,21429,1,Short,Quality Rd,Boon Lay Ave
+21311,21439,1,Long,Jln Boon Lay,Boon Lay Pl
+21361,43171,1,Long,Jln Boon Lay,Bt Batok East Ave 3
+21399,28501,1,Short,Boon Lay Ave,Jurong West Ave 1
+21421,11141,1,Long,Boon Lay Ave,C'wealth Ave
+21441,28009,1,Long,Boon Lay Pl,Jurong Gateway Rd
+21551,58161,1,Long,Yung Ho Rd,Admiralty Rd West
+21661,21669,1,Short,Yuan Ching Rd,Yuan Ching Rd
+22009,21389,1,Short,Jurong West Ctrl 3,Jurong West Ave 3
+22009,14141,1,Long,Jurong West Ctrl 3,Telok Blangah Rd
+22009,20141,1,Long,Jurong West Ctrl 3,West Coast Rd
+22009,27221,1,Long,Jurong West Ctrl 3,Nanyang Dr
+22259,22259,1,Short,Jurong West St 62,Jurong West St 62
+22319,18071,1,Long,Wan Lee Rd,Buona Vista Flyover
+22401,84629,1,Long,Tg Kling Rd,Bedok Reservoir Rd
+22489,27109,1,Short,Jurong West Ctrl 1,Jln Bahar
+25191,67191,1,Long,Tuas Ave 1,Compassvale Rd
+26261,44291,1,Long,Tuas Sth Ave 3,Teck Whye Ave
+27141,11451,1,Long,Jurong West St 91,C'wealth Dr
+27209,21371,1,Long,Nanyang Ave,Jln Boon Lay
+27231,21591,1,Long,Nanyang Dr,Corporation Dr
+27301,27461,1,Short,Pioneer Rd Nth,Jurong West Ave 3
+27309,27329,1,Short,Pioneer Rd Nth,Pioneer Rd Nth
+27329,22361,1,Short,Pioneer Rd Nth,Jurong West Ave 4
+27369,27329,1,Short,Jurong West Ave 5,Pioneer Rd Nth
+27369,27451,1,Short,Jurong West Ave 5,Jurong West Ave 3
+27469,28299,1,Long,Jurong West Ave 3,Jurong Town Hall Rd
+28009,28079,1,Short,Jurong Gateway Rd,Boon Lay Way
+28009,28469,1,Short,Jurong Gateway Rd,Jurong East Ave 1
+28009,28631,1,Short,Jurong Gateway Rd,Toh Guan Rd
+28039,59072,1,Long,Boon Lay Way,Yishun Ave 2
+28049,9219,1,Long,Boon Lay Way,Scotts Rd
+28091,21429,1,Short,Boon Lay Way,Boon Lay Ave
+28091,11161,1,Long,Boon Lay Way,C'wealth Ave
+28099,21631,1,Short,Boon Lay Way,Yuan Ching Rd
+28099,21581,1,Short,Boon Lay Way,Corporation Dr
+28101,22469,1,Long,Toh Tuck Ave,Pioneer Rd Nth
+28241,28271,2,Short,Jurong Town Hall Rd,Jurong Town Hall Rd
+28251,28399,1,Short,Jurong Town Hall Rd,Jurong West St 51
+28289,28089,1,Short,Jurong Town Hall Rd,Boon Lay Way
+28291,28299,1,Short,Jurong Town Hall Rd,Jurong Town Hall Rd
+28301,43171,1,Long,Jurong Gateway Rd,Bt Batok East Ave 3
+28621,43279,1,Long,Jurong East Ctrl,Hillview Rd
+28659,28089,1,Short,Toh Guan Rd,Boon Lay Way
+28659,43809,1,Long,Toh Guan Rd,Bt Batok St 52
+28659,28519,1,Long,Toh Guan Rd,Jurong West Ave 1
+28659,44269,1,Long,Toh Guan Rd,Bt Panjang Rd
+28661,17171,2,Short,Toh Guan Rd East,C'wealth Ave West
+28701,17141,1,Short,Toh Tuck Link,AYE
+29139,17211,1,Long,Pandan Ave,Clementi Ave 4
+30011,44531,1,Long,Old Choa Chu Kang Rd,Choa Chu Kang Ave 4
+40011,5012,1,Long,Bt Timah Rd,Eu Tong Sen St
+40011,93019,1,Long,Bt Timah Rd,Marine Parade Rd
+40091,44241,1,Long,Bt Timah Rd,Bt Panjang Rd
+40101,50089,1,Short,Kg Java Rd,Owen Rd
+40111,11381,1,Long,Bt Timah Rd,Holland Dr
+40179,27099,1,Long,Scotts Rd,Jln Bahar
+40181,72041,1,Long,Scotts Rd,Jln Tenaga
+40189,6081,1,Long,Scotts Rd,Zion Rd
+40231,44229,1,Long,Whitley Rd,Pending Rd
+40239,44631,1,Long,Whitley Rd,Jelebu Rd
+41021,10231,1,Long,Bt Timah Rd,Ganges Ave
+41021,42119,1,Long,Bt Timah Rd,Upp Bt Timah Rd
+41021,42161,1,Long,Bt Timah Rd,Jln Jurong Kechil
+41029,76409,1,Long,Dunearn Rd,Tampines St 21
+41049,59059,1,Long,Dunearn Rd,Yishun Ave 2
+41071,59069,1,Long,Bt Timah Rd,Yishun Ave 2
+41071,43341,1,Long,Bt Timah Rd,Bt Batok West Ave 3
+41129,10231,1,Long,Adam Rd,Ganges Ave
+41139,42039,1,Long,Adam Rd,Dunearn Rd
+42011,10099,1,Long,Bt Timah Rd,Jln Bt Merah
+42041,43619,1,Long,Bt Timah Rd,Bt Batok East Ave 3
+42049,42059,1,Short,Dunearn Rd,Dunearn Rd
+42049,40021,1,Long,Dunearn Rd,Bt Timah Rd
+42051,44209,1,Short,Bt Timah Rd,Petir Rd
+42059,11401,1,Long,Dunearn Rd,Holland Ave
+42071,44539,1,Long,Upp Bt Timah Rd,Choa Chu Kang Ave 4
+42071,43009,1,Long,Upp Bt Timah Rd,Bt Batok Ctrl
+42089,42291,1,Long,Jln Anak Bt,Toh Tuck Rise
+42091,42111,1,Short,Upp Bt Timah Rd,Upp Bt Timah Rd
+42109,12021,1,Short,Jln Anak Bt,Holland Rd
+42111,43301,1,Long,Upp Bt Timah Rd,Jln Batu Nilam
+42151,42109,1,Short,Jln Jurong Kechil,Jln Anak Bt
+43139,44229,1,Short,Cashew Rd,Pending Rd
+43169,43259,1,Short,Bt Batok East Ave 4,Hillview Ave
+43169,46009,1,Long,Bt Batok East Ave 4,Woodlands Sq
+43181,43171,1,Short,Bt Batok East Ave 3,Bt Batok East Ave 3
+43189,43091,1,Short,Bt Batok East Ave 3,Upp Bt Timah Rd
+43189,52079,1,Long,Bt Batok East Ave 3,Jln Toa Payoh
+43189,43091,1,Long,Bt Batok East Ave 3,Upp Bt Timah Rd
+43259,43411,1,Short,Hillview Ave,Bt Batok Ctrl
+43259,20101,1,Long,Hillview Ave,C'wealth Ave West
+43379,43419,1,Short,Bt Batok West Ave 6,Bt Batok Ctrl
+43391,45421,1,Long,Bt Batok Ctrl,Choa Chu Kang Cres
+43401,20141,1,Long,Bt Batok West Ave 3,West Coast Rd
+43411,43171,1,Short,Bt Batok Ctrl,Bt Batok East Ave 3
+43419,44141,1,Long,Bt Batok Ctrl,Choa Chu Kang Rd
+43529,60121,1,Long,Bt Batok West Ave 5,S'goon Rd
+43709,44249,1,Long,Bt Batok Ctrl,Bt Panjang Rd
+43839,44269,1,Long,Bt Batok West Ave 7,Bt Panjang Rd
+44009,43411,1,Long,Choa Chu Kang Loop,Bt Batok Ctrl
+44141,42061,1,Long,Choa Chu Kang Rd,Bt Timah Rd
+44151,58101,1,Long,Bt Batok Rd,Canberra Rd
+44159,6171,1,Long,Bt Batok Rd,Upp Cross St
+44221,46539,1,Long,Pending Rd,Woodlands Ave 3
+44221,53019,1,Long,Pending Rd,Upp Thomson Rd
+44229,46191,1,Long,Pending Rd,Marsiling Rise
+44261,15199,1,Long,Bt Panjang Rd,Pasir Panjang Rd
+44269,44811,2,Short,Bt Panjang Rd,Senja Rd
+44311,44601,1,Short,Bangkit Rd,Saujana Rd
+44401,44809,1,Short,Bt Panjang Rd,Senja Rd
+44421,29021,1,Long,Teck Whye Lane,Penjuru Rd
+44461,44411,1,Short,Choa Chu Kang Way,Teck Whye Lane
+44531,44281,1,Short,Choa Chu Kang Ave 4,Teck Whye Ave
+44531,43579,1,Long,Choa Chu Kang Ave 4,Bt Batok West Ave 5
+44539,44271,1,Short,Choa Chu Kang Ave 4,Teck Whye Ave
+44539,45059,1,Long,Choa Chu Kang Ave 4,Woodlands Rd
+44641,44251,1,Short,Bt Panjang Ring Rd,Bt Panjang Rd
+44641,44329,1,Short,Bt Panjang Ring Rd,Bt Panjang Ring Rd
+44641,66029,1,Long,Bt Panjang Ring Rd,Lor Chuan
+45029,28291,1,Long,Woodlands Rd,Jurong Town Hall Rd
+45139,45091,2,Short,Woodlands Rd,Woodlands Rd
+45139,55509,1,Long,Woodlands Rd,Ang Mo Kio Ave 8
+45379,25061,1,Long,Choa Chu Kang Nth 6,Tuas Ave 9
+45421,43719,1,Long,Choa Chu Kang Cres,Gombak Dr
+46008,46189,1,Short,Woodlands Sq,Marsiling Rd
+46008,46621,1,Short,Woodlands Sq,Woodlands Ave 1
+46008,59079,1,Long,Woodlands Sq,Yishun Ave 2
+46009,43491,1,Long,Woodlands Sq,Bt Batok West Ave 4
+46009,10331,1,Long,Woodlands Sq,Henderson Rd
+46009,98091,1,Long,Woodlands Sq,Pasir Ris Dr 1
+46009,44009,1,Long,Woodlands Sq,Choa Chu Kang Loop
+46059,43841,1,Long,Woodlands Rd,Bt Batok St 33
+46321,1029,1,Long,Woodlands Ave 5,Nth Bridge Rd
+46389,67401,1,Long,Woodlands Ave 3,Sengkang East Way
+46471,46809,1,Short,Woodlands Ave 9,Woodlands Ave 6
+46511,46539,1,Short,Woodlands Ctr Rd,Woodlands Ave 3
+46711,60161,1,Long,Woodlands Ave 8,S'goon Rd
+46771,46479,1,Short,Woodlands Ave 7,Woodlands Ave 9
+46771,17179,1,Long,Woodlands Ave 7,C'wealth Ave West
+46799,46479,1,Short,Woodlands Ave 6,Woodlands Ave 9
+46869,58361,1,Long,Woodlands Ring Rd,Admiralty St
+47549,44241,1,Long,Woodlands Ave 6,Bt Panjang Rd
+47611,59111,1,Long,Woodlands Ave 7,Yishun Ave 5
+48111,54009,1,Long,Mandai Lake Rd,Ang Mo Kio Ave 8
+48131,21371,1,Long,Mandai Lake Rd,Jln Boon Lay
+50021,50211,1,Short,Thomson Rd,Balestier Rd
+50031,84701,1,Long,Thomson Rd,Kaki Bt Ave 1
+50038,70131,1,Long,Thomson Rd,MacPherson Rd
+50038,60191,1,Long,Thomson Rd,Boon Keng Rd
+50051,62059,1,Long,Thomson Rd,Upp Paya Lebar Rd
+50059,10169,1,Long,Thomson Rd,Tiong Bahru Rd
+50061,84639,1,Long,Newton Rd,Bedok Reservoir Rd
+50069,10149,1,Long,Newton Rd,Tiong Bahru Rd
+50089,50038,1,Long,Owen Rd,Thomson Rd
+50121,64019,1,Long,Moulmein Rd,Upp S'goon Rd
+50159,10289,1,Long,Kim Keat Rd,Alexandra Rd
+50161,21559,1,Long,Balestier Rd,Yung Ho Rd
+50169,40231,2,Short,Balestier Rd,Whitley Rd
+50169,53039,1,Long,Balestier Rd,Upp Thomson Rd
+51011,72079,1,Long,Thomson Rd,Bedok Reservoir Rd
+51019,52071,1,Short,Thomson Rd,Jln Toa Payoh
+51019,54261,1,Long,Thomson Rd,Ang Mo Kio Ave 3
+51019,52109,1,Long,Thomson Rd,Jln Bahagia
+51049,53069,1,Long,Thomson Rd,Upp Thomson Rd
+51071,54019,1,Long,Thomson Rd,Ang Mo Kio Ave 6
+51071,44229,1,Long,Thomson Rd,Pending Rd
+51071,53159,1,Long,Thomson Rd,Marymount Rd
+51071,53059,1,Long,Thomson Rd,Upp Thomson Rd
+51071,52271,1,Long,Thomson Rd,Lor 4 Toa Payoh
+51079,42159,1,Long,Thomson Rd,Jln Jurong Kechil
+51079,43009,1,Long,Thomson Rd,Bt Batok Ctrl
+51091,83291,1,Long,PIE,Still Rd
+51099,52279,1,Long,Whitley Rd,Lor 4 Toa Payoh
+52009,52139,1,Short,Lor 6 Toa Payoh,Lor 1 Toa Payoh
+52009,52419,1,Long,Lor 6 Toa Payoh,Jln Rajah
+52021,52039,2,Long,Braddell Rd,Braddell Rd
+52061,63039,1,Long,Braddell Rd,Upp S'goon Rd
+52071,12101,1,Long,Jln Toa Payoh,Clementi Rd
+52071,50031,1,Long,Jln Toa Payoh,Thomson Rd
+52071,4151,1,Long,Jln Toa Payoh,Victoria St
+52079,46189,1,Long,Jln Toa Payoh,Marsiling Rd
+52081,52329,1,Short,Jln Toa Payoh,Lor 6 Toa Payoh
+52089,28081,1,Long,Jln Toa Payoh,Boon Lay Way
+52099,44251,1,Long,Kim Keat Rd,Bt Panjang Rd
+52099,3223,1,Long,Kim Keat Rd,Anson Rd
+52131,55509,1,Long,Lor 1 Toa Payoh,Ang Mo Kio Ave 8
+52149,72081,1,Long,Lor 1 Toa Payoh,Jln Damai
+52179,66079,1,Short,Lor 1 Toa Payoh,Braddell Rd
+52179,99009,1,Long,Lor 1 Toa Payoh,Changi Village Rd
+52231,55039,1,Long,Toa Payoh Ctrl,Yio Chu Kang Rd
+52239,28291,1,Long,Toa Payoh Ctrl,Jurong Town Hall Rd
+52271,65809,1,Long,Lor 4 Toa Payoh,Anchorvale Rd
+52291,52281,1,Short,Lor 5 Toa Payoh,Lor 5 Toa Payoh
+52339,80069,1,Long,Lor 6 Toa Payoh,Geylang Rd
+52361,52159,1,Short,Lor 6 Toa Payoh,Lor 1 Toa Payoh
+52361,10111,1,Long,Lor 6 Toa Payoh,Jln Bt Merah
+52369,64369,1,Long,Lor 6 Toa Payoh,Hougang Ave 8
+52389,53281,1,Long,Lor 8 Toa Payoh,Bishan St 13
+52439,46181,1,Long,Lor 7 Toa Payoh,Marsiling Rd
+52509,80101,1,Long,Lor 6 Toa Payoh,Lor 1 Geylang
+52559,52161,1,Short,Toa Payoh Rise,Lor 1 Toa Payoh
+53009,53281,2,Short,Bishan St 13,Bishan St 13
+53009,53341,1,Short,Bishan St 13,Sin Ming Ave
+53009,52329,1,Long,Bishan St 13,Lor 6 Toa Payoh
+53009,76099,1,Long,Bishan St 13,Tampines Ave 2
+53009,93039,1,Long,Bishan St 13,Marine Parade Rd
+53041,1511,1,Long,Upp Thomson Rd,Beach Rd
+53041,54429,1,Long,Upp Thomson Rd,Ang Mo Kio St 54
+53051,42109,1,Long,Upp Thomson Rd,Jln Anak Bt
+53059,93019,1,Long,Upp Thomson Rd,Marine Parade Rd
+53061,53069,1,Short,Upp Thomson Rd,Upp Thomson Rd
+53121,53041,1,Short,Marymount Rd,Upp Thomson Rd
+53121,53159,1,Short,Marymount Rd,Marymount Rd
+53121,70291,1,Long,Marymount Rd,Upp Paya Lebar Rd
+53121,54221,1,Long,Marymount Rd,Ang Mo Kio Ave 3
+53121,20109,1,Long,Marymount Rd,C'wealth Ave West
+53121,22469,1,Long,Marymount Rd,Pioneer Rd Nth
+53211,52059,2,Long,Bishan Rd,Braddell Rd
+53231,52269,1,Long,Bishan Rd,Lor 4 Toa Payoh
+53249,54339,1,Long,Bishan Rd,Ang Mo Kio Ave 8
+53249,54081,1,Long,Bishan Rd,Ang Mo Kio Ave 1
+53351,17079,1,Long,Sin Ming Ave,West Coast Rd
+53359,64019,1,Long,Sin Ming Ave,Upp S'goon Rd
+53361,53041,1,Short,Sin Ming Ave,Upp Thomson Rd
+53381,53071,1,Short,Bishan St 22,Upp Thomson Rd
+53391,54589,1,Long,Bishan St 22,Ang Mo Kio Ave 10
+54009,54321,1,Short,Ang Mo Kio Ave 8,Ang Mo Kio Ave 8
+54009,55301,1,Short,Ang Mo Kio Ave 8,Ang Mo Kio Ave 9
+54009,54371,1,Short,Ang Mo Kio Ave 8,Ang Mo Kio Ave 10
+54009,54019,2,Short,Ang Mo Kio Ave 8,Ang Mo Kio Ave 6
+54009,64009,1,Long,Ang Mo Kio Ave 8,Hougang Ctrl
+54031,52039,1,Long,Ang Mo Kio Ave 6,Braddell Rd
+54039,54479,1,Short,Ang Mo Kio Ave 6,Ang Mo Kio Ave 5
+54081,54248,1,Short,Ang Mo Kio Ave 1,Ang Mo Kio Ave 3
+54241,77191,1,Long,Ang Mo Kio Ave 3,Pasir Ris Dr 3
+54248,54081,2,Short,Ang Mo Kio Ave 3,Ang Mo Kio Ave 1
+54261,64009,1,Long,Ang Mo Kio Ave 3,Hougang Ctrl
+54269,54189,1,Short,Ang Mo Kio Ave 3,Ang Mo Kio Ave 4
+54351,67489,1,Long,Ang Mo Kio Ave 5,Sengkang West Ave
+54351,84701,1,Long,Ang Mo Kio Ave 5,Kaki Bt Ave 1
+54399,63361,1,Long,Ang Mo Kio Ave 8,Yio Chu Kang Link
+54479,75009,1,Long,Ang Mo Kio Ave 5,Tampines Ctrl 1
+54481,64209,1,Long,Ang Mo Kio Ave 5,Tampines Rd
+54651,65059,1,Long,Ang Mo Kio Ave 5,Punggol Rd
+55031,83059,2,Long,Yio Chu Kang Rd,Changi Rd
+55039,63241,1,Long,Yio Chu Kang Rd,Hougang Ave 3
+55041,55049,1,Short,Yio Chu Kang Rd,Yio Chu Kang Rd
+55041,60141,1,Long,Yio Chu Kang Rd,S'goon Rd
+55041,63109,1,Long,Yio Chu Kang Rd,Hougang Ave 3
+55049,53061,1,Long,Yio Chu Kang Rd,Upp Thomson Rd
+55179,55509,1,Short,Ang Mo Kio Ave 6,Ang Mo Kio Ave 8
+55189,62221,1,Long,Ang Mo Kio Ave 6,Lor Ah Soo
+55259,56209,1,Short,Lentor Ave,Yio Chu Kang Rd
+55301,65309,1,Long,Ang Mo Kio Ave 9,Punggol Dr
+55311,62221,1,Long,Ang Mo Kio Ave 9,Lor Ah Soo
+55509,55139,1,Short,Ang Mo Kio Ave 8,Ang Mo Kio Ave 4
+55509,76311,1,Long,Ang Mo Kio Ave 8,Tampines Ave 9
+55509,71179,1,Long,Ang Mo Kio Ave 8,Airport Rd
+55509,46721,1,Long,Ang Mo Kio Ave 8,Woodlands Ave 8
+56099,53351,1,Long,Upp Thomson Rd,Sin Ming Ave
+57011,57129,1,Short,Upp Thomson Rd,Sembawang Rd
+57021,65261,1,Long,Sembawang Rd,Punggol Ctrl
+57079,66109,1,Long,Sembawang Rd,Ang Mo Kio Ave 3
+57081,53019,1,Long,Sembawang Rd,Upp Thomson Rd
+58009,52081,1,Long,Sembawang Vista,Jln Toa Payoh
+58211,58501,1,Short,Sembawang Way,Montreal Link
+58219,58099,1,Short,Sembawang Way,Sembawang Rd
+58259,50171,1,Long,Sembawang Dr,Balestier Rd
+58299,43009,1,Long,Sembawang Dr,Bt Batok Ctrl
+59009,59309,1,Short,Yishun Ctrl,Yishun Ring Rd
+59009,59391,1,Short,Yishun Ctrl,Yishun Ring Rd
+59049,4168,1,Long,Yishun Ave 2,Nth Bridge Rd
+59059,55181,1,Long,Yishun Ave 2,Ang Mo Kio Ave 6
+59069,59429,1,Short,Yishun Ave 2,Yishun Ring Rd
+59069,59059,1,Short,Yishun Ave 2,Yishun Ave 2
+59069,77041,1,Long,Yishun Ave 2,Pasir Ris Dr 1
+59069,77339,1,Long,Yishun Ave 2,Pasir Ris Dr 12
+59073,67329,1,Long,Yishun Ave 2,Sengkang East Ave
+59079,59521,1,Short,Yishun Ave 2,Yishun Ave 2
+59091,57129,1,Short,Yishun Ave 2,Sembawang Rd
+59111,46799,1,Long,Yishun Ave 5,Woodlands Ave 6
+59141,44201,1,Long,Yishun Ave 5,Petir Rd
+59141,58321,1,Long,Yishun Ave 5,Admiralty Dr
+59281,59081,1,Short,Yishun Ave 4,Yishun Ring Rd
+59331,55509,1,Long,Yishun Ave 3,Ang Mo Kio Ave 8
+59569,59409,1,Short,Yishun Ring Rd,Yishun Ring Rd
+59611,59149,2,Short,Yishun Ctrl 2,Yishun Ave 5
+59611,46741,1,Long,Yishun Ctrl 2,Gambas Ave
+60059,92059,1,Long,Boon Keng Rd,Marine Parade Rd
+60079,44299,1,Long,Jln Kolam Ayer,Teck Whye Ave
+60079,44229,1,Long,Jln Kolam Ayer,Pending Rd
+60081,71161,1,Long,Jln Toa Payoh,Ubi Ave 2
+60089,12101,1,Long,Jln Toa Payoh,Clementi Rd
+60119,60101,1,Short,Bendemeer Rd,S'goon Rd
+60119,81179,1,Long,Bendemeer Rd,Old Airport Rd
+60119,77131,1,Long,Bendemeer Rd,Pasir Ris St 52
+60121,60179,1,Short,S'goon Rd,Bendemeer Rd
+60121,63389,1,Long,S'goon Rd,Hougang Ave 8
+60121,73019,1,Long,S'goon Rd,Airport Rd
+60139,60161,1,Short,Bendemeer Rd,S'goon Rd
+60159,60221,1,Short,Bendemeer Rd,Geylang Bahru
+60161,3151,1,Long,S'goon Rd,Cecil St
+60191,43491,1,Long,Boon Keng Rd,Bt Batok West Ave 4
+60199,80101,1,Short,Boon Keng Rd,Lor 1 Geylang
+60219,52429,1,Long,MacPherson Rd,Lor 7 Toa Payoh
+60221,60051,1,Short,Geylang Bahru,Boon Keng Rd
+60229,60161,1,Short,Geylang Bahru,S'goon Rd
+60229,60121,2,Short,Geylang Bahru,S'goon Rd
+61031,65019,1,Long,Upp S'goon Rd,Punggol Rd
+62059,63019,2,Short,Upp Paya Lebar Rd,Upp S'goon Rd
+62139,66061,1,Short,Upp S'goon Rd,Braddell Rd
+62139,54579,2,Long,Upp S'goon Rd,Ang Mo Kio Ave 10
+63031,63341,2,Short,Upp S'goon Rd,Hougang Ave 2
+63039,63291,1,Short,Upp S'goon Rd,Lor Ah Soo
+63039,64351,1,Short,Upp S'goon Rd,Hougang Ave 8
+63039,62229,1,Short,Upp S'goon Rd,Lor Ah Soo
+63061,66331,1,Long,Upp S'goon Rd,Ang Mo Kio Ave 3
+63109,63291,1,Short,Hougang Ave 3,Lor Ah Soo
+63109,64249,1,Short,Hougang Ave 3,Hougang Ave 5
+63211,63219,1,Long,Yio Chu Kang Rd,Yio Chu Kang Rd
+63211,64129,1,Long,Yio Chu Kang Rd,Yio Chu Kang Rd
+63211,70279,1,Long,Yio Chu Kang Rd,Paya Lebar Rd
+63221,52189,1,Long,Hougang St 21,Lor 2 Toa Payoh
+63229,64379,1,Short,Hougang St 21,Hougang Ave 6
+63241,54391,1,Long,Hougang Ave 3,Ang Mo Kio Ave 8
+63291,63101,1,Short,Lor Ah Soo,Hougang Ave 3
+63349,63059,1,Short,Hougang Ave 2,Upp S'goon Rd
+63349,66051,1,Long,Hougang Ave 2,Boundary Rd
+63399,63391,1,Short,Hougang Ave 8,Hougang Ave 8
+64009,64059,1,Short,Hougang Ctrl,Upp S'goon Rd
+64009,64409,1,Short,Hougang Ctrl,Upp S'goon Rd
+64009,41021,1,Long,Hougang Ctrl,Bt Timah Rd
+64009,7011,1,Long,Hougang Ctrl,Selegie Rd
+64061,67361,1,Long,Upp S'goon Rd,Anchorvale Dr
+64111,67411,1,Long,Yio Chu Kang Rd,Sengkang East Rd
+64119,64509,1,Short,Yio Chu Kang Rd,Hougang St 92
+64119,64111,1,Long,Yio Chu Kang Rd,Yio Chu Kang Rd
+64129,66541,1,Short,Yio Chu Kang Rd,Buangkok Link
+64129,84029,1,Long,Yio Chu Kang Rd,New Upp Changi Rd
+64159,64549,1,Long,Tampines Rd,Hougang Ctrl
+64199,67661,1,Long,Tampines Rd,Rivervale Cres
+64201,50189,1,Long,Tampines Rd,Balestier Rd
+64209,64129,1,Short,Tampines Rd,Yio Chu Kang Rd
+64239,63249,1,Short,Hougang Ave 7,Hougang Ave 3
+64329,44639,1,Long,Hougang Ave 7,Jelebu Rd
+64331,64391,1,Short,Hougang Ave 4,Hougang Ave 10
+64379,14271,1,Long,Hougang Ave 6,Telok Blangah Way
+64381,98109,1,Long,Hougang Ave 10,Pasir Ris Dr 3
+64389,67629,1,Short,Hougang Ave 10,Buangkok Dr
+64389,78131,1,Long,Hougang Ave 10,Pasir Ris Dr 3
+64461,59049,1,Long,Buangkok Green,Yishun Ave 2
+64471,66541,1,Short,Hougang Ave 9,Buangkok Link
+64489,64491,1,Short,Hougang Ave 9,Hougang Ave 9
+64489,64101,1,Long,Hougang Ave 9,Yio Chu Kang Rd
+64491,66499,1,Short,Hougang Ave 9,Buangkok Green
+64541,64359,1,Short,Hougang Ctrl,Hougang Ave 8
+64541,11119,1,Long,Hougang Ctrl,Farrer Rd
+64551,64471,1,Short,Hougang Ctrl,Hougang Ave 9
+64629,20189,1,Long,Buangkok Green,Pandan Gdns
+64629,76241,1,Long,Buangkok Green,Tampines Ave 7
+64629,64111,1,Long,Buangkok Green,Yio Chu Kang Rd
+65009,65229,1,Short,Punggol Pl,Punggol Ctrl
+65009,77321,1,Long,Punggol Pl,Pasir Ris Dr 8
+65009,50041,1,Long,Punggol Pl,Thomson Rd
+65049,64079,1,Long,Punggol Rd,Hougang Ave 8
+65069,65271,1,Long,Punggol Rd,Punggol Ctrl
+65069,14129,1,Long,Punggol Rd,Telok Blangah Rd
+65159,67131,1,Long,Punggol Field,Rivervale Dr
+65239,78101,1,Long,Punggol East,Pasir Ris Dr 3
+65261,95069,1,Long,Punggol Ctrl,Airline Rd
+66021,66409,1,Short,Lor Chuan,S'goon Ave 3
+66029,44641,1,Long,Lor Chuan,Bt Panjang Ring Rd
+66051,63361,1,Short,Boundary Rd,Yio Chu Kang Link
+66051,54381,1,Long,Boundary Rd,Ang Mo Kio Ave 10
+66101,70261,1,Long,Ang Mo Kio Ave 3,Paya Lebar Rd
+66271,67141,1,Long,S'goon Gdn Way,Rivervale Dr
+66321,66149,1,Short,S'goon Nth Ave 1,S'goon Gdn Way
+66351,62139,1,Short,S'goon Ctrl,Upp S'goon Rd
+66351,63369,1,Short,S'goon Ctrl,Yio Chu Kang Link
+66351,77281,1,Long,S'goon Ctrl,Pasir Ris Dr 1
+66351,63209,1,Long,S'goon Ctrl,Yio Chu Kang Rd
+66351,67119,1,Long,S'goon Ctrl,Sengkang East Way
+66351,63281,1,Long,S'goon Ctrl,Hougang Ave 1
+66359,40019,1,Long,S'goon Ctrl,Bt Timah Rd
+66359,76231,1,Long,S'goon Ctrl,Tampines Ave 7
+66369,7111,1,Long,S'goon Ave 2,S'goon Rd
+66379,62131,1,Short,S'goon Ctrl,Upp S'goon Rd
+66381,54071,1,Long,S'goon Ave 2,Ang Mo Kio Ave 1
+66389,66369,1,Short,S'goon Ave 2,S'goon Ave 2
+66389,40019,1,Long,S'goon Ave 2,Bt Timah Rd
+66451,64101,1,Short,Ang Mo Kio Ave 5,Yio Chu Kang Rd
+66461,65099,1,Long,Ang Mo Kio Ave 5,Punggol Rd
+66481,65019,1,Long,Buangkok Green,Punggol Rd
+66511,66529,1,Short,S'goon Nth Ave 6,S'goon Nth Ave 5
+66529,66319,2,Short,S'goon Nth Ave 5,S'goon Nth Ave 1
+66539,63191,1,Short,S'goon Nth Ave 5,Yio Chu Kang Rd
+67009,67289,1,Short,Sengkang Sq,Fernvale Lane
+67009,64071,1,Long,Sengkang Sq,Hougang Ave 8
+67009,92049,1,Long,Sengkang Sq,Marine Parade Rd
+67009,66021,1,Long,Sengkang Sq,Lor Chuan
+67009,59069,1,Long,Sengkang Sq,Yishun Ave 2
+67009,77009,1,Long,Sengkang Sq,Pasir Ris Dr 3
+67049,67049,1,Short,Yio Chu Kang Rd,Yio Chu Kang Rd
+67049,67489,1,Long,Yio Chu Kang Rd,Sengkang West Ave
+67089,55179,1,Long,Sengkang West Rd,Ang Mo Kio Ave 6
+67101,65031,1,Short,Sengkang East Way,Punggol Rd
+67161,65019,1,Short,Sengkang East Ave,Punggol Rd
+67199,78059,1,Long,Compassvale Rd,Pasir Ris Dr 1
+67209,75351,1,Long,Compassvale Rd,Tampines Ave 10
+67211,65021,1,Short,Sengkang East Ave,Punggol Rd
+67269,65809,1,Short,Sengkang East Ave,Anchorvale Rd
+67309,67489,1,Short,Sengkang East Ave,Sengkang West Ave
+67361,67181,1,Short,Anchorvale Dr,Compassvale Rd
+67381,67539,1,Short,Sengkang East Way,Sengkang East Way
+67391,67399,1,Short,Sengkang East Way,Sengkang East Way
+67399,67199,1,Short,Sengkang East Way,Compassvale Rd
+67401,65239,1,Long,Sengkang East Way,Punggol East
+67409,66309,1,Long,Sengkang East Way,S'goon Nth Ave 1
+67441,67279,1,Short,Sengkang East Rd,Sengkang East Rd
+67441,64471,1,Long,Sengkang East Rd,Hougang Ave 9
+67499,71089,1,Long,Sengkang West Ave,Eunos Link
+67609,67209,1,Short,Sengkang Ctrl,Compassvale Rd
+67609,75351,1,Long,Sengkang Ctrl,Tampines Ave 10
+68019,67051,1,Short,Sengkang West Ave,Yio Chu Kang Rd
+68031,59579,1,Long,Jln Kayu,Yishun Ring Rd
+68111,55301,1,Long,Jln Kayu,Ang Mo Kio Ave 9
+70011,63281,1,Long,Aljunied Rd,Hougang Ave 1
+70019,10149,1,Long,Aljunied Rd,Tiong Bahru Rd
+70031,40231,1,Long,Aljunied Rd,Whitley Rd
+70039,27169,1,Long,Aljunied Rd,Nanyang Ave
+70039,84359,1,Long,Aljunied Rd,Bedok Nth St 1
+70081,77331,1,Long,Ubi Ave 3,Pasir Ris Dr 12
+70081,84481,2,Long,Ubi Ave 3,Bedok Reservoir Rd
+70109,60101,1,Long,MacPherson Rd,S'goon Rd
+70139,70041,1,Long,MacPherson Rd,Upp Aljunied Rd
+70151,82049,1,Short,Merpati Rd,Changi Rd
+70221,61051,1,Long,Circuit Rd,Upp Aljunied Rd
+70241,54009,1,Long,Mattar Rd,Ang Mo Kio Ave 8
+70259,84241,1,Long,Paya Lebar Rd,Bedok Nth Rd
+70261,54301,1,Long,Paya Lebar Rd,Ang Mo Kio Ave 3
+70271,65021,1,Long,Paya Lebar Rd,Punggol Rd
+70279,84219,1,Long,Paya Lebar Rd,Bedok Nth Ave 3
+70279,84211,1,Long,Paya Lebar Rd,Bedok Nth Ave 3
+70281,62141,2,Long,Upp Paya Lebar Rd,Upp S'goon Rd
+70291,64391,1,Long,Upp Paya Lebar Rd,Hougang Ave 10
+70299,84701,1,Long,Upp Paya Lebar Rd,Kaki Bt Ave 1
+70299,77191,1,Long,Upp Paya Lebar Rd,Pasir Ris Dr 3
+70301,64071,1,Long,Upp Paya Lebar Rd,Hougang Ave 8
+70301,54319,1,Long,Upp Paya Lebar Rd,Ang Mo Kio Ave 8
+70309,63209,2,Short,Upp Paya Lebar Rd,Yio Chu Kang Rd
+70319,71131,1,Short,Kallang Way,Ubi Ave 2
+71031,64439,1,Short,Airport Rd,Hougang St 51
+71059,59069,1,Long,Hougang Ave 3,Yishun Ave 2
+71061,71011,1,Short,Hougang Ave 3,Airport Rd
+71061,84369,1,Long,Hougang Ave 3,Bedok Nth Rd
+71071,84349,1,Short,Eunos Link,Bedok Nth Rd
+71071,84369,1,Short,Eunos Link,Bedok Nth Rd
+71079,67191,1,Long,Eunos Link,Compassvale Rd
+71081,72041,1,Short,Eunos Link,Jln Tenaga
+71089,62079,1,Long,Eunos Link,Bartley Rd
+71089,75349,1,Long,Eunos Link,Bedok Reservoir Rd
+71091,84071,1,Short,Eunos Link,Bedok Sth Rd
+71091,84481,1,Short,Eunos Link,Bedok Reservoir Rd
+71091,84211,1,Short,Eunos Link,Bedok Nth Ave 3
+71119,71161,1,Short,Ubi Ave 1,Ubi Ave 2
+71161,75229,1,Long,Ubi Ave 2,Tampines Ave 1
+71161,75241,1,Long,Ubi Ave 2,Tampines Ave 1
+71179,50211,1,Long,Airport Rd,Balestier Rd
+72019,43619,2,Long,Jln Eunos,Bt Batok East Ave 3
+72041,52329,1,Long,Jln Tenaga,Lor 6 Toa Payoh
+72049,84049,1,Short,Jln Tenaga,New Upp Changi Rd
+72051,53221,1,Long,Kaki Bt Ave 1,Bishan St 11
+72059,83101,1,Long,Kaki Bt Ave 1,Jln Eunos
+72069,14151,1,Long,Bedok Reservoir Rd,Telok Blangah Rd
+72081,72019,1,Short,Jln Damai,Jln Eunos
+74049,64419,1,Long,Tampines Link,Hougang Ave 4
+75009,76099,3,Short,Tampines Ctrl 1,Tampines Ave 2
+75009,75081,1,Short,Tampines Ctrl 1,Tampines Ave 3
+75009,45439,1,Long,Tampines Ctrl 1,Choa Chu Kang Cres
+75009,84041,1,Long,Tampines Ctrl 1,New Upp Changi Rd
+75009,64549,1,Long,Tampines Ctrl 1,Hougang Ctrl
+75031,75249,1,Short,Tampines Ave 8,Tampines Ave 1
+75051,76109,1,Short,Tampines Ave 1,Tampines Ave 2
+75051,76469,1,Short,Tampines Ave 1,Tampines St 34
+75051,76211,1,Short,Tampines Ave 1,Tampines Ave 7
+75051,19089,1,Long,Tampines Ave 1,Dover Rd
+75051,67251,1,Long,Tampines Ave 1,Compassvale St
+75051,46331,1,Long,Tampines Ave 1,Woodlands Ave 2
+75059,70269,1,Long,Tampines Ave 1,Paya Lebar Rd
+75099,64549,1,Long,Tampines St 81,Hougang Ctrl
+75121,13091,1,Long,Tampines Ave 5,River Valley Rd
+75169,76059,1,Short,Tampines St 83,Tampines Ave 5
+75221,78059,2,Long,Tampines Ave 1,Pasir Ris Dr 1
+75221,27309,1,Long,Tampines Ave 1,Pioneer Rd Nth
+75231,84521,3,Long,Tampines Ave 1,Bedok Nth Ave 3
+75231,27309,1,Long,Tampines Ave 1,Pioneer Rd Nth
+75239,75109,1,Short,Tampines Ave 1,Tampines Ave 3
+75239,70181,1,Long,Tampines Ave 1,Circuit Rd
+75239,72021,2,Long,Tampines Ave 1,Bedok Reservoir Rd
+75239,72011,1,Long,Tampines Ave 1,Jln Eunos
+75241,75341,1,Long,Tampines Ave 1,Bedok Reservoir Rd
+75249,75141,1,Short,Tampines Ave 1,Tampines Ave 5
+75271,75319,1,Short,Tampines Ave 9,Tampines Ave 10
+75291,77339,1,Long,Tampines Ave 10,Pasir Ris Dr 12
+75359,60141,1,Long,Tampines Ave 10,S'goon Rd
+75371,65009,1,Long,Tampines Ave 10,Punggol Pl
+76059,75261,1,Short,Tampines Ave 5,Tampines Ave 6
+76059,97011,1,Long,Tampines Ave 5,Upp Changi Rd Nth
+76059,84499,1,Long,Tampines Ave 5,Bedok Reservoir Rd
+76061,75141,1,Short,Tampines Ave 5,Tampines Ave 5
+76061,96319,1,Short,Tampines Ave 5,Changi Sth Ave 1
+76069,84491,1,Long,Tampines Ave 5,Bedok Reservoir Rd
+76091,77041,1,Long,Tampines Ave 2,Pasir Ris Dr 1
+76101,76351,1,Short,Tampines Ave 2,Tampines Ave 9
+76101,76091,1,Short,Tampines Ave 2,Tampines Ave 2
+76101,71161,1,Long,Tampines Ave 2,Ubi Ave 2
+76109,76459,1,Short,Tampines Ave 2,Tampines St 33
+76109,75239,1,Short,Tampines Ave 2,Tampines Ave 1
+76109,65079,1,Long,Tampines Ave 2,Punggol Rd
+76139,72011,1,Long,Tampines Ave 4,Jln Eunos
+76141,78059,1,Long,Tampines Ave 4,Pasir Ris Dr 1
+76141,81181,1,Long,Tampines Ave 4,Old Airport Rd
+76149,75259,1,Short,Tampines Ave 4,Tampines Ave 1
+76199,81181,1,Long,Tampines Ave 7,Old Airport Rd
+76209,75009,1,Short,Tampines Ave 7,Tampines Ctrl 1
+76239,5022,1,Long,Tampines Ave 7,Eu Tong Sen St
+76249,84021,1,Long,Tampines Ave 7,New Upp Changi Rd
+76289,75239,1,Short,Tampines Ave 4,Tampines Ave 1
+76341,75009,1,Short,Tampines Ave 9,Tampines Ctrl 1
+76389,76239,1,Short,Tampines St 43,Tampines Ave 7
+76401,46649,1,Long,Tampines St 21,Woodlands Ave 5
+76409,13121,1,Long,Tampines St 21,Zion Rd
+76411,76239,2,Short,Tampines St 32,Tampines Ave 7
+77009,78229,1,Short,Pasir Ris Dr 3,Pasir Ris Dr 4
+77009,78111,1,Short,Pasir Ris Dr 3,Pasir Ris Dr 3
+77009,97129,1,Short,Pasir Ris Dr 3,New Loyang Link
+77009,77071,1,Short,Pasir Ris Dr 3,Elias Rd
+77009,70181,1,Long,Pasir Ris Dr 3,Circuit Rd
+77009,76059,1,Long,Pasir Ris Dr 3,Tampines Ave 5
+77009,16169,1,Long,Pasir Ris Dr 3,Kent Ridge Cres
+77009,40019,1,Long,Pasir Ris Dr 3,Bt Timah Rd
+77021,77169,1,Short,Pasir Ris Dr 1,Pasir Ris Dr 10
+77031,67279,1,Long,Pasir Ris Dr 1,Sengkang East Rd
+77031,63031,1,Long,Pasir Ris Dr 1,Upp S'goon Rd
+77039,77051,2,Short,Pasir Ris Dr 1,Pasir Ris Dr 1
+77039,98091,1,Short,Pasir Ris Dr 1,Pasir Ris Dr 1
+77039,63149,1,Long,Pasir Ris Dr 1,Boundary Rd
+77281,67281,1,Long,Pasir Ris Dr 1,Fernvale Lane
+77319,75241,1,Long,Pasir Ris St 71,Tampines Ave 1
+77321,77319,1,Short,Pasir Ris Dr 8,Pasir Ris St 71
+77321,13019,1,Long,Pasir Ris Dr 8,Napier Rd
+77321,4167,1,Long,Pasir Ris Dr 8,Nth Bridge Rd
+77339,77009,1,Short,Pasir Ris Dr 12,Pasir Ris Dr 3
+78051,78071,1,Short,Pasir Ris Dr 1,Pasir Ris Dr 6
+78051,78059,1,Short,Pasir Ris Dr 1,Pasir Ris Dr 1
+78051,66351,1,Long,Pasir Ris Dr 1,S'goon Ctrl
+78051,14249,1,Long,Pasir Ris Dr 1,Henderson Rd
+78051,63279,2,Long,Pasir Ris Dr 1,Hougang Ave 1
+78079,78241,1,Short,Pasir Ris Dr 6,Pasir Ris St 41
+78101,77169,1,Short,Pasir Ris Dr 3,Pasir Ris Dr 10
+78101,78111,1,Short,Pasir Ris Dr 3,Pasir Ris Dr 3
+78109,78059,1,Short,Pasir Ris Dr 3,Pasir Ris Dr 1
+78181,78059,1,Short,Pasir Ris St 11,Pasir Ris Dr 1
+78209,76091,1,Long,Pasir Ris St 21,Tampines Ave 2
+80071,95159,1,Long,Sims Ave,Airport Blvd
+80091,70201,1,Short,Sims Ave,Circuit Rd
+80101,60119,1,Short,Lor 1 Geylang,Bendemeer Rd
+80101,83299,1,Long,Lor 1 Geylang,Still Rd
+80141,81219,1,Long,Mountbatten Rd,Geylang East Ctrl
+80151,66009,1,Long,Nicoll Highway,S'goon Ave 2
+80219,81189,1,Long,Nicoll Highway,Old Airport Rd
+80279,92059,1,Long,Mountbatten Rd,Marine Parade Rd
+81091,70211,1,Short,Aljunied Rd,Pipit Rd
+81109,70211,1,Short,Paya Lebar Rd,Pipit Rd
+81109,52081,1,Long,Paya Lebar Rd,Jln Toa Payoh
+81111,81161,1,Short,Paya Lebar Rd,Guillemard Rd
+81111,83159,1,Long,Paya Lebar Rd,Joo Chiat Pl
+81111,63179,1,Long,Paya Lebar Rd,Yio Chu Kang Rd
+81111,93019,1,Long,Paya Lebar Rd,Marine Parade Rd
+81111,67601,1,Long,Paya Lebar Rd,Sengkang Ctrl
+81119,81219,1,Short,Paya Lebar Rd,Geylang East Ctrl
+81119,81209,1,Short,Paya Lebar Rd,Geylang East Ctrl
+81129,76101,1,Long,Paya Lebar Rd,Tampines Ave 2
+81141,81151,1,Short,Guillemard Rd,Guillemard Rd
+81159,81111,1,Short,Guillemard Rd,Paya Lebar Rd
+81161,54389,1,Long,Guillemard Rd,Ang Mo Kio Ave 10
+81171,82081,1,Short,Old Airport Rd,Tg Katong Rd
+81171,93091,1,Long,Old Airport Rd,Upp East Coast Rd
+81171,77221,1,Long,Old Airport Rd,Pasir Ris Dr 10
+81179,71179,1,Short,Old Airport Rd,Airport Rd
+81179,20239,1,Long,Old Airport Rd,Teban Gdns Rd
+81179,17389,1,Long,Old Airport Rd,West Coast Rd
+81219,82061,1,Short,Geylang East Ctrl,Sims Ave
+81221,67009,1,Long,Geylang East Ctrl,Sengkang Sq
+82011,76211,1,Long,Sims Ave,Tampines Ave 7
+82011,83109,1,Long,Sims Ave,Jln Eunos
+82011,84069,1,Long,Sims Ave,New Upp Changi Rd
+82032,76109,1,Long,Sims Ave,Tampines Ave 2
+82061,82069,2,Short,Sims Ave,Changi Rd
+82061,72069,1,Long,Sims Ave,Bedok Reservoir Rd
+82071,52309,1,Long,Tg Katong Rd,Toa Payoh East
+82119,17171,1,Long,Tg Katong Rd,C'wealth Ave West
+83062,7419,1,Long,Sims Ave East,Jln Besar
+83101,8058,1,Long,Jln Eunos,Orchard Rd
+83101,28691,1,Long,Jln Eunos,Toh Guan Rd East
+83101,84501,1,Long,Jln Eunos,Bedok Reservoir Rd
+83109,93029,1,Short,Jln Eunos,Marine Parade Rd
+83109,40091,1,Long,Jln Eunos,Bt Timah Rd
+83109,92079,1,Long,Jln Eunos,Marine Parade Rd
+83111,50349,1,Long,Jln Eunos,Towner Rd
+83111,64009,1,Long,Jln Eunos,Hougang Ctrl
+84009,84401,1,Short,Bedok Nth Dr,Bedok Nth St 3
+84009,84021,1,Short,Bedok Nth Dr,New Upp Changi Rd
+84009,84359,1,Short,Bedok Nth Dr,Bedok Nth St 1
+84009,71071,1,Short,Bedok Nth Dr,Eunos Link
+84009,75229,1,Long,Bedok Nth Dr,Tampines Ave 1
+84009,75241,1,Long,Bedok Nth Dr,Tampines Ave 1
+84009,63331,1,Long,Bedok Nth Dr,Hougang Ave 2
+84009,64231,1,Long,Bedok Nth Dr,Hougang Ave 7
+84009,97019,1,Long,Bedok Nth Dr,Upp Changi Rd Nth
+84009,64381,1,Long,Bedok Nth Dr,Hougang Ave 10
+84019,96059,1,Long,New Upp Changi Rd,Upp Changi Rd East
+84021,84089,1,Short,New Upp Changi Rd,Bedok Sth Rd
+84021,84081,1,Short,New Upp Changi Rd,Bedok Sth Rd
+84021,84059,1,Short,New Upp Changi Rd,New Upp Changi Rd
+84021,75251,1,Long,New Upp Changi Rd,Tampines Ave 1
+84029,60139,1,Long,New Upp Changi Rd,Bendemeer Rd
+84031,1112,1,Long,New Upp Changi Rd,Victoria St
+84031,17009,1,Long,New Upp Changi Rd,Clementi Ave 3
+84039,76089,1,Long,New Upp Changi Rd,Tampines Ave 2
+84041,76079,1,Long,New Upp Changi Rd,Tampines Ave 2
+84051,84059,2,Short,New Upp Changi Rd,New Upp Changi Rd
+84201,42091,1,Long,Bedok Nth Ave 3,Upp Bt Timah Rd
+84221,84211,1,Short,Bedok Nth Rd,Bedok Nth Ave 3
+84311,76259,1,Long,Bedok Nth Rd,Tampines St 45
+84331,72019,1,Short,Bedok Nth Rd,Jln Eunos
+84349,52331,1,Long,Bedok Nth Rd,Lor 6 Toa Payoh
+84451,84459,1,Short,Bedok Nth Rd,Bedok Nth Rd
+84469,10089,1,Long,Bedok Reservoir Rd,Jln Bt Merah
+84479,72071,1,Short,Bedok Reservoir Rd,Bedok Reservoir Rd
+84481,94049,1,Short,Bedok Reservoir Rd,Upp East Coast Rd
+84489,76221,1,Long,Bedok Reservoir Rd,Tampines Ave 7
+84491,71099,1,Long,Bedok Reservoir Rd,Eunos Link
+84491,66359,1,Long,Bedok Reservoir Rd,S'goon Ctrl
+84521,84111,1,Short,Bedok Nth Ave 3,Bedok Sth Rd
+84529,84521,1,Short,Bedok Nth Ave 3,Bedok Nth Ave 3
+84529,84231,1,Short,Bedok Nth Ave 3,Bedok Nth Rd
+84529,75131,1,Long,Bedok Nth Ave 3,Tampines Ave 5
+84559,82069,1,Long,Chai Chee St,Changi Rd
+84569,84489,1,Short,Chai Chee St,Bedok Reservoir Rd
+84591,78181,1,Long,Bedok Nth Ave 4,Pasir Ris St 11
+84621,98049,1,Long,Bedok Reservoir Rd,Loyang Ave
+84661,84021,1,Short,Bedok Sth Ave 3,New Upp Changi Rd
+84701,12099,1,Long,Kaki Bt Ave 1,Clementi Rd
+85029,85021,1,Short,Bedok Rd,Bedok Rd
+85079,84041,2,Long,Upp Changi Rd,New Upp Changi Rd
+85091,1112,1,Long,New Upp Changi Rd,Victoria St
+85091,92069,1,Long,New Upp Changi Rd,Marine Parade Rd
+85091,96059,1,Long,New Upp Changi Rd,Upp Changi Rd East
+85091,97039,1,Long,New Upp Changi Rd,Upp Changi Rd Nth
+85099,84079,2,Short,New Upp Changi Rd,Bedok Sth Rd
+85099,84089,1,Short,New Upp Changi Rd,Bedok Sth Rd
+91051,92099,1,Short,Mountbatten Rd,Mountbatten Rd
+91091,17389,1,Long,Mountbatten Rd,West Coast Rd
+92041,92231,1,Short,Marine Parade Rd,Marine Cres
+92041,92221,1,Short,Marine Parade Rd,Marine Terr
+92041,75059,1,Long,Marine Parade Rd,Tampines Ave 1
+92049,75269,1,Long,Marine Parade Rd,Tampines Ave 6
+92049,83309,1,Long,Marine Parade Rd,Still Rd
+92049,54291,1,Long,Marine Parade Rd,Ang Mo Kio Ave 3
+92049,80109,1,Long,Marine Parade Rd,Lor 1 Geylang
+92061,92231,1,Short,Marine Parade Rd,Marine Cres
+92061,92069,1,Long,Marine Parade Rd,Marine Parade Rd
+92069,92231,1,Short,Marine Parade Rd,Marine Cres
+92071,7539,1,Long,Marine Parade Rd,Sungei Rd
+92099,15149,1,Long,Mountbatten Rd,Pasir Panjang Rd
+92101,84239,1,Long,Mountbatten Rd,Bedok Nth Rd
+92101,76109,1,Long,Mountbatten Rd,Tampines Ave 2
+92129,92059,1,Short,East Coast Rd,Marine Parade Rd
+92129,11051,1,Long,East Coast Rd,Queensway
+92151,72079,1,Short,East Coast Rd,Bedok Reservoir Rd
+92171,81181,1,Long,Joo Chiat Rd,Old Airport Rd
+92189,44269,1,Long,Joo Chiat Rd,Bt Panjang Rd
+92231,95011,1,Long,Marine Cres,Airport Blvd
+93031,84071,1,Short,Marine Parade Rd,Bedok Sth Rd
+93031,75009,1,Long,Marine Parade Rd,Tampines Ctrl 1
+93079,92239,1,Long,East Coast Rd,Marine Cres
+94039,1239,1,Long,Upp East Coast Rd,Jln Sultan
+94071,72019,1,Short,Upp East Coast Rd,Jln Eunos
+94089,81161,1,Long,Upp East Coast Rd,Guillemard Rd
+95011,76101,1,Long,Airport Blvd,Tampines Ave 2
+95019,17171,1,Long,Airport Blvd,C'wealth Ave West
+95019,58219,1,Long,Airport Blvd,Sembawang Way
+95029,63269,1,Long,PTB1 Basement,Hougang Ave 1
+95029,64471,1,Long,PTB1 Basement,Hougang Ave 9
+95051,75009,1,Long,Airline Rd,Tampines Ctrl 1
+95051,76101,1,Long,Airline Rd,Tampines Ave 2
+95109,92079,1,Long,PTB3 Basement,Marine Parade Rd
+95109,76101,1,Long,PTB3 Basement,Tampines Ave 2
+95109,75131,1,Long,PTB3 Basement,Tampines Ave 5
+95129,76101,1,Long,PTB2 Basement,Tampines Ave 2
+95129,76069,1,Long,PTB2 Basement,Tampines Ave 5
+95129,54181,1,Long,PTB2 Basement,Ang Mo Kio Ave 4
+95129,78129,1,Long,PTB2 Basement,Pasir Ris Dr 3
+95159,84191,1,Long,Airport Blvd,Bedok Nth Ave 3
+96021,96059,1,Long,Upp Changi Rd East,Upp Changi Rd East
+96031,96069,2,Short,Upp Changi Rd East,Upp Changi Rd East
+96039,92101,1,Long,Upp Changi Rd East,Mountbatten Rd
+96041,75051,2,Short,Upp Changi Rd East,Tampines Ave 1
+96049,75051,2,Short,Upp Changi Rd East,Tampines Ave 1
+96049,84051,1,Long,Upp Changi Rd East,New Upp Changi Rd
+96081,96059,1,Short,Upp Changi Rd,Upp Changi Rd East
+96101,59171,1,Long,Simei Ave,Yishun Ave 9
+96161,76089,1,Short,Simei St 3,Tampines Ave 2
+96161,70289,1,Long,Simei St 3,Upp Paya Lebar Rd
+96161,84119,1,Long,Simei St 3,Bedok Sth Rd
+96161,55301,1,Long,Simei St 3,Ang Mo Kio Ave 9
+96169,76101,1,Short,Simei St 3,Tampines Ave 2
+96169,96059,1,Short,Simei St 3,Upp Changi Rd East
+96169,96299,1,Short,Simei St 3,Simei St 4
+96259,96059,1,Short,Simei St 3,Upp Changi Rd East
+96281,62069,1,Long,Simei Ave,Bartley Rd
+96281,78059,1,Long,Simei Ave,Pasir Ris Dr 1
+96371,7211,1,Long,Changi Business Pk Ctrl 2,S'goon Rd
+97011,75009,1,Long,Upp Changi Rd Nth,Tampines Ctrl 1
+97039,81011,1,Long,Upp Changi Rd Nth,Sims Ave
+97041,78149,1,Short,Upp Changi Rd Nth,Pasir Ris Dr 3
+97041,75009,1,Long,Upp Changi Rd Nth,Tampines Ctrl 1
+97089,76241,1,Long,Loyang Way,Tampines Ave 7
+97149,75009,2,Long,Changi Nth St 1,Tampines Ctrl 1
+97159,75009,1,Long,Changi Nth Cres,Tampines Ctrl 1
+98019,84119,1,Long,Loyang Ave,Bedok Sth Rd
+98041,99049,1,Long,Loyang Ave,Loyang Ave
+98049,98231,1,Short,Loyang Ave,Loyang Ave
+98049,98109,1,Short,Loyang Ave,Pasir Ris Dr 3
+98049,77059,1,Short,Loyang Ave,Pasir Ris Dr 1
+98049,55321,1,Long,Loyang Ave,Ang Mo Kio Ave 8
+1112,62041,1,Long,Victoria St,Upp Paya Lebar Rd
+1211,62149,1,Long,Victoria St,Upp S'goon Rd
